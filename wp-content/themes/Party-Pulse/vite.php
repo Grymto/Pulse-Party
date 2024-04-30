@@ -152,7 +152,7 @@ class Vite
         try {
 
             // set the asset path to the image.
-            $asset = 'resources/img/' . ltrim($img, '/');
+            $asset = 'src/img/' . ltrim($img, '/');
 
             // if we're not running hot, return the asset.
             return static::asset($asset);
