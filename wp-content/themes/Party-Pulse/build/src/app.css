@@ -4,12 +4,9 @@
 .site-header {
   display: flex;
   flex-direction: row;
-<<<<<<< HEAD
   background-color: orange;
-=======
   align-items: center;
   background-color: #feb113;
->>>>>>> 794203bb5110705fc3b7cdc22698c272e21db767
 }
 .main-navigation ul,
 .primary-menu ul {
@@ -29,11 +26,8 @@
 .primary-menu li a {
   color: black;
   text-decoration: none;
-<<<<<<< HEAD
-=======
   font-family: "Luckiest Guy";
   font-size: 16px;
->>>>>>> 794203bb5110705fc3b7cdc22698c272e21db767
 }
 /* Style for the search bar */
 .search-bar {
@@ -42,81 +36,6 @@
 .search-form {
   display: flex;
   align-items: center;
-<<<<<<< HEAD
-}
-.search-field {
-  padding: 8px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-}
-.search-submit {
-  margin-left: 5px;
-  padding: 8px 16px;
-  background-color: #333;
-  color: #fff;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-.search-submit:hover {
-  background-color: #555;
-}
-footer {
-  background-color: rgb(46, 181, 82);
-  padding: 0;
-  margin: 0;
-  width: 100%;
-}
-footer img {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-footer .container {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  text-align: center;
-  width: 100%;
-  padding: 0;
-  box-sizing: border-box;
-}
-footer .container .column {
-  width: 20%;
-  margin: 20px 0;
-}
-footer .container .column .category-title {
-  margin-bottom: 15px;
-  font-family: "Luckiest Guy";
-  color: #edeec7;
-}
-footer .container .column nav.menu {
-  display: inline-block;
-  width: auto;
-}
-footer .container .column nav.menu ul {
-  padding: 0;
-}
-footer .container .column nav.menu li {
-  list-style-type: none;
-  padding: 5px 10px;
-  font-family: "Poppins";
-}
-footer .container .column nav.menu li a {
-  color: #edeec7;
-  text-decoration: none;
-}
-footer .container .column nav.menu li a:hover {
-  color: #edeec7;
-  text-decoration: underline;
-}
-footer .rights {
-  display: flex;
-  justify-content: center;
-  margin-top: 20px;
-  text-align: center;
-  width: 100%;
-=======
 }
 .search-field {
   padding: 8px;
@@ -137,5 +56,4 @@ footer .rights {
 }
 body {
   margin: 0;
->>>>>>> 794203bb5110705fc3b7cdc22698c272e21db767
 }
