@@ -13,10 +13,7 @@
  <footer id="footer">
  <div class="container">
      <div class="row">
-         <div class="col-md-6">
-             <!-- Copyright Information -->
-             <p>&copy; <?php echo date('Y'); ?> Your Website Name. All rights reserved.</p>
-         </div>
+        
          <div class="col-md-6">
              <!-- Navigation Links -->
              <nav id="footer-navigation">
@@ -27,6 +24,10 @@
                      <!-- Add more navigation links as needed -->
                  </ul>
              </nav>
+             <div class="col-md-6">
+             <!-- Copyright Information -->
+             <p>&copy; <?php echo date('Y'); ?> Your Website Name. All rights reserved.</p>
+         </div>
          </div>
      </div>
  </div>
