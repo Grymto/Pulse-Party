@@ -1,4 +1,112 @@
-body {
-  margin: 0;
-  background: rgb(41, 155, 117);
+@import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap");
+* {
+  font-family: "Luckiest Guy";
+}
+#primary {
+  margin: auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#primary nav.woocommerce-breadcrumb {
+  display: flex;
+  align-items: center;
+}
+#primary nav.woocommerce-breadcrumb a {
+  text-decoration: none;
+}
+#primary nav.woocommerce-breadcrumb .delimiter {
+  margin: 2rem 1rem 2rem 1rem;
+}
+#primary header .woocommerce-products-header__title.page-title {
+  display: none;
+}
+#primary .woocommerce-result-count {
+  display: flex;
+  align-items: center;
+}
+#primary .woocommerce-result-count .selected-products {
+  color: #a4a4a4;
+  font-size: 12px;
+}
+#primary .woocommerce-result-count .selected-products-total {
+  color: black;
+  margin-left: 0.3rem;
+  font-size: 15px;
+}
+#primary form.woocommerce-ordering select.orderby {
+  background-color: white;
+  border: 1px solid rgb(231, 231, 231);
+  border-radius: 8px;
+  padding: 10px 70px 10px 30px;
+  font-size: 12px;
+}
+#primary .products.columns-4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 4rem;
+}
+#primary .products.columns-4 .product::before {
+  content: url("http://Cyber-shop.test/wp-content/uploads/2024/03/Favorite_duotone.png");
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+#primary .products.columns-4 .product {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 233px;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: #f6f6f6;
+  border-radius: 10px;
+  min-height: 375px;
+  margin: 6px 6px 6px 6px;
+}
+#primary .products.columns-4 .product .woocommerce-loop-product__title {
+  margin: auto;
+  font-size: 13px;
+  font-weight: lighter;
+  color: #000000;
+  margin-bottom: 10px;
+  width: 90%;
+  min-height: 45px;
+  text-align: center;
+}
+#primary .products.columns-4 .product .price {
+  font-size: 16px;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+}
+#primary .products.columns-4 .product a {
+  text-decoration: none;
+}
+#primary .products.columns-4 .product img {
+  margin-top: 2.5rem;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+}
+#primary .products.columns-4 .product .add_to_cart_button {
+  color: white;
+  background-color: black;
+  border-radius: 5px;
+  width: 70%;
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 12px;
+  font-weight: lighter;
+  padding: 15px 10px;
+}
+#primary .products.columns-4 .product a.added_to_cart {
+  display: none;
+}
+#sidebar {
+  display: none;
 }
