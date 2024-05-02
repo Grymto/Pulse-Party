@@ -1,10 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap");
-* {
-  font-family: "Luckiest Guy";
-}
+@import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap");@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Luckiest+Guy&display=swap");@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Luckiest+Guy&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+
 #primary {
   margin: auto;
   width: 100%;
+  background-color: #edeec7;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -27,7 +27,6 @@
   align-items: center;
 }
 #primary .woocommerce-result-count .selected-products {
-  color: #a4a4a4;
   font-size: 12px;
 }
 #primary .woocommerce-result-count .selected-products-total {
@@ -49,27 +48,19 @@
   flex-wrap: wrap;
   margin-bottom: 4rem;
 }
-#primary .products.columns-4 .product::before {
-  content: url("http://Cyber-shop.test/wp-content/uploads/2024/03/Favorite_duotone.png");
-  position: absolute;
-  top: 10px;
-  right: 10px;
-}
 #primary .products.columns-4 .product {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: 233px;
+  width: 20%;
   padding: 10px;
-  box-sizing: border-box;
-  background-color: #f6f6f6;
-  border-radius: 10px;
   min-height: 375px;
   margin: 6px 6px 6px 6px;
 }
 #primary .products.columns-4 .product .woocommerce-loop-product__title {
   margin: auto;
+  font-family: "Luckiest Guy";
   font-size: 13px;
   font-weight: lighter;
   color: #000000;
@@ -78,8 +69,12 @@
   min-height: 45px;
   text-align: center;
 }
+#primary .products.columns-4 .product img {
+  border-radius: 10px;
+}
 #primary .products.columns-4 .product .price {
   font-size: 16px;
+  font-family: "Poppins";
   color: black;
   font-weight: bold;
   text-align: center;
@@ -94,8 +89,8 @@
   object-fit: contain;
 }
 #primary .products.columns-4 .product .add_to_cart_button {
-  color: white;
-  background-color: black;
+  color: rgb(0, 0, 0);
+  background-color: #feb113;
   border-radius: 5px;
   width: 70%;
   margin-bottom: 10px;
@@ -107,6 +102,55 @@
 #primary .products.columns-4 .product a.added_to_cart {
   display: none;
 }
-#sidebar {
-  display: none;
+.site-header {
+  display: flex;
+  flex-direction: row;
+  background-color: orange;
+}
+.main-navigation ul,
+.primary-menu ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none; /* Optional: Removes default list styles */
+  padding: 0; /* Optional: Removes default padding */
+  margin-left: 50px; /* Adjust the value as needed */
+}
+/* Optional: Style for list items */
+.main-navigation li,
+.primary-menu li {
+  margin-right: 10px; /* Adjust spacing between list items */
+  position: unset;
+}
+/* Style for the text in primary-menu */
+.primary-menu li a {
+  color: black;
+  text-decoration: none;
+}
+/* Style for the search bar */
+.search-bar {
+  margin-right: 20px; /* Adjust the value as needed */
+}
+.search-form {
+  display: flex;
+  align-items: center;
+}
+.search-field {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.search-submit {
+  margin-left: 5px;
+  padding: 8px 16px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.search-submit:hover {
+  background-color: #555;
+}
+body {
+  margin: 0;
 }

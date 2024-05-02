@@ -1,8 +1,14 @@
-//Colors
+//Main-Colors
 $turquoise-color: #0bac9f;
 $purple-color: #9630a5;
 $yellow-color: #feb113;
 $pink-color: #f65d7f;
+
+//Colors
+$backgroundColor: #edeec7;
+
+//Layout
+$default-border-radius: 10px;
 
 //font import
 @import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
@@ -13,5 +19,5 @@ $pink-color: #f65d7f;
 
 //Fonts
 $main-title-font: 'Luckiest Guy';
-$secondary-title-font: "Indie Flower";
-$text-font: "Poppins";
+$secondary-title-font: 'Indie Flower';
+$text-font: 'Poppins';
