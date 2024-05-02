@@ -45,3 +45,17 @@ function add_custom_image_sizes() {
     add_image_size('custom-thumbnail', 300, 200, true); // width, height, crop
 }
 add_action('after_setup_theme', 'add_custom_image_sizes');
+
+//Custom Footer Menu
+function register_my_menus() {
+    register_nav_menus(
+        array(
+            'footer-party-pulse' => __('Footer Party Pulse'),
+            'footer-information' => __('Footer Information'), 
+            'footer-kundservice' => __('Footer Kundservice'),
+            'footer-sociala-medier' => __('Footer Sociala Medier'),
+            'footer-här-finns-vi' => __('Footer Här Finns Vi')
+        )
+    );
+}
+add_action('init', 'register_my_menus');
