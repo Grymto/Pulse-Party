@@ -121,14 +121,14 @@ footer .payment-methods .payment-icons {
   margin: 0 auto;
 }
 footer .payment-methods .payment-icons img {
-  height: 60px; /* Standardize the height for all icons */
-  width: auto; /* Maintain aspect ratio */
+  height: 60px;
+  width: auto;
   display: block;
-  margin: 0 10px; /* Add horizontal spacing between icons */
+  margin: 0 10px;
 }
 footer .payment-methods .contact-info {
-  margin-top: 30px; /* Space between icons and contact text */
-  font-size: 0.9em; /* Adjust font size as needed */
+  margin-top: 30px;
+  font-size: 0.9em;
   max-width: 960px;
   text-align: center;
   font-family: "Poppins";
