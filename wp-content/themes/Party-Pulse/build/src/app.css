@@ -4,7 +4,12 @@
 .site-header {
   display: flex;
   flex-direction: row;
+<<<<<<< HEAD
   background-color: orange;
+=======
+  align-items: center;
+  background-color: #feb113;
+>>>>>>> 794203bb5110705fc3b7cdc22698c272e21db767
 }
 .main-navigation ul,
 .primary-menu ul {
@@ -24,6 +29,11 @@
 .primary-menu li a {
   color: black;
   text-decoration: none;
+<<<<<<< HEAD
+=======
+  font-family: "Luckiest Guy";
+  font-size: 16px;
+>>>>>>> 794203bb5110705fc3b7cdc22698c272e21db767
 }
 /* Style for the search bar */
 .search-bar {
@@ -32,6 +42,7 @@
 .search-form {
   display: flex;
   align-items: center;
+<<<<<<< HEAD
 }
 .search-field {
   padding: 8px;
@@ -105,4 +116,26 @@ footer .rights {
   margin-top: 20px;
   text-align: center;
   width: 100%;
+=======
+}
+.search-field {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.search-submit {
+  margin-left: 5px;
+  padding: 8px 16px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.search-submit:hover {
+  background-color: #555;
+}
+body {
+  margin: 0;
+>>>>>>> 794203bb5110705fc3b7cdc22698c272e21db767
 }
