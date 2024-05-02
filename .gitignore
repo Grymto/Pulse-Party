@@ -1,2 +1,4 @@
 /wp-config.php
 /wp-content/Party-Pulse/node_modules
+/wp-content\themes\Party-Pulse\build\src\app.css
+/wp-content\themes\Party-Pulse\build\src\app.js
