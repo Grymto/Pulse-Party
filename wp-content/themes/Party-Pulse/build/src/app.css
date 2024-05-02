@@ -1,111 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap");@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Luckiest+Guy&display=swap");@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Luckiest+Guy&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 
-#primary {
-  margin: auto;
-  width: 100%;
-  background-color: #edeec7;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-#primary nav.woocommerce-breadcrumb {
-  display: flex;
-  align-items: center;
-}
-#primary nav.woocommerce-breadcrumb a {
-  text-decoration: none;
-}
-#primary nav.woocommerce-breadcrumb .delimiter {
-  margin: 2rem 1rem 2rem 1rem;
-}
-#primary header .woocommerce-products-header__title.page-title {
-  display: none;
-}
-#primary .woocommerce-result-count {
-  display: flex;
-  align-items: center;
-}
-#primary .woocommerce-result-count .selected-products {
-  font-size: 12px;
-}
-#primary .woocommerce-result-count .selected-products-total {
-  color: black;
-  margin-left: 0.3rem;
-  font-size: 15px;
-}
-#primary form.woocommerce-ordering select.orderby {
-  background-color: white;
-  border: 1px solid rgb(231, 231, 231);
-  border-radius: 8px;
-  padding: 10px 70px 10px 30px;
-  font-size: 12px;
-}
-#primary .products.columns-4 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  margin-bottom: 4rem;
-}
-#primary .products.columns-4 .product {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  width: 20%;
-  padding: 10px;
-  min-height: 375px;
-  margin: 6px 6px 6px 6px;
-}
-#primary .products.columns-4 .product .woocommerce-loop-product__title {
-  margin: auto;
-  font-family: "Luckiest Guy";
-  font-size: 13px;
-  font-weight: lighter;
-  color: #000000;
-  margin-bottom: 10px;
-  width: 90%;
-  min-height: 45px;
-  text-align: center;
-}
-#primary .products.columns-4 .product img {
-  border-radius: 10px;
-}
-#primary .products.columns-4 .product .price {
-  font-size: 16px;
-  font-family: "Poppins";
-  color: black;
-  font-weight: bold;
-  text-align: center;
-}
-#primary .products.columns-4 .product a {
-  text-decoration: none;
-}
-#primary .products.columns-4 .product img {
-  margin-top: 2.5rem;
-  width: auto;
-  height: auto;
-  object-fit: contain;
-}
-#primary .products.columns-4 .product .add_to_cart_button {
-  color: rgb(0, 0, 0);
-  background-color: #feb113;
-  border-radius: 5px;
-  width: 70%;
-  margin-bottom: 10px;
-  text-align: center;
-  font-size: 12px;
-  font-weight: lighter;
-  padding: 15px 10px;
-}
-#primary .products.columns-4 .product a.added_to_cart {
-  display: none;
-}
 .site-header {
   display: flex;
   flex-direction: row;
-  background-color: orange;
+  align-items: center;
+  background-color: #feb113;
 }
 .main-navigation ul,
 .primary-menu ul {
@@ -125,6 +25,8 @@
 .primary-menu li a {
   color: black;
   text-decoration: none;
+  font-family: "Luckiest Guy";
+  font-size: 16px;
 }
 /* Style for the search bar */
 .search-bar {
