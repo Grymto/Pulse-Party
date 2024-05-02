@@ -61,6 +61,18 @@
             )); ?>
         </div>
 
+    <div class="payment-methods">
+
+    <div class="payment-icons">
+    <img src="<?php echo esc_url(home_url('/wp-content/uploads/2024/05/klarnas.webp')); ?>" alt="klarna">
+    <img src="<?php echo esc_url(home_url('/wp-content/uploads/2024/05/mastercard-logo-png-transparent.png')); ?>" alt="mastercard">
+    <img src="<?php echo esc_url(home_url('/wp-content/uploads/2024/05/visa_logo_icon_144755.png')); ?>" alt="visa">
+    <img src="<?php echo esc_url(home_url('/wp-content/uploads/2024/05/swish.png')); ?>" alt="swish">
+    </div>
+    <p class="contact-info">Kundservice har öppet helgfria vardagar kl 08.30-18.00 via telefon 072-210 20 40, e-post kundservice@partypulsen.se och chatt.</p>
+</div>
+
+
         <div class="rights">
             <p>&copy; <?php echo date('Y'); ?> Party Pulse AB. All rights reserved.</p>
         </div>
