@@ -72,3 +72,26 @@ function add_custom_image_sizes() {
     add_image_size('custom-thumbnail', 300, 200, true); // width, height, crop
 }
 add_action('after_setup_theme', 'add_custom_image_sizes');
+
+//Custom Footer Menu
+function register_my_menus() {
+    register_nav_menus(
+        array(
+            'footer-party-pulse' => __('Footer Party Pulse'),
+            'footer-information' => __('Footer Information'), 
+            'footer-kundservice' => __('Footer Kundservice'),
+            'footer-sociala-medier' => __('Footer Sociala Medier'),
+            'footer-här-finns-vi' => __('Footer Här Finns Vi')
+        )
+    );
+}
+add_action('init', 'register_my_menus');
+
+
+//menu icons
+
+
+function enqueue_menu_icons_script() {
+    wp_enqueue_script( 'menu-icons-script', get_template_directory_uri() . '/menu-icons.js', array(), '1.0', true );
+}
+add_action( 'wp_enqueue_scripts', 'enqueue_menu_icons_script' );

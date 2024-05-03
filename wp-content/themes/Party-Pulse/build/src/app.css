@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap");@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Luckiest+Guy&display=swap");@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Luckiest+Guy&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 
+
 #primary {
   margin: auto;
   width: 100%;
@@ -125,10 +126,13 @@
   top: 10px;
   right: 10px;
 }
+
 .site-header {
   display: flex;
   flex-direction: row;
-  background-color: orange;
+  align-items: center;
+  background-color: #feb113;
+  padding: 10px;
 }
 .main-navigation ul,
 .primary-menu ul {
@@ -148,6 +152,11 @@
 .primary-menu li a {
   color: black;
   text-decoration: none;
+  font-family: "Luckiest Guy";
+  font-size: 16px;
+}
+.main-icon {
+  margin-left: 30px;
 }
 /* Style for the search bar */
 .search-bar {
@@ -173,6 +182,155 @@
 }
 .search-submit:hover {
   background-color: #555;
+}
+/* Style for the menu items */
+.site-header .main-navigation .primary-menu li {
+  list-style-type: none; /* Remove default list style */
+  padding-left: 30px; /* Add padding to the left for the icon */
+  line-height: 40px; /* Adjust line height for vertical centering */
+}
+/* Style for the icons */
+.site-header .main-navigation .primary-menu li .menu-icon {
+  position: relative; /* Position the icon relatively */
+  left: -130px; /* Move the icon to the left */
+  top: 50%; /* Align the icon vertically */
+  transform: translateY(-50%); /* Center the icon vertically */
+}
+.menu-icon.icon-1 {
+  height: 35px;
+  width: 35px;
+  left: -140px !important;
+}
+.menu-icon.icon-2 {
+  height: 35px;
+  width: 35px;
+  left: -110px !important;
+}
+.menu-icon.icon-3 {
+  height: 35px;
+  width: 35px;
+}
+.Icon-div {
+  position: relative;
+  left: 25% !important;
+}
+.search-field {
+  position: relative;
+  padding: 10px;
+  left: 20% !important;
+  width: 500px;
+  background-color: #feb113; /* Example background color */
+  border-radius: 20px; /* Example border radius for rounded corners */
+}
+.icon-4 {
+  position: relative;
+  height: 22px;
+  width: 22px;
+  left: 19% !important;
+}
+footer {
+  background-color: rgb(46, 181, 82);
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  flex-wrap: wrap;
+  text-align: center;
+  width: 100%;
+  padding: 0;
+  box-sizing: border-box;
+}
+footer .container img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+footer .container .flaggor {
+  width: 100%;
+  height: 100px;
+  background-repeat: repeat-x;
+  background-size: contain;
+  display: block;
+}
+footer .container .content {
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 10%;
+}
+footer .container .content .column {
+  width: 20%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+footer .container .content .column .category-title {
+  margin-bottom: 15px;
+  font-family: "Luckiest Guy";
+  color: #edeec7;
+  margin-top: 25px;
+}
+footer .container .content .column nav.menu {
+  display: inline-block;
+}
+footer .container .content .column nav.menu ul {
+  padding: 0;
+}
+footer .container .content .column nav.menu li {
+  list-style-type: none;
+  padding: 5px 10px;
+  font-family: "Poppins";
+}
+footer .container .content .column nav.menu li a {
+  color: #edeec7;
+  text-decoration: none;
+}
+footer .container .content .column nav.menu li a:hover {
+  text-decoration: underline;
+}
+footer .payment-methods {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  padding: 20px 0;
+  color: #edeec7;
+}
+footer .payment-methods .payment-icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+footer .payment-methods .payment-icons img {
+  height: 60px;
+  width: auto;
+  display: block;
+  margin: 0 10px;
+}
+footer .payment-methods .contact-info {
+  margin-top: 50px;
+  font-size: 0.9em;
+  max-width: 960px;
+  text-align: center;
+  font-family: "Poppins";
+}
+footer .rights {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  text-align: center;
+  width: 100%;
+  color: #edeec7;
+  font-family: "Poppins";
 }
 body {
   margin: 0;
