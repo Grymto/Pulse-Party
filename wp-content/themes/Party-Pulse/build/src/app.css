@@ -108,47 +108,62 @@ footer {
   margin: 0;
   width: 100%;
 }
-footer img {
-  width: 100%;
-  height: auto;
-  display: block;
-}
 footer .container {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  align-items: start;
   flex-wrap: wrap;
   text-align: center;
   width: 100%;
   padding: 0;
   box-sizing: border-box;
 }
-footer .container .column {
-  width: 20%;
-  margin: 20px 0;
+footer .container img {
+  width: 100%;
+  height: auto;
+  display: block;
 }
-footer .container .column .category-title {
+footer .container .flaggor {
+  width: 100%;
+  height: 100px;
+  background-repeat: repeat-x;
+  background-size: contain;
+  display: block;
+}
+footer .container .content {
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 10%;
+}
+footer .container .content .column {
+  width: 20%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+footer .container .content .column .category-title {
   margin-bottom: 15px;
   font-family: "Luckiest Guy";
   color: #edeec7;
+  margin-top: 25px;
 }
-footer .container .column nav.menu {
+footer .container .content .column nav.menu {
   display: inline-block;
-  width: auto;
 }
-footer .container .column nav.menu ul {
+footer .container .content .column nav.menu ul {
   padding: 0;
 }
-footer .container .column nav.menu li {
+footer .container .content .column nav.menu li {
   list-style-type: none;
   padding: 5px 10px;
   font-family: "Poppins";
 }
-footer .container .column nav.menu li a {
+footer .container .content .column nav.menu li a {
   color: #edeec7;
   text-decoration: none;
 }
-footer .container .column nav.menu li a:hover {
-  color: #edeec7;
+footer .container .content .column nav.menu li a:hover {
   text-decoration: underline;
 }
 footer .payment-methods {
@@ -176,7 +191,7 @@ footer .payment-methods .payment-icons img {
   margin: 0 10px;
 }
 footer .payment-methods .contact-info {
-  margin-top: 30px;
+  margin-top: 50px;
   font-size: 0.9em;
   max-width: 960px;
   text-align: center;
