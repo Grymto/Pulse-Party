@@ -102,6 +102,29 @@
 #primary .products.columns-4 .product a.added_to_cart {
   display: none;
 }
+#filterCover {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 9999;
+}
+#filterPanel {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  background-color: #fff;
+  padding: 20px;
+}
+#closeFilterBtn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
 .site-header {
   display: flex;
   flex-direction: row;

@@ -1,0 +1,156 @@
+#primary {
+  margin: auto;
+  width: 100%;
+  background-color: $backgroundColor;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  //Style for the Bread nav add the neon.
+  nav.woocommerce-breadcrumb {
+    display: flex;
+    align-items: center;
+
+    a {
+      text-decoration: none;
+    }
+
+    .delimiter {
+      margin: 2rem 1rem 2rem 1rem;
+    }
+  }
+
+  //Remove the title
+  header {
+    .woocommerce-products-header__title.page-title {
+      display: none;
+    }
+  }
+
+  //Selected products style
+  .woocommerce-result-count {
+    display: flex;
+    align-items: center;
+
+    .selected-products {
+      font-size: 12px;
+    }
+
+    .selected-products-total {
+      color: black;
+      margin-left: 0.3rem;
+      font-size: 15px;
+    }
+  }
+
+  //Form sort style
+  form.woocommerce-ordering {
+    select.orderby {
+      background-color: white;
+      border: 1px solid rgb(231, 231, 231);
+      border-radius: 8px;
+      padding: 10px 70px 10px 30px;
+      font-size: 12px;
+    }
+  }
+
+  //Product holder
+  .products.columns-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 4rem;
+
+    //each product
+    .product {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      width: 20%;
+      padding: 10px;
+      min-height: 375px;
+      margin: 6px 6px 6px 6px;
+
+      .woocommerce-loop-product__title {
+        margin: auto;
+        font-family: $main-title-font;
+        font-size: 13px;
+        font-weight: lighter;
+        color: #000000;
+        margin-bottom: 10px;
+        width: 90%;
+        min-height: 45px;
+        text-align: center;
+      }
+
+      img {
+        border-radius: $default-border-radius;
+      }
+
+      .price {
+        font-size: 16px;
+        font-family: $text-font;
+        color: black;
+        font-weight: bold;
+        text-align: center;
+      }
+
+      a {
+        text-decoration: none;
+      }
+
+      img {
+        margin-top: 2.5rem;
+        width: auto;
+        height: auto;
+        object-fit: contain;
+      }
+
+      .add_to_cart_button {
+        color: rgb(0, 0, 0);
+        background-color: $yellow-color;
+        border-radius: 5px;
+        width: 70%;
+        margin-bottom: 10px;
+        text-align: center;
+        font-size: 12px;
+        font-weight: lighter;
+        padding: 15px 10px;
+      }
+
+      a.added_to_cart {
+        display: none;
+      }
+    }
+  }
+}
+
+
+#filterCover {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 9999;
+  }
+  
+  #filterPanel {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    background-color: #fff;
+    padding: 20px;
+  }
+  
+  #closeFilterBtn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
