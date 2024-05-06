@@ -12,8 +12,9 @@
 <body <?php body_class(); ?>>
 
 <header class="site-header">
-    <img class="main-icon" src="/wp-content/uploads/2024/04/Loga-100x100.png" alt="Icon"> <!-- Use PHP to generate the correct path -->
-   
+<a href="https://pulse-party.test/home/">
+    <img class="main-icon" src="/wp-content/uploads/2024/04/Loga-100x100.png" alt="Icon">
+</a>
     <nav class="main-navigation">
         <?php
         wp_nav_menu(
@@ -35,10 +36,10 @@
     </div>
 
     <div class="Icon-div">
-    <img src="/wp-content\uploads\customer.png" alt="Icon">
-    <img src="/wp-content\uploads\heart.png" alt="Icon">
+    <img class="cost-icon" src="/wp-content\uploads\customer.png" alt="Icon">
+    <img class="heart-icon" src="/wp-content\uploads\heart.png" alt="Icon">
     <a href="https://pulse-party.test/cart/">
-    <img src="/wp-content/uploads/Shopping basket.png" alt="Icon">
+    <img class="cart-icon" src="/wp-content/uploads/Shopping basket.png" alt="Icon">
     </a>
     </div>
 
