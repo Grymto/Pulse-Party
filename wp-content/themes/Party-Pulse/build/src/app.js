@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentLoaded", function() {
+
   var menuItems = document.querySelectorAll(".site-header .main-navigation .primary-menu li");
   var icons = [
     "/wp-content/uploads/burger.png",

@@ -1,0 +1,23 @@
+.main-container {
+    width: 100%;
+    margin: auto;
+    text-align: center; 
+  
+    .homepage-banner {
+      img {
+        width: 100%;
+        height: auto;
+        display: block;
+        margin-bottom: 2rem;
+      }
+    }
+  
+    h1 {
+      font-family: $main-title-font; 
+      font-weight: 200;
+    }
+    h2{
+        font-family: $text-font;
+    }
+  }
+  

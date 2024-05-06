@@ -401,6 +401,24 @@ footer .rights {
   color: #edeec7;
   font-family: "Poppins";
 }
+.main-container {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+.main-container .homepage-banner img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 2rem;
+}
+.main-container h1 {
+  font-family: "Luckiest Guy";
+  font-weight: 200;
+}
+.main-container h2 {
+  font-family: "Poppins";
+}
 body {
   margin: 0;
 }

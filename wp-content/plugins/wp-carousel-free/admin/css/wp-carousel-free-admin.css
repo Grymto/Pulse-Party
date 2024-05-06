@@ -1,0 +1,332 @@
+.text-center {
+    text-align: center;
+}
+
+#adminmenu .menu-icon-sp_wp_carousel .wp-menu-image img {
+    width: 22px;
+    padding: 7px 0;
+    height: 20px;
+}
+
+.spwpcp-gallery-list li {
+    display: inline;
+    margin: 5px;
+}
+
+.js .tmce-active .wp-editor-area {
+    color: #000000;
+}
+
+.disable-color-picker .wpcf-field-color {
+    pointer-events: none;
+    opacity: .6;
+}
+
+/* Admin Preloader */
+.sp_wpcp_shortcode_generator .wpcf-wrapper {
+    min-height: 200px;
+    z-index: 999;
+    background-image: url(../img/spinner.svg);
+    background-repeat: no-repeat;
+    background-color: #fff;
+    background-position: center;
+}
+
+.sp_wpcp_shortcode_generator .wpcf-wrapper li {
+    opacity: 0;
+}
+
+/* Help Page */
+.sp-wpcp-help .wp-badge {
+    border: none;
+    background: url(../img/wpcp-icon-256.png) right no-repeat;
+    background-size: 100px 100px;
+    box-shadow: none;
+    height: auto;
+    top: -75px;
+}
+
+.about-wrap.sp-wpcp-help [class$="-col"],
+.about-wrap.sp-wpcf-upgrade [class$="-col"] {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.about-wrap.sp-wpcf-upgrade [class$="-col"] .col,
+.about-wrap.sp-wpcp-help [class$="-col"] .col {
+    flex: 1;
+    align-self: flex-start;
+}
+
+.about-wrap.sp-wpcp-help .feature-section .col {
+    margin-top: 40px;
+}
+
+.about-wrap.sp-wpcf-upgrade [class$="-col"] .col+.col {
+    margin-left: 0;
+}
+
+.about-wrap.sp-wpcp-help [class$="-col"] .col+.col {
+    margin-left: 20px;
+}
+
+.sp-wpcf-upgrade .headline-feature.feature-video,
+.sp-wpcp-help .headline-feature.feature-video {
+    position: relative;
+    margin: 40px 0;
+    padding-bottom: 56.25%;
+    width: 100%;
+    max-width: 100%;
+    height: 0;
+    text-align: center;
+}
+
+.sp-wpcf-upgrade .headline-feature.feature-video iframe,
+.sp-wpcp-help .headline-feature.feature-video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.sp-wpcp-help .feature-section .sp-wpcp-feature {
+    background-color: #fff;
+    padding: 20px 20px;
+    border: 1px solid #ddd;
+}
+
+.sp-wpcp-help .feature-section .sp-wpcp-feature h3 {
+    font-size: 16px;
+    margin-top: 18px;
+}
+
+.sp-wpcp-help .feature-section i.sp-wpcp-font-icon {
+    font-size: 30px;
+    display: block;
+    color: #18AFB9;
+    font-family: fontawesome;
+    font-style: normal;
+}
+
+@media (max-width: 500px) {
+    .sp-wpcp-help .wp-badge {
+        background-position-x: center;
+        top: 0;
+    }
+}
+
+/* Review notice */
+#sp-wpcfree-review-notice {
+    padding: 18px 15px 18px 0;
+    background-color: #fff;
+    border-radius: 3px;
+    margin: 20px 20px 0 0;
+    box-shadow: 0 0 20px 0 rgba(36,39,50,.08);
+}
+
+#sp-wpcfree-review-notice .sp-wpcfree-plugin-icon {
+    width: 125px;
+    float: left;
+    line-height: 90px;
+    text-align: center;
+    margin-left: 8px;
+}
+
+#sp-wpcfree-review-notice .sp-wpcfree-plugin-icon img {
+    max-width: 94px;
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+#sp-wpcfree-review-notice .sp-wpcfree-notice-text {
+    overflow: hidden;
+}
+
+#sp-wpcfree-review-notice .sp-wpcfree-notice-text h3 {
+    font-size: 24px;
+    margin: 0 0 5px;
+    font-weight: 400;
+    line-height: 1;
+}
+
+#sp-wpcfree-review-notice .sp-wpcfree-notice-text p {
+    margin: 10px 0 10px 0;
+    font-size: 13px;
+}
+
+#sp-wpcfree-review-notice .sp-wpcfree-notice-text p.sp-wpcfree-review-actions {
+    margin: 10px 0 2px 0;
+}
+
+#sp-wpcfree-review-notice .sp-wpcfree-notice-text .sp-wpcfree-review-actions a {
+    text-decoration: none;
+    margin-right: 8px;
+    color: #63a37b;
+    display: inline-block;
+    position: relative;
+}
+
+#sp-wpcfree-review-notice .sp-wpcfree-notice-text .sp-wpcfree-review-actions a span {
+    padding-right: 2px;
+}
+
+#sp-wpcfree-review-notice .sp-wpcfree-notice-text .sp-wpcfree-review-actions a.button {
+    color: #fff;
+}
+
+/* Responsive CSS */
+@media screen and (max-width: 782px) {
+    .about-wrap .three-col .col {
+        min-width: 48% !important;
+        max-width: 48% !important;
+        margin-left: 0 !important;
+    }
+
+    .about-wrap.sp-wpcp-help .feature-section .col {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 960px) {
+    .sp-wpc-help .sp-wpc-upgrade-sticky-footer {
+        width: calc(100%);
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .about-wrap .three-col .col {
+        min-width: 100% !important;
+    }
+
+    .sp-wpcf-upgrade .wp-badge {
+        background-position-x: center;
+    }
+}
+
+/* Shortcode */
+.spwpc-copy-btn {
+    width: 16px;
+    margin-left: 13px;
+    position: absolute;
+    top: 50%;
+    margin-top: -8px;
+}
+
+.spwpc-pagination-not-work,
+.spwpc-after-copy-text {
+    bottom: -100px;
+    opacity: 0;
+    z-index: 9999999;
+    position: fixed;
+    width: 230px;
+    left: 180px;
+    text-align: center;
+    padding: 15px 15px;
+    line-height: 15px;
+    color: #fff;
+    border-radius: 3px;
+    background: #32373c;
+    border: 1px solid #32373c;
+}
+
+.spwpc-pagination-not-work {
+    width: 290px;
+}
+
+.spwpc-pagination-not-work .fa-check-circle,
+.spwpc-after-copy-text .fa-check-circle {
+    font-size: 14px;
+    margin-right: 2px;
+    color: #5db62e
+}
+
+/* Live preview css */
+#sp_wpcf_live_preview .wpcp-carousel-wrapper .sp-wpcpro-section-title,
+#sp_wpcf_live_preview #poststuff .wpcp-carousel-wrapper .sp-wpcpro-section-title {
+    font-size: 24px;
+    line-height: 28px;
+    padding: 0;
+}
+
+#sp_wpcf_live_preview .wpcp-carousel-wrapper .wpcp-all-captions .wpcp-post-title {
+    padding: 0;
+}
+
+#sp_wpcf_live_preview .wpcp-carousel-wrapper .wpcp-all-captions p,
+#sp_wpcf_live_preview .wpcp-carousel-wrapper .wpcp-all-captions .wpcp-product-title a {
+    font-size: 16px;
+    line-height: 26px;
+}
+
+#sp_wpcf_live_preview .wpcp-carousel-wrapper .wpcp-all-captions ul li {
+    font-size: 14px;
+    line-height: 24px;
+}
+
+#sp_wpcf_live_preview img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Gutenberg selector field style */
+.spwpcf-gutenberg-shortcode.editor-styles-wrapper {
+    padding: 0;
+    line-height: 24px;
+}
+
+.block-editor-page .editor-styles-wrapper select,
+.block-editor-page select.spwpcf-shortcode-selector,
+.block-editor-page select.spwpcf-shortcode-selector:focus,
+.block-editor-page select.spwpcf-shortcode-selector:focus-visible {
+    width: 250px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    font-size: 13px;
+    padding-right: 24px;
+}
+
+/**
+Go Pro
+**/
+/* #adminmenu #menu-posts-sp_wp_carousel li:last-child a,
+#adminmenu #menu-posts-sp_wp_carousel li:last-child a:hover {
+    color: #11b916;
+    font-weight: 700;
+} */
+
+#adminmenu #menu-posts-sp_wp_carousel li:nth-child(7) a{
+    color: #dba617;
+}
+
+#adminmenu #menu-posts-sp_wp_carousel li a .sp-go-pro-icon {
+    background-image: url(../img/premium.svg);
+    width: 20px;
+    height: 20px;
+    display: block;
+    float: left;
+    margin-right: 1px;
+    margin-left: -2px;
+    margin-top: -1px;
+}
+
+
+.wpcf-page-loading-spinner i {
+    animation: import-spinner 2s linear infinite;
+    margin-left: 5px;
+}
+
+@keyframes import-spinner {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.spwpcp-footer-text-star {
+    color: #dba617;
+}
