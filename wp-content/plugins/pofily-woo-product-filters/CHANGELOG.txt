@@ -1,0 +1,42 @@
+/**1.1.1 - 2024.04.13**/
+– Updated: Compatible with WC 8.7 and WP 6.5.2
+- Updated: Update support file
+
+/**1.1.0 - 2023.08.23**/
+– Updated: Compatible with HPOS - WC 8.0 and WP 6.3
+
+/**1.0.8 - 2023.07.15**/
+– Updated: Compatible with HPOS - WC 7.8 and WP 6.2
+- Updated: Update support file
+
+/**1.0.7 - 2022.12.22**/
+– Updated: Compatible with WC 7.2.0
+– Updated: Language file
+- Updated: Update support file
+
+/**1.0.6 - 2022.06.18 **/
+- Fixed: Fixed toggle collapsible not working correct
+- Updated: Compatible with WC6.6.0
+- Updated: Update support file
+
+/**1.0.5 - 2022.05.21 **/
+- Updated: Updated support file
+- Updated: Compatible with WC6.5.0 and WP6.0
+
+/**1.0.4 - 2022.03.29 **/
+- Updated: Updated support file
+
+/**1.0.3 - 2022.03.21 **/
+- Updated: Updated support file
+- Updated: Compatible with WC6.3.0
+
+/**1.0.2 - 2021.12.02 **/
+- Fixed: Fixed responsive issue on Tablet and Mobile
+- Fixed: Fixed show as toggle of filter block not working correctly
+
+/**1.0.1 - 2021.11.12 **/
+- Updated: support url,review url,  docs url, pro url
+- Updated: Compatible with Multi Currency for WooCommerce by VillaTheme
+
+/**1.0.0 - 2021.10 **/
+- The first released

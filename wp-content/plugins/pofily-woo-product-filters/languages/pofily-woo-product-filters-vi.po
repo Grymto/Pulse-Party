@@ -1,0 +1,1007 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Pofily - WooCommerce Product Filters\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-08-23 04:19+0000\n"
+"PO-Revision-Date: 2022-10-17 03:43+0000\n"
+"Last-Translator: \n"
+"Language-Team: Vietnamese\n"
+"Language: vi\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.2; wp-6.0.2\n"
+"X-Domain: pofily-woocommerce-product-filters"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/public/class-woo-product-filters-public.php:740
+msgid " - "
+msgstr " - "
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/public/class-woo-product-filters-public.php:742
+msgid " - & above"
+msgstr " - & above"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/public/class-woo-product-filters-public.php:826
+msgid " stars"
+msgstr "sao"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/widget/viwcpf.widget_menu_filter.php:11
+msgid "(Pofily) Preset filter menu"
+msgstr "(Pofily) Preset filter menu"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/class-woo-product-filters-admin.php:202
+msgid ")"
+msgstr ")"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-detail-filter-block-page.php:683
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-detail-filter-block-page.php:694
+msgid "):"
+msgstr "):"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/class-woo-product-filters-admin.php:458
+#| msgid "5000"
+msgid "1000"
+msgstr "1000"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/class-woo-product-filters-admin.php:451
+msgid "300"
+msgstr "300"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/class-woo-product-filters-admin.php:465
+msgid "64M"
+msgstr "64M"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-settings-page.php:137
+msgid "Above products list"
+msgstr "Trên danh sách sản phẩm"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-settings-page.php:587
+msgid "Accent color"
+msgstr "Màu nhấn"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-settings-page.php:881
+msgid "Active"
+msgstr "Đang hoạt động"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/public/class-woo-product-filters-public.php:1273
+msgid "Active filters"
+msgstr "Bộ lọc đang hoạt động"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-settings-page.php:97
+msgid "Active filters labels position"
+msgstr "Vị trí nhãn của bộ lọc đang hoạt động"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-detail-filter-block-page.php:185
+msgid "Add all"
+msgstr "Thêm tất cả"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/class-woo-product-filters-admin.php:248
+msgid "Add Filter Block"
+msgstr "Thêm Filter Block"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/class-woo-product-filters-admin.php:292
+msgid "Add Filter Menu"
+msgstr "Thêm Filter Menu"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/class-woo-product-filters-admin.php:249
+msgid "Add New Filter Block"
+msgstr "Tạo Filter Block mới"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/class-woo-product-filters-admin.php:293
+msgid "Add New Filter Menu"
+msgstr "Tạo Filter Menu mới"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-detail-filter-menu-page.php:204
+msgid "Add rule display conditions you want"
+msgstr "Thêm quy tắc hiển thị"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/class-woo-product-filters-admin.php:197
+msgid "Add/Upload Image"
+msgstr "Thêm/Tải Ảnh"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-settings-page.php:125
+msgid "After filters"
+msgstr "Dưới bộ lọc"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/public/partials/template/viwcpf-template-dropdown.php:89
+msgid "All"
+msgstr "Tất cả"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-detail-filter-block-page.php:587
+msgid "Allow multiple selection:"
+msgstr "Cho phép nhiều lựa chọn"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-detail-filter-block-page.php:686
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-detail-filter-block-page.php:696
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-detail-filter-block-page.php:706
+msgid "Amount"
+msgstr "Giá trị"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-detail-filter-block-page.php:610
+msgid "And"
+msgstr "Và"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/public/class-woo-product-filters-public.php:301
+msgid "Apply filters"
+msgstr "Áp dụng bộ lọc"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-detail-filter-block-page.php:520
+msgid "ASC"
+msgstr "Tăng dần"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-settings-page.php:71
+msgid "Auto open filter modal after page load if this was opened before"
+msgstr ""
+"Sau khi trang tải lại, tự động mở modal bộ lọc nếu modal được mở trước đó"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-settings-page.php:451
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-settings-page.php:496
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-settings-page.php:575
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-settings-page.php:817
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-settings-page.php:852
+msgid "Background"
+msgstr "Nền"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-settings-page.php:886
+msgid "Background active"
+msgstr "Nền khi đang kích hoạt"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-settings-page.php:677
+msgid "Basic diagonal left"
+msgstr "Chéo trái cơ bản"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-settings-page.php:686
+msgid "Basic diagonal right"
+msgstr "Chéo phải cơ bản"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-settings-page.php:660
+msgid "Basic horizontal"
+msgstr "Ngang cơ bản"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-settings-page.php:668
+msgid "Basic vertical"
+msgstr "Dọc cơ bản"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-settings-page.php:113
+msgid "Before filters (default)"
+msgstr "Trên bộ lọc (mặc định)"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-settings-page.php:358
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-settings-page.php:635
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-settings-page.php:806
+msgid "Border radius"
+msgstr "Độ cong viền"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-detail-filter-block-page.php:281
+msgid "Border radius:"
+msgstr "Độ cong viền:"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-settings-page.php:797
+msgid "Border width"
+msgstr "Độ rộng viền"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-settings-page.php:214
+msgid "Bottom left"
+msgstr "Dưới - trái"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-settings-page.php:246
+msgid "Bottom right"
+msgstr "Dưới - phải"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-detail-filter-block-page.php:205
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-detail-filter-block-page.php:748
+msgid "Button"
+msgstr "Nút"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-detail-filter-block-page.php:242
+msgid "Button template:"
+msgstr "Mẫu nút:"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-detail-filter-block-page.php:214
+msgid "Checkbox"
+msgstr "Hộp kiểm"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-settings-page.php:141
+msgid "Choose active filters labels position"
+msgstr "Chọn vị trí nhãn cho bộ lọc đang hoạt động"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-detail-filter-menu-page.php:121
+msgid "Choose block filter you want display"
+msgstr "Chọn bộ lọc muốn hiển thị"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-detail-filter-block-page.php:314
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-detail-filter-block-page.php:439
+msgid "Choose Color"
+msgstr "Chọn Màu"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/class-woo-product-filters-admin.php:196
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-detail-filter-block-page.php:340
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-detail-filter-block-page.php:374
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-settings-page.php:444
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-settings-page.php:457
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-settings-page.php:489
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-settings-page.php:502
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-settings-page.php:568
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-settings-page.php:580
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-settings-page.php:591
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-settings-page.php:743
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-settings-page.php:822
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-settings-page.php:834
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-settings-page.php:858
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-settings-page.php:870
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-settings-page.php:892
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-settings-page.php:904
+msgid "Choose color"
+msgstr "Chọn màu"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-detail-filter-menu-page.php:42
+msgid "Choose Filter Block:"
+msgstr "Chọn Bộ lọc:"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-detail-filter-block-page.php:60
+msgid "Choose filter for"
+msgstr "Chọn kiểu lọc"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/widget/viwcpf.widget_menu_filter.php:33
+msgid "Choose filter menu"
+msgstr "Chọn filter menu"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-settings-page.php:266
+msgid "Choose icon open modal position"
+msgstr "Chọn vị trí cho biểu tượng của modal"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-detail-filter-block-page.php:940
+msgid "Choose if toggle has to closed or opened by default"
+msgstr "Mặc định đóng/mở trình thu gọn"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-detail-filter-menu-page.php:153
+msgid "Choose show a button \"Apply Filter\" to apply all filters"
+msgstr "Hiện nút \"Áp dụng bộ lọc\" để thực hiện lọc sản phẩm"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-detail-filter-block-page.php:127
+msgid "Choose taxonomy:"
+msgstr "Chọn taxonomy:"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-detail-filter-block-page.php:172
+msgid "Choose term:"
+msgstr "Chọn giá trị:"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-detail-filter-block-page.php:874
+msgid "Choose the display type for your filter block"
+msgstr "Chọn kiểu hiển thị cho bộ lọc"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/public/partials/template/viwcpf-template-button.php:72
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/public/partials/template/viwcpf-template-checkbox.php:61
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/public/partials/template/viwcpf-template-color_swatches.php:75
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/public/partials/template/viwcpf-template-image.php:77
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/public/partials/template/viwcpf-template-range_slider.php:72
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/public/partials/template/viwcpf-template-search_field.php:39
+msgid "clear"
+msgstr "xóa"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-detail-filter-block-page.php:936
+msgid "Closed by default"
+msgstr "Mặc định đóng"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-settings-page.php:439
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-settings-page.php:483
+msgid "Color"
+msgstr "Màu"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-settings-page.php:647
+msgid "Color separator"
+msgstr "Phân cách màu sắc"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-detail-filter-block-page.php:232
+msgid "Color Swatches"
+msgstr "Mẫu Màu"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-settings-page.php:733
+msgid "Color swatches default color"
+msgstr "Màu mặc định của mẫu màu"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-settings-page.php:603
+msgid "Color swatches/Image button default size"
+msgstr "Kích thước mặc định của Mẫu Màu/Ảnh"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/class-woo-product-filters-admin.php:1009
+msgid "Copied"
+msgstr "Đã sao chép"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-detail-filter-menu-page.php:128
+msgid "Create block filter"
+msgstr "Tạo bộ lọc"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-settings-page.php:538
+msgid "Custom style"
+msgstr "Kiểu tùy chỉnh"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-settings-page.php:24
+msgid "Customize"
+msgstr "Tùy chỉnh"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-settings-page.php:148
+msgid "Customize setting"
+msgstr "Tùy chỉnh cài đặt"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-detail-filter-block-page.php:299
+msgid "Customize term:"
+msgstr "Tùy chỉnh giá trị:"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-settings-page.php:340
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-settings-page.php:778
+msgid "Default"
+msgstr "Mặc định"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-detail-filter-block-page.php:969
+msgid "Default value is 10"
+msgstr "Giá trị mặc định là 10"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-detail-filter-block-page.php:529
+msgid "DESC"
+msgstr "Giảm dần"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-detail-filter-menu-page.php:189
+msgid "Display Conditions:"
+msgstr "Điều Kiện Hiển Thị:"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-detail-filter-block-page.php:850
+msgid "Display type:"
+msgstr "Kiểu hiển thị:"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/class-woo-product-filters-admin.php:250
+msgid "Edit Filter Block"
+msgstr "Sửa Filter Block"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/class-woo-product-filters-admin.php:294
+msgid "Edit Filter Menu"
+msgstr "Sửa Filter Menu"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-detail-filter-block-page.php:909
+msgid "Enable if you want to show this filter as a toggle"
+msgstr "Bật để hiển thị bộ lọc dưới dạng thu gọn"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-settings-page.php:52
+#| msgid "Enable modal for filter"
+msgid "Enable model for filter"
+msgstr "Hiển thị bộ lọc bằng modal"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-detail-filter-block-page.php:890
+msgid "Enable to show the \"Clear\" link above the filter block"
+msgstr "Bật tùy chọn để hiển thị nút \"Xóa\" phía trên bộ lọc"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-detail-filter-menu-page.php:175
+msgid "Enable to show the menu filter in content modal"
+msgstr "Hiển thị (các) bộ lọc trong menu bằng modal"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-settings-page.php:640
+msgid "Enter Border Radius"
+msgstr "Điền Độ Cong Cho Viền"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-settings-page.php:627
+msgid "Enter Height"
+msgstr "Điền Chiều Cao"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-detail-filter-block-page.php:270
+msgid "Enter height"
+msgstr "Điền chiều cao"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-detail-filter-block-page.php:973
+msgid "Enter items number limit you want to display"
+msgstr "Điền giới hạn số lượng sản phẩm được hiển thị"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-settings-page.php:370
+msgid "Enter number horizontal"
+msgstr "Trị số căn chỉnh ngang"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-settings-page.php:402
+msgid "Enter number vertical"
+msgstr "Trị số căn chỉnh dọc"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-detail-filter-block-page.php:819
+msgid "Enter placeholder"
+msgstr "Trình giữ chỗ"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-detail-filter-block-page.php:822
+msgid ""
+"Enter the placeholder for search field, it will be displayed on frontend"
+msgstr "Điền mô tả cho trình giữ chỗ của trường tìm kiếm"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/class-woo-product-filters-admin.php:195
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-detail-filter-block-page.php:417
+msgid "Enter Tooltip"
+msgstr "Điền Chú thích"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-settings-page.php:614
+msgid "Enter Width"
+msgstr "Điền Chiều Rộng"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-detail-filter-block-page.php:253
+msgid "Enter width"
+msgstr "Điền chiều rộng"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/public/class-woo-product-filters-public.php:313
+msgid "Error loading menu filter"
+msgstr "Có lỗi khi tải menu bộ lọc"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-detail-filter-block-page.php:287
+msgid "Example: 10px or 10%"
+msgstr "Ví dụ: 10px hoặc 10%"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/class-woo-product-filters-admin.php:244
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/class-woo-product-filters-admin.php:245
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/class-woo-product-filters-admin.php:246
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/class-woo-product-filters-admin.php:247
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/class-woo-product-filters-admin.php:261
+msgid "Filter Blocks"
+msgstr "Filter Blocks"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/class-woo-product-filters-admin.php:257
+msgid "Filter Blocks List"
+msgstr "Danh sách Filter Blocks"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-detail-filter-block-page.php:56
+msgid "Filter By Name"
+msgstr "Lọc theo Tên"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-detail-filter-block-page.php:45
+msgid "Filter By Price"
+msgstr "Lọc theo Giá"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-detail-filter-block-page.php:50
+msgid "Filter By Review"
+msgstr "Lọc theo Bình luận"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-detail-filter-block-page.php:40
+msgid "Filter By Taxonomy"
+msgstr "Lọc theo Taxonomy"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-detail-filter-block-page.php:33
+msgid "Filter For:"
+msgstr "KIểu Lọc:"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/class-woo-product-filters-admin.php:288
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/class-woo-product-filters-admin.php:289
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/class-woo-product-filters-admin.php:290
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/class-woo-product-filters-admin.php:291
+msgid "Filter Menus"
+msgstr "Filter Menus"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/class-woo-product-filters-admin.php:301
+msgid "Filter Menus List"
+msgstr "Danh sách Filter Menus"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-settings-page.php:35
+msgid "Filter Modal"
+msgstr "Filter Modal"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-detail-filter-block-page.php:21
+msgid "Filter Name*:"
+msgstr "Tên Bộ Lọc*:"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/public/class-woo-product-filters-public.php:2281
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/public/class-woo-product-filters-public.php:2365
+msgid "Filters"
+msgstr "Bộ Lọc"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-settings-page.php:558
+msgid "Filters area colors"
+msgstr "Màu khu vực lọc"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-settings-page.php:783
+msgid "Font size"
+msgstr "Cỡ chữ"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-settings-page.php:21
+msgid "General"
+msgstr "Chung"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-settings-page.php:29
+msgid "General setting"
+msgstr "Cài đặt chung"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-settings-page.php:713
+msgid "Hard lines diagonal left"
+msgstr "Chéo trái cứng"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-settings-page.php:722
+msgid "Hard lines diagonal right"
+msgstr "Chéo phải cứng"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-settings-page.php:695
+msgid "Hard lines horizontal"
+msgstr "Ngang cứng"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-settings-page.php:704
+msgid "Hard lines vertical"
+msgstr "Dọc cứng"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-settings-page.php:622
+msgid "Height"
+msgstr "Chiều cao"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-detail-filter-block-page.php:264
+msgid "Height:"
+msgstr "Chiều cao:"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-detail-filter-block-page.php:871
+msgid "Horizontal"
+msgstr "Ngang"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-settings-page.php:469
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-settings-page.php:846
+msgid "Hover"
+msgstr "Di chuột"
+
+#. Author URI of the plugin
+msgid "https://villatheme.com/"
+msgstr "https://villatheme.com/"
+
+#. URI of the plugin
+msgid "https://villatheme.com/extensions/pofily-woocommerce-product-filters/"
+msgstr "https://villatheme.com/extensions/pofily-woocommerce-product-filters/"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-settings-page.php:367
+msgid "Icon horizontal"
+msgstr "Căn chỉnh ngang cho biểu tượng"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-settings-page.php:179
+msgid "Icon position"
+msgstr "Vị trí biểu tượng"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-settings-page.php:431
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-settings-page.php:474
+msgid "Icon size"
+msgstr "Kích thước biểu tượng"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-settings-page.php:399
+msgid "Icon vertical"
+msgstr "Căn chỉnh dọc cho biểu tượng"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-detail-filter-block-page.php:498
+msgid "Id"
+msgstr "Id"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/public/class-woo-product-filters-public.php:1442
+msgid "Instock"
+msgstr "Còn hàng"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-detail-filter-block-page.php:967
+msgid "Label display limit:"
+msgstr "Giới hạn hiển thị nhãn:"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-settings-page.php:756
+msgid "Label styles"
+msgstr "Kiểu nhãn"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-detail-filter-block-page.php:304
+msgid "Loading"
+msgstr "Đang tải"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/class-woo-product-filters-admin.php:201
+msgid "Max"
+msgstr "Lớn nhất"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/class-woo-product-filters-admin.php:461
+msgid "Memory Limit"
+msgstr "Giới Hạn Bộ Nhớ"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/class-woo-product-filters-admin.php:199
+msgid "Meta value..."
+msgstr "Giá trị meta..."
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/class-woo-product-filters-admin.php:200
+msgid "Min"
+msgstr "Nhỏ nhất"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/class-woo-product-filters-admin.php:384
+msgid "Minimum recommended value"
+msgstr "Giá trị nhỏ nhất được đề xuất"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-settings-page.php:58
+msgid "Modal auto open"
+msgstr "Tự động mở modal"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-settings-page.php:345
+msgid "Modal icon shadow"
+msgstr "Tạo box shadow cho biểu tượng modal"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-settings-page.php:308
+msgid "Modal icon style"
+msgstr "Tùy chỉnh biểu tượng"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-settings-page.php:154
+msgid "Modal style"
+msgstr "Kiểu modal"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/class-woo-product-filters-admin.php:491
+msgid "More information for the filter block"
+msgstr "Thêm thông tin về bộ lọc"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/class-woo-product-filters-admin.php:814
+msgid "More information for the filter menu"
+msgstr "Thêm thông tin về menu bộ lọc"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-detail-filter-block-page.php:600
+msgid "Multiselect relation:"
+msgstr "Quan hệ nhiều lựa chọn:"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-detail-filter-block-page.php:309
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-detail-filter-block-page.php:434
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-detail-filter-block-page.php:480
+msgid "Name"
+msgstr "Tên"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-detail-filter-block-page.php:23
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-detail-filter-block-page.php:28
+msgid "Name of filter"
+msgstr "Tên bộ lọc"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/class-woo-product-filters-admin.php:251
+msgid "New Filter Block"
+msgstr "Filter Block Mới"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/class-woo-product-filters-admin.php:295
+msgid "New Filter Menu"
+msgstr "Filter Menu Mới"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/class-woo-product-filters-admin.php:194
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-detail-filter-block-page.php:310
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-detail-filter-block-page.php:406
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-detail-filter-block-page.php:435
+msgid "New Label"
+msgstr "Tên Mới"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/class-woo-product-filters-admin.php:255
+msgid "No Filter Block found"
+msgstr "Không tìm thấy Filter Block"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/class-woo-product-filters-admin.php:256
+msgid "No Filter Blocks in Trash"
+msgstr "Không tìm thấy Filter Blocks"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/class-woo-product-filters-admin.php:299
+msgid "No Filter Menu found"
+msgstr "Không tìm thấy Filter Menu"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/class-woo-product-filters-admin.php:300
+msgid "No Filter Menu in Trash"
+msgstr "Không tìm thấy Filter Menu"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-settings-page.php:292
+msgid "Off canvas effect open"
+msgstr "Hiệu ứng mở Off canvas"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-settings-page.php:276
+msgid "Off canvas Position"
+msgstr "Vị trí mở Off canvas"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/public/class-woo-product-filters-public.php:1433
+msgid "Onsale"
+msgstr "Đang khuyến mãi"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-detail-filter-block-page.php:927
+msgid "Opened by default"
+msgstr "Mặc định mở"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/class-woo-product-filters-admin.php:382
+msgid "Option name"
+msgstr "Tên tùy chọn"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-settings-page.php:522
+msgid "Options style"
+msgstr "Kiểu tùy chọn"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-detail-filter-block-page.php:619
+msgid "Or"
+msgstr "Hoặc"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-detail-filter-block-page.php:468
+msgid "Order by:"
+msgstr "Sắp xếp theo:"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-detail-filter-block-page.php:508
+msgid "Order type:"
+msgstr "Kiểu sắp xếp:"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/class-woo-product-filters-admin.php:454
+msgid "PHP Max Input Vars"
+msgstr "PHP Max Input Vars"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/class-woo-product-filters-admin.php:447
+msgid "PHP Time Limit"
+msgstr "PHP Time Limit"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-detail-filter-block-page.php:817
+msgid "Placeholder text:"
+msgstr "Mô tả trình giữ chỗ:"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/class-woo-product-filters-admin.php:192
+msgid "Please enter in a value less than max range price."
+msgstr "Vui lòng điền giá trị nhỏ hơn giá trị lớn nhất trong phạm vi này."
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/class-woo-product-filters-admin.php:193
+msgid "Please enter in a value more than min range price."
+msgstr "Vui lòng điền giá trị lơn hơn giá trị nhỏ nhất trong phạm vi này."
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/includes/class-woo-product-filters-activator.php:40
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/includes/class-woo-product-filters.php:98
+#| msgid ""
+#| "Please install and activate WooCommerce to use WooCommerce Product "
+#| "Filters plugin."
+msgid ""
+"Please install and activate WooCommerce to use Woocommerce Product Filters "
+"plugin."
+msgstr ""
+"Vui lòng cài đặt và kích hoạt WooCommerce để sử dụng WooCommerce Product "
+"Filters."
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/class-woo-product-filters-admin.php:338
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/class-woo-product-filters-admin.php:339
+msgid "Pofily"
+msgstr "Pofily"
+
+#. Name of the plugin
+#| msgid "Pofily - WooCommerce Product Filters Premium"
+msgid "Pofily - WooCommerce Product Filters"
+msgstr "Pofily - WooCommerce Product Filters Premium"
+
+#. Description of the plugin
+msgid ""
+"Pofily - WooCommerce Product Filters is an expert at filtering products. "
+"With just a few clicks"
+msgstr ""
+"Pofily - WooCommerce Product Filters là một chuyên gia trong việc lọc sản "
+"phẩm. Chỉ với một vài click"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/widget/viwcpf.widget_menu_filter.php:9
+msgid "Preset filter menu"
+msgstr "Menu bộ lọc đặt trước"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-detail-filter-block-page.php:655
+msgid "Price Range Slider"
+msgstr "Thanh Trượt Phạm Vi Giá"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-detail-filter-block-page.php:704
+msgid "Price Range Slider step:"
+msgstr "Bước đếm Thanh Trượt:"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-detail-filter-block-page.php:676
+msgid "Price range slider value:"
+msgstr "Tùy chỉnh phạm vi thanh trượt giá:"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-settings-page.php:363
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-settings-page.php:789
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-settings-page.php:802
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-settings-page.php:811
+msgid "Px"
+msgstr "Px"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-detail-filter-block-page.php:257
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-detail-filter-block-page.php:274
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-settings-page.php:618
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-settings-page.php:631
+msgid "px"
+msgstr "px"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/public/class-woo-product-filters-public.php:1424
+#, php-format
+msgid "Rated %s out of 5"
+msgstr "Xếp hạng %s trên 5"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-detail-filter-menu-page.php:124
+msgid "Refresh"
+msgstr "Tải lại"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-detail-filter-block-page.php:187
+msgid "Remove all"
+msgstr "Xóa tất cả"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/class-woo-product-filters-admin.php:403
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/class-woo-product-filters-admin.php:421
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/class-woo-product-filters-admin.php:439
+msgid "Required"
+msgstr "Bắt buộc"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-settings-page.php:930
+msgid "Reset Default"
+msgstr "Quay Về Cài Đặt Mặc Định"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-settings-page.php:924
+msgid "Save Settings"
+msgstr "Lưu Cài Đặt"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/class-woo-product-filters-admin.php:254
+msgid "Search Filter Blocks"
+msgstr "Tìm Filter Blocks"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/class-woo-product-filters-admin.php:298
+msgid "Search Filter Menus"
+msgstr "Tìm Filter Menus"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-detail-filter-block-page.php:223
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-detail-filter-block-page.php:757
+msgid "Select"
+msgstr "Lựa chọn"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/class-woo-product-filters-admin.php:228
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/class-woo-product-filters-admin.php:352
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/class-woo-product-filters-admin.php:353
+msgid "Settings"
+msgstr "Cài đặt"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/class-woo-product-filters-admin.php:1004
+msgid "Shortcode:"
+msgstr "Shortcode:"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-detail-filter-block-page.php:881
+msgid "Show \"clear\" button:"
+msgstr "Hiện nút \"Xóa\":"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-detail-filter-block-page.php:949
+msgid "Show \"view more\" button:"
+msgstr "Hiện nút \"xem thêm\""
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-settings-page.php:77
+msgid "Show active filters"
+msgstr "Hiển thị bộ lọc đang hoạt động"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-settings-page.php:91
+msgid "Show active filters as labels"
+msgstr "Hiển thị các bộ lọc đang được khách hàng sử dụng bằng nhãn"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-detail-filter-block-page.php:899
+msgid "Show as toggle:"
+msgstr "Hiển thị dưới dạng thu gọn:"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-detail-filter-block-page.php:541
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-detail-filter-block-page.php:791
+msgid "Show count of items:"
+msgstr "Hiển thị số lượng sản phẩm:"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-detail-filter-block-page.php:555
+msgid "Show hierarchy:"
+msgstr "Hiển thị theo cấp bậc:"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-detail-filter-menu-page.php:165
+msgid "Show menu in modal:"
+msgstr "Hiển thị menu trong modal:"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-detail-filter-block-page.php:451
+msgid "Show Search Field:"
+msgstr "Hiện Trường Tìm Kiếm:"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-detail-filter-block-page.php:775
+msgid "Show star icon:"
+msgstr "Hiện biểu tượng ngôi sao:"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-detail-filter-block-page.php:193
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-detail-filter-block-page.php:736
+msgid "Show type:"
+msgstr "Kiểu hiển thị:"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-detail-filter-block-page.php:959
+msgid "Show view more item (Only works if show type is button or checkbox)"
+msgstr ""
+"Hiện nút \"Xem thêm\" để hiển thị nhiều giá trị hơn (Chỉ hoạt đông với kiểu "
+"nút hoặc hộp kiểm)"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-detail-filter-block-page.php:489
+msgid "Slug"
+msgstr "Slug"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-detail-filter-block-page.php:766
+msgid "Star icon"
+msgstr "Star icon"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/class-woo-product-filters-admin.php:365
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/class-woo-product-filters-admin.php:378
+msgid "System Status"
+msgstr "Tình Trạng Hệ Thống"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/class-woo-product-filters-admin.php:364
+msgid "System status"
+msgstr "Tình trạng hệ thống"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/class-woo-product-filters-admin.php:198
+msgid "Term name..."
+msgstr "Tên giá trị..."
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-settings-page.php:829
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-settings-page.php:865
+msgid "Text"
+msgstr "Màu chữ"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-settings-page.php:899
+msgid "Text active"
+msgstr "Màu chữ khi kích hoạt"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-settings-page.php:550
+msgid "Theme style"
+msgstr "Kiểu chủ đề"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-settings-page.php:564
+msgid "Titles"
+msgstr "Tiêu đề"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-detail-filter-block-page.php:916
+msgid "Toggle style:"
+msgstr "Kiểu thu gọn:"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-detail-filter-block-page.php:311
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-detail-filter-block-page.php:436
+msgid "Tooltip"
+msgstr "Chú thích"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-settings-page.php:198
+msgid "Top left"
+msgstr "Trên - trái"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-settings-page.php:262
+msgid "Top product loop"
+msgstr "Trên vòng lặp sản phẩm"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-settings-page.php:230
+msgid "Top right"
+msgstr "Trên - phải"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-detail-filter-block-page.php:649
+msgid "Type Filter:"
+msgstr "Kiểu Bộ Lọc"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/includes/data.php:390
+msgid "Upgrade this feature"
+msgstr "Nâng cấp để sử dụng tính năng này"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-detail-filter-menu-page.php:143
+msgid "Using button to filter:"
+msgstr "Dùng nút để lọc:"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-detail-filter-block-page.php:862
+msgid "Vertical"
+msgstr "Dọc"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/class-woo-product-filters-admin.php:252
+msgid "View Filter Block"
+msgstr "Xem Filter Block"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/class-woo-product-filters-admin.php:253
+msgid "View Filter Blocks"
+msgstr "Xem các Filter Block"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/class-woo-product-filters-admin.php:296
+msgid "View Filter Menu"
+msgstr "Xem Filter Menu"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/class-woo-product-filters-admin.php:297
+msgid "View Filter Menus"
+msgstr "Xem các Filter Menu"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/public/partials/template/viwcpf-template-button.php:110
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/public/partials/template/viwcpf-template-color_swatches.php:121
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/public/partials/template/viwcpf-template-image.php:120
+msgid "View more"
+msgstr "Xem thêm"
+
+#. Author of the plugin
+msgid "VillaTheme"
+msgstr "VillaTheme"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-settings-page.php:609
+msgid "Width"
+msgstr "Chiều rộng"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-detail-filter-block-page.php:248
+msgid "Width:"
+msgstr "Chiều rộng:"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/partials/display-settings-page.php:9
+#| msgid "WooCommerce Product Filters Settings"
+msgid "Woocommerce Product Filters Settings"
+msgstr " Cài Đặt WooCommerce Product Filters"
+
+#: D:/new-git-2017/free-version/pofily-woo-product-filters/pofily-woo-product-filters/admin/class-woo-product-filters-admin.php:383
+msgid "Your option value"
+msgstr "Giá trị tùy chọn"

@@ -1,0 +1,83 @@
+@font-face {
+    font-family: "viwcpf-icon-filter";
+    src: url("../fonts/viwcpf-icon-filter.ttf?58e20b94ab176f2f30a6f8bd138bf11f") format("truetype"),
+    url("../fonts/viwcpf-icon-filter.woff?58e20b94ab176f2f30a6f8bd138bf11f") format("woff"),
+    url("../fonts/viwcpf-icon-filter.woff2?58e20b94ab176f2f30a6f8bd138bf11f") format("woff2"),
+    url("../fonts/viwcpf-icon-filter.eot?58e20b94ab176f2f30a6f8bd138bf11f#iefix") format("embedded-opentype"),
+    url("../fonts/viwcpf-icon-filter.svg?58e20b94ab176f2f30a6f8bd138bf11f#flaticon") format("svg");
+}
+
+i[class^="viwcpf-icon-filter-"]:before, i[class*=" viwcpf-icon-filter-"]:before {
+    font-family: viwcpf-icon-filter !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.viwcpf-icon-filter:before {
+    content: "\f101";
+}
+
+.viwcpf-icon-filter-1:before {
+    content: "\f102";
+}
+
+.viwcpf-icon-filter-filled-tool-symbol:before {
+    content: "\f103";
+}
+
+.viwcpf-icon-filter-2:before {
+    content: "\f104";
+}
+
+.viwcpf-icon-filter-results-button:before {
+    content: "\f105";
+}
+
+.viwcpf-icon-filter-3:before {
+    content: "\f106";
+}
+
+.viwcpf-icon-filter-4:before {
+    content: "\f107";
+}
+
+.viwcpf-icon-funnel:before {
+    content: "\f108";
+}
+
+.viwcpf-icon-filter-6:before {
+    content: "\f109";
+}
+
+.viwcpf-icon-filter-7:before {
+    content: "\f10a";
+}
+
+.viwcpf-icon-selective:before {
+    content: "\f10b";
+}
+
+.viwcpf-icon-filter-8:before {
+    content: "\f10c";
+}
+
+.viwcpf-icon-filter-9:before {
+    content: "\f10d";
+}
+
+.viwcpf-icon-filter-10:before {
+    content: "\f10e";
+}
+
+.viwcpf-icon-filter-11:before {
+    content: "\f10f";
+}
+
+.viwcpf-icon-filter-close:before {
+    content: "\f110";
+}
