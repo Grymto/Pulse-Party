@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap");@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Luckiest+Guy&display=swap");@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Luckiest+Guy&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 
-
 #primary {
   margin: auto;
   width: 100%;
@@ -126,7 +125,6 @@
   top: 10px;
   right: 10px;
 }
-
 .site-header {
   display: flex;
   flex-direction: row;
@@ -330,6 +328,24 @@ footer .rights {
   text-align: center;
   width: 100%;
   color: #edeec7;
+  font-family: "Poppins";
+}
+.main-container {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+.main-container .homepage-banner img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 2rem;
+}
+.main-container h1 {
+  font-family: "Luckiest Guy";
+  font-weight: 200;
+}
+.main-container h2 {
   font-family: "Poppins";
 }
 body {

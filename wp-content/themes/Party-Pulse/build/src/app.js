@@ -1,5 +1,4 @@
 document.addEventListener("DOMContentLoaded", function() {
-
   var filterBtn = document.getElementById("filterBtn");
   var filterCover = document.getElementById("filterCover");
   var closeFilterBtn = document.getElementById("closeFilterBtn");
@@ -13,9 +12,9 @@ document.addEventListener("DOMContentLoaded", function() {
   });
   closeFilterBtn.addEventListener("click", function() {
     filterCover.style.display = "none";
-  })
-})
-
+  });
+});
+document.addEventListener("DOMContentLoaded", function() {
   var menuItems = document.querySelectorAll(".site-header .main-navigation .primary-menu li");
   var icons = [
     "/wp-content/uploads/burger.png",
@@ -30,6 +29,5 @@ document.addEventListener("DOMContentLoaded", function() {
     iconElement.alt = "Icon";
     iconElement.classList.add("menu-icon", "icon-" + (iconIndex + 1));
     item.appendChild(iconElement);
-
   });
-
+});
