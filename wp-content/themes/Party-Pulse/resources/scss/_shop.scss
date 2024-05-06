@@ -6,151 +6,248 @@
   justify-content: center;
   align-items: center;
 
-  //Style for the Bread nav add the neon.
-  nav.woocommerce-breadcrumb {
-    display: flex;
-    align-items: center;
+  main {
+    min-width: 100vw;
 
-    a {
-      text-decoration: none;
-    }
-
-    .delimiter {
-      margin: 2rem 1rem 2rem 1rem;
-    }
-  }
-
-  //Remove the title
-  header {
-    .woocommerce-products-header__title.page-title {
+    p.woocommerce-result-count {
       display: none;
     }
-  }
 
-  //Selected products style
-  .woocommerce-result-count {
-    display: flex;
-    align-items: center;
-
-    .selected-products {
-      font-size: 12px;
-    }
-
-    .selected-products-total {
-      color: black;
-      margin-left: 0.3rem;
-      font-size: 15px;
-    }
-  }
-
-  //Form sort style
-  form.woocommerce-ordering {
-    select.orderby {
-      background-color: white;
-      border: 1px solid rgb(231, 231, 231);
-      border-radius: 8px;
-      padding: 10px 70px 10px 30px;
-      font-size: 12px;
-    }
-  }
-
-  //Product holder
-  .products.columns-4 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    margin-bottom: 4rem;
-
-    //each product
-    .product {
+    .viwcpf_active_filters.theme_style {
       display: flex;
       justify-content: center;
       align-items: center;
-      flex-direction: column;
-      width: 20%;
-      padding: 10px;
-      min-height: 375px;
-      margin: 6px 6px 6px 6px;
-
-      .woocommerce-loop-product__title {
-        margin: auto;
-        font-family: $main-title-font;
-        font-size: 13px;
-        font-weight: lighter;
-        color: #000000;
-        margin-bottom: 10px;
-        width: 90%;
-        min-height: 45px;
-        text-align: center;
+      margin-left: 5vw;
+      h4 {
+        display: none;
       }
 
-      img {
+      ul {
+        li {
+          color: $yellow-color;
+          border: 1px solid $yellow-color;
+          border-radius: $default-border-radius;
+          padding: 10px;
+          background-color: $yellow-color;
+
+          a {
+            text-decoration: none;
+            color: black;
+            font-family: $text-font;
+          }
+        }
+      }
+    }
+
+    .viwcpf-filter-trigger-box {
+      margin-left: 7vw;
+      button {
+        min-width: 300px;
+        background-color: $yellow-color;
+        padding: 20px 30px;
+        border: 1px solid $yellow-color;
         border-radius: $default-border-radius;
+        span {
+          display: none;
+        }
       }
+    }
 
-      .price {
-        font-size: 16px;
-        font-family: $text-font;
-        color: black;
-        font-weight: bold;
-        text-align: center;
-      }
+    //Style for the Bread nav add the neon.
+    nav.woocommerce-breadcrumb {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: black;
+      padding: 20px;
 
       a {
         text-decoration: none;
+        padding: 1.5rem 2.5rem;
+
+        margin: 0.5rem;
+        font-family: $main-title-font;
+        //Text
+        color: $yellow-color;
+        text-shadow: 0 0 7px #000000, 0 0 10px #000000, 0 0 21px #000000,
+          0 0 32px $yellow-color, 0 0 72px $yellow-color, 0 0 82px $yellow-color,
+          0 0 92px $yellow-color, 0 0 141px $yellow-color;
+        //Border
+        border: 0.1rem solid #f1f190;
+        border-radius: 1rem;
+        box-shadow: 0 0 0.1rem #f0f084, 0 0 0.1rem #f1f153,
+          0 0 1rem $yellow-color, 0 0 0.4rem $yellow-color,
+          0 0 1.4rem $yellow-color, inset 0 0 0.7rem $yellow-color;
       }
 
-      img {
-        margin-top: 2.5rem;
-        width: auto;
-        height: auto;
-        object-fit: contain;
+      .delimiter {
+        margin: 2rem 1rem 2rem 1rem;
       }
+    }
 
-      .add_to_cart_button {
-        color: rgb(0, 0, 0);
-        background-color: $yellow-color;
-        border-radius: 5px;
-        width: 70%;
-        margin-bottom: 10px;
-        text-align: center;
-        font-size: 12px;
-        font-weight: lighter;
-        padding: 15px 10px;
-      }
-
-      a.added_to_cart {
+    //Remove the title
+    header {
+      .woocommerce-products-header__title.page-title {
         display: none;
+      }
+    }
+
+    //Selected products style
+    .woocommerce-result-count {
+      display: flex;
+      align-items: center;
+
+      .selected-products {
+        font-size: 12px;
+      }
+
+      .selected-products-total {
+        color: black;
+        margin-left: 0.3rem;
+        font-size: 15px;
+      }
+    }
+
+    //Form sort style
+    form.woocommerce-ordering {
+      margin-right: 8vw;
+      select.orderby {
+        background-color: $yellow-color;
+        border: 1px solid $yellow-color;
+        font-family: $text-font;
+        border-radius: 8px;
+        padding: 10px 70px 10px 30px;
+        font-size: 12px;
+      }
+    }
+
+    //Product holder
+    .products.columns-4 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      margin-bottom: 4rem;
+
+      //each product
+      .product {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 300px;
+        padding: 10px;
+        min-height: 375px;
+        margin: 6px 6px 6px 6px;
+
+        .woocommerce-loop-product__title {
+          margin: auto;
+          font-family: $main-title-font;
+          font-size: 13px;
+          font-weight: lighter;
+          color: #000000;
+          margin-bottom: 10px;
+          width: 90%;
+          min-height: 45px;
+          text-align: center;
+        }
+
+        img {
+          border-radius: $default-border-radius;
+        }
+
+        .price {
+          font-size: 16px;
+          font-family: $text-font;
+          color: black;
+          font-weight: bold;
+          text-align: center;
+        }
+
+        a {
+          text-decoration: none;
+        }
+
+        img {
+          margin-top: 2.5rem;
+          width: auto;
+          height: auto;
+          object-fit: contain;
+        }
+
+        .add_to_cart_button {
+          color: rgb(0, 0, 0);
+          background-color: $yellow-color;
+          border-radius: 5px;
+          width: 70%;
+          margin-bottom: 10px;
+          text-align: center;
+          font-size: 12px;
+          font-weight: lighter;
+          padding: 15px 10px;
+        }
+
+        a.added_to_cart {
+          display: none;
+        }
       }
     }
   }
 }
 
+#sidebar {
+  display: none;
+}
 
-#filterCover {
-    display: none;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    z-index: 9999;
+.viwcpf-off_canvas-content-wrap.viwcpf-off_canvas-content-open.viwcpf-off_canvas-content-open-slide-left {
+  * {
+    color: black;
+    font-family: $text-font;
   }
-  
-  #filterPanel {
-    position: absolute;
-    top: 50%;
-    right: 0;
-    transform: translateY(-50%);
-    background-color: #fff;
-    padding: 20px;
+
+  .viwcpf-off_canvas-header-wrap {
+    background-color: $yellow-color;
+    h6 {
+      font-family: $text-font;
+      color: black;
+    }
   }
-  
-  #closeFilterBtn {
-    position: absolute;
-    top: 10px;
-    right: 10px;
+
+  .viwcpf-off_canvas-content-wrap1 {
+    background-color: white;
+
+    //Price range
+    .viwcpf_wrap_filter-content {
+      .viwcpf_filter.viwcpf_range_slider {
+        .irs-bar,
+        .irs-handle.form,
+        .irs-handle,
+        .irs.form {
+          background-color: $yellow-color;
+          color: $yellow-color;
+        }
+
+        .irs-to,
+        .irs-from {
+          background-color: $yellow-color;
+          color: #000000;
+        }
+      }
+    }
+
+    //Fiter chosen item
+    a.viwcpf_chosen,
+    .viwcpf_chosen::after {
+      background-color: $yellow-color;
+    }
+
+    //Apply filter button
+    .btn.btn-primary.viwcpf-apply-filters {
+      background-color: $yellow-color;
+      font-family: $text-font;
+      border: 1px solid $yellow-color;
+      border-radius: $default-border-radius;
+      padding: 20px 40px;
+    }
   }
-  
+}

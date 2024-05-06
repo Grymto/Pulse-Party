@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap");@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Luckiest+Guy&display=swap");@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Luckiest+Guy&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 
-
 #primary {
   margin: auto;
   width: 100%;
@@ -10,56 +9,111 @@
   justify-content: center;
   align-items: center;
 }
-#primary nav.woocommerce-breadcrumb {
-  display: flex;
-  align-items: center;
+#primary main {
+  min-width: 100vw;
 }
-#primary nav.woocommerce-breadcrumb a {
-  text-decoration: none;
-}
-#primary nav.woocommerce-breadcrumb .delimiter {
-  margin: 2rem 1rem 2rem 1rem;
-}
-#primary header .woocommerce-products-header__title.page-title {
+#primary main p.woocommerce-result-count {
   display: none;
 }
-#primary .woocommerce-result-count {
+#primary main .viwcpf_active_filters.theme_style {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5vw;
+}
+#primary main .viwcpf_active_filters.theme_style h4 {
+  display: none;
+}
+#primary main .viwcpf_active_filters.theme_style ul li {
+  color: #feb113;
+  border: 1px solid #feb113;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #feb113;
+}
+#primary main .viwcpf_active_filters.theme_style ul li a {
+  text-decoration: none;
+  color: black;
+  font-family: "Poppins";
+}
+#primary main .viwcpf-filter-trigger-box {
+  margin-left: 7vw;
+}
+#primary main .viwcpf-filter-trigger-box button {
+  min-width: 300px;
+  background-color: #feb113;
+  padding: 20px 30px;
+  border: 1px solid #feb113;
+  border-radius: 10px;
+}
+#primary main .viwcpf-filter-trigger-box button span {
+  display: none;
+}
+#primary main nav.woocommerce-breadcrumb {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  padding: 20px;
+}
+#primary main nav.woocommerce-breadcrumb a {
+  text-decoration: none;
+  padding: 1.5rem 2.5rem;
+  margin: 0.5rem;
+  font-family: "Luckiest Guy";
+  color: #feb113;
+  text-shadow: 0 0 7px #000000, 0 0 10px #000000, 0 0 21px #000000, 0 0 32px #feb113, 0 0 72px #feb113, 0 0 82px #feb113, 0 0 92px #feb113, 0 0 141px #feb113;
+  border: 0.1rem solid #f1f190;
+  border-radius: 1rem;
+  box-shadow: 0 0 0.1rem #f0f084, 0 0 0.1rem #f1f153, 0 0 1rem #feb113, 0 0 0.4rem #feb113, 0 0 1.4rem #feb113, inset 0 0 0.7rem #feb113;
+}
+#primary main nav.woocommerce-breadcrumb .delimiter {
+  margin: 2rem 1rem 2rem 1rem;
+}
+#primary main header .woocommerce-products-header__title.page-title {
+  display: none;
+}
+#primary main .woocommerce-result-count {
   display: flex;
   align-items: center;
 }
-#primary .woocommerce-result-count .selected-products {
+#primary main .woocommerce-result-count .selected-products {
   font-size: 12px;
 }
-#primary .woocommerce-result-count .selected-products-total {
+#primary main .woocommerce-result-count .selected-products-total {
   color: black;
   margin-left: 0.3rem;
   font-size: 15px;
 }
-#primary form.woocommerce-ordering select.orderby {
-  background-color: white;
-  border: 1px solid rgb(231, 231, 231);
+#primary main form.woocommerce-ordering {
+  margin-right: 8vw;
+}
+#primary main form.woocommerce-ordering select.orderby {
+  background-color: #feb113;
+  border: 1px solid #feb113;
+  font-family: "Poppins";
   border-radius: 8px;
   padding: 10px 70px 10px 30px;
   font-size: 12px;
 }
-#primary .products.columns-4 {
+#primary main .products.columns-4 {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   margin-bottom: 4rem;
 }
-#primary .products.columns-4 .product {
+#primary main .products.columns-4 .product {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: 20%;
+  width: 300px;
   padding: 10px;
   min-height: 375px;
   margin: 6px 6px 6px 6px;
 }
-#primary .products.columns-4 .product .woocommerce-loop-product__title {
+#primary main .products.columns-4 .product .woocommerce-loop-product__title {
   margin: auto;
   font-family: "Luckiest Guy";
   font-size: 13px;
@@ -70,26 +124,26 @@
   min-height: 45px;
   text-align: center;
 }
-#primary .products.columns-4 .product img {
+#primary main .products.columns-4 .product img {
   border-radius: 10px;
 }
-#primary .products.columns-4 .product .price {
+#primary main .products.columns-4 .product .price {
   font-size: 16px;
   font-family: "Poppins";
   color: black;
   font-weight: bold;
   text-align: center;
 }
-#primary .products.columns-4 .product a {
+#primary main .products.columns-4 .product a {
   text-decoration: none;
 }
-#primary .products.columns-4 .product img {
+#primary main .products.columns-4 .product img {
   margin-top: 2.5rem;
   width: auto;
   height: auto;
   object-fit: contain;
 }
-#primary .products.columns-4 .product .add_to_cart_button {
+#primary main .products.columns-4 .product .add_to_cart_button {
   color: rgb(0, 0, 0);
   background-color: #feb113;
   border-radius: 5px;
@@ -100,33 +154,48 @@
   font-weight: lighter;
   padding: 15px 10px;
 }
-#primary .products.columns-4 .product a.added_to_cart {
+#primary main .products.columns-4 .product a.added_to_cart {
   display: none;
 }
-#filterCover {
+#sidebar {
   display: none;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
-  z-index: 9999;
 }
-#filterPanel {
-  position: absolute;
-  top: 50%;
-  right: 0;
-  transform: translateY(-50%);
-  background-color: #fff;
-  padding: 20px;
+.viwcpf-off_canvas-content-wrap.viwcpf-off_canvas-content-open.viwcpf-off_canvas-content-open-slide-left * {
+  color: black;
 }
-#closeFilterBtn {
-  position: absolute;
-  top: 10px;
-  right: 10px;
+.viwcpf-off_canvas-content-wrap.viwcpf-off_canvas-content-open.viwcpf-off_canvas-content-open-slide-left .viwcpf-off_canvas-header-wrap {
+  background-color: #feb113;
 }
-
+.viwcpf-off_canvas-content-wrap.viwcpf-off_canvas-content-open.viwcpf-off_canvas-content-open-slide-left .viwcpf-off_canvas-header-wrap h6 {
+  font-family: "Poppins";
+  color: black;
+}
+.viwcpf-off_canvas-content-wrap.viwcpf-off_canvas-content-open.viwcpf-off_canvas-content-open-slide-left .viwcpf-off_canvas-content-wrap1 {
+  background-color: white;
+}
+.viwcpf-off_canvas-content-wrap.viwcpf-off_canvas-content-open.viwcpf-off_canvas-content-open-slide-left .viwcpf-off_canvas-content-wrap1 .viwcpf_wrap_filter-content .viwcpf_filter.viwcpf_range_slider .irs-bar,
+.viwcpf-off_canvas-content-wrap.viwcpf-off_canvas-content-open.viwcpf-off_canvas-content-open-slide-left .viwcpf-off_canvas-content-wrap1 .viwcpf_wrap_filter-content .viwcpf_filter.viwcpf_range_slider .irs-handle.form,
+.viwcpf-off_canvas-content-wrap.viwcpf-off_canvas-content-open.viwcpf-off_canvas-content-open-slide-left .viwcpf-off_canvas-content-wrap1 .viwcpf_wrap_filter-content .viwcpf_filter.viwcpf_range_slider .irs-handle,
+.viwcpf-off_canvas-content-wrap.viwcpf-off_canvas-content-open.viwcpf-off_canvas-content-open-slide-left .viwcpf-off_canvas-content-wrap1 .viwcpf_wrap_filter-content .viwcpf_filter.viwcpf_range_slider .irs.form {
+  background-color: #feb113;
+  color: #feb113;
+}
+.viwcpf-off_canvas-content-wrap.viwcpf-off_canvas-content-open.viwcpf-off_canvas-content-open-slide-left .viwcpf-off_canvas-content-wrap1 .viwcpf_wrap_filter-content .viwcpf_filter.viwcpf_range_slider .irs-to,
+.viwcpf-off_canvas-content-wrap.viwcpf-off_canvas-content-open.viwcpf-off_canvas-content-open-slide-left .viwcpf-off_canvas-content-wrap1 .viwcpf_wrap_filter-content .viwcpf_filter.viwcpf_range_slider .irs-from {
+  background-color: #feb113;
+  color: #000000;
+}
+.viwcpf-off_canvas-content-wrap.viwcpf-off_canvas-content-open.viwcpf-off_canvas-content-open-slide-left .viwcpf-off_canvas-content-wrap1 a.viwcpf_chosen,
+.viwcpf-off_canvas-content-wrap.viwcpf-off_canvas-content-open.viwcpf-off_canvas-content-open-slide-left .viwcpf-off_canvas-content-wrap1 .viwcpf_chosen::after {
+  background-color: #feb113;
+}
+.viwcpf-off_canvas-content-wrap.viwcpf-off_canvas-content-open.viwcpf-off_canvas-content-open-slide-left .viwcpf-off_canvas-content-wrap1 .btn.btn-primary.viwcpf-apply-filters {
+  background-color: #feb113;
+  font-family: "Poppins";
+  border: 1px solid #feb113;
+  border-radius: 10px;
+  padding: 20px 40px;
+}
 .site-header {
   display: flex;
   flex-direction: row;
