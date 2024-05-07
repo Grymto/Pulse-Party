@@ -1,22 +1,67 @@
 .main-container {
+  margin: auto;
+  text-align: center;
+  font-family: $main-title-font; 
+  font-weight: 200;
+
+  .homepage-banner img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 2rem;
+  }
+
+  .wpcp-product-title {
     margin: auto;
-    text-align: center; 
-  
-    .homepage-banner {
-      img {
-        width: 100%;
-        height: auto;
-        display: block;
-        margin-bottom: 2rem;
-      }
-    }
-  
-    h1 {
-      font-family: $main-title-font; 
-      font-weight: 200;
-    }
-    h2{
-        font-family: $text-font;
+    font-family: "Luckiest Guy";
+    font-size: 13px;
+    font-weight: lighter;
+    color: #000000;
+    margin-bottom: 10px;
+    width: 90%;
+    min-height: 45px;
+    text-align: center;
+  }
+
+  // Applicera border-radius till alla bilder inom slide images
+  .wpcp-slide-image img {
+    border-radius: $default-border-radius;
+  }
+
+  .wpcp-all-captions{
+    font-family: $text-font;
+  }
+  .wpcp-post-title{
+    font-family: $main-title-font;
+    font-weight: 200;
+  }
+
+  // Stilar för knappar
+  .wpcp-carousel-section.wpcp-product-carousel .wpcp-cart-button a.button { 
+    background-color: $yellow-color;  
+    color: white;           
+    border-radius: $default-border-radius;
+
+    &:hover { 
+        background-color: $selected-yellow-color;
     }
   }
-  
+
+  // Stilar för "lagt till kundvagn"-knappar
+  .wpcp-carousel-section.wpcp-product-carousel .wpcp-all-captions .wpcp-cart-button .added_to_cart {
+    background-color: $yellow-color;  
+    color: white;           
+    border-radius: $default-border-radius;
+
+    &:hover { 
+        background-color: $selected-yellow-color;
+    }
+  }
+  .wpcp-product-price{
+    font-size: 16px;
+    font-family: $text-font;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+  }
+}

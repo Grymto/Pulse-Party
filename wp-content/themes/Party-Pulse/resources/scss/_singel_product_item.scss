@@ -1,0 +1,123 @@
+// Main product container styling
+#primary {
+    margin: auto;
+    width: 100%;
+    background-color: $backgroundColor;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+  
+    .woocommerce-product-gallery__wrapper {
+      width: 40%;
+      text-align: center;
+  
+      .woocommerce-product-gallery__image {
+        a {
+          img {
+            border-radius: $default-border-radius;
+            width: auto;
+            max-width: 100%;
+            height: auto;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            display: block;
+            margin-left: 40vh;
+            margin-top: 1vh;
+          }
+        }
+      }
+  
+      .flex-control-thumbs {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        list-style: none;
+  
+        li {
+          margin: 0 15px;
+          img {
+            display: block;
+            width: auto;
+            height: auto;
+          }
+        }
+      }
+    }
+  
+    .summary {
+      width: 40%;
+      display: flex;
+      flex-direction: column;
+      align-items: left;
+      margin-top: 1vh;
+  
+      .product_title {
+        font-size: 24px;
+        font-weight: 200;
+        font-family: $main-title-font;
+      }
+  
+      .price {
+        font-family: $text-font;
+        color: black;
+        font-size: 20px;
+        margin: 10px 0;
+        font-weight: bold;
+      }
+  
+      .woocommerce-product-details__short-description {
+        font-family: $secondary-title-font;
+        font-weight: bold;
+      }
+  
+      .button {
+        background-color: $yellow-color;
+        color: white;
+        border-radius: $default-border-radius;
+  
+        &:hover {
+          background-color: $selected-yellow-color;
+        }
+      }
+  
+      .product_meta {
+        font-size: 14px;
+        color: black;
+        margin-top: 15px;
+      }
+    }
+  }
+  
+  // Tabs and panels styling
+  .woocommerce div.product .woocommerce-tabs {
+    margin-top: 20px;
+
+    ul.tabs {
+      display: flex;
+      justify-content: flex-start;
+      padding-left: 20vh;
+      margin-bottom: 10px;
+      list-style: none;
+  
+      li {
+        margin-right: 1vh;
+        background-color: $selected-yellow-color;
+        
+        &.active {
+          font-weight: bold;
+          background-color: $yellow-color;
+        }
+      }
+    }
+  
+    .panel {
+      display: block;
+      margin: auto;
+      padding: 0 20vh;
+    }
+  }
+
+  .related h2{
+    margin-left: 20vh;
+  }
+  

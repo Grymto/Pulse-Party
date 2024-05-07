@@ -407,6 +407,8 @@ footer .rights {
 .main-container {
   margin: auto;
   text-align: center;
+  font-family: "Luckiest Guy";
+  font-weight: 200;
 }
 .main-container .homepage-banner img {
   width: 100%;
@@ -414,12 +416,148 @@ footer .rights {
   display: block;
   margin-bottom: 2rem;
 }
-.main-container h1 {
+.main-container .wpcp-product-title {
+  margin: auto;
+  font-family: "Luckiest Guy";
+  font-size: 13px;
+  font-weight: lighter;
+  color: #000000;
+  margin-bottom: 10px;
+  width: 90%;
+  min-height: 45px;
+  text-align: center;
+}
+.main-container .wpcp-slide-image img {
+  border-radius: 10px;
+}
+.main-container .wpcp-all-captions {
+  font-family: "Poppins";
+}
+.main-container .wpcp-post-title {
   font-family: "Luckiest Guy";
   font-weight: 200;
 }
-.main-container h2 {
+.main-container .wpcp-carousel-section.wpcp-product-carousel .wpcp-cart-button a.button {
+  background-color: #feb113;
+  color: white;
+  border-radius: 10px;
+}
+.main-container .wpcp-carousel-section.wpcp-product-carousel .wpcp-cart-button a.button:hover {
+  background-color: #a87610;
+}
+.main-container .wpcp-carousel-section.wpcp-product-carousel .wpcp-all-captions .wpcp-cart-button .added_to_cart {
+  background-color: #feb113;
+  color: white;
+  border-radius: 10px;
+}
+.main-container .wpcp-carousel-section.wpcp-product-carousel .wpcp-all-captions .wpcp-cart-button .added_to_cart:hover {
+  background-color: #a87610;
+}
+.main-container .wpcp-product-price {
+  font-size: 16px;
   font-family: "Poppins";
+  color: black;
+  font-weight: bold;
+  text-align: center;
+}
+#primary {
+  margin: auto;
+  width: 100%;
+  background-color: #edeec7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+}
+#primary .woocommerce-product-gallery__wrapper {
+  width: 40%;
+  text-align: center;
+}
+#primary .woocommerce-product-gallery__wrapper .woocommerce-product-gallery__image a img {
+  border-radius: 10px;
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: block;
+  margin-left: 40vh;
+  margin-top: 1vh;
+}
+#primary .woocommerce-product-gallery__wrapper .flex-control-thumbs {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+#primary .woocommerce-product-gallery__wrapper .flex-control-thumbs li {
+  margin: 0 15px;
+}
+#primary .woocommerce-product-gallery__wrapper .flex-control-thumbs li img {
+  display: block;
+  width: auto;
+  height: auto;
+}
+#primary .summary {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  margin-top: 1vh;
+}
+#primary .summary .product_title {
+  font-size: 24px;
+  font-weight: 200;
+  font-family: "Luckiest Guy";
+}
+#primary .summary .price {
+  font-family: "Poppins";
+  color: black;
+  font-size: 20px;
+  margin: 10px 0;
+  font-weight: bold;
+}
+#primary .summary .woocommerce-product-details__short-description {
+  font-family: "Indie Flower";
+  font-weight: bold;
+}
+#primary .summary .button {
+  background-color: #feb113;
+  color: white;
+  border-radius: 10px;
+}
+#primary .summary .button:hover {
+  background-color: #a87610;
+}
+#primary .summary .product_meta {
+  font-size: 14px;
+  color: black;
+  margin-top: 15px;
+}
+.woocommerce div.product .woocommerce-tabs {
+  margin-top: 20px;
+}
+.woocommerce div.product .woocommerce-tabs ul.tabs {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 20vh;
+  margin-bottom: 10px;
+  list-style: none;
+}
+.woocommerce div.product .woocommerce-tabs ul.tabs li {
+  margin-right: 1vh;
+  background-color: #a87610;
+}
+.woocommerce div.product .woocommerce-tabs ul.tabs li.active {
+  font-weight: bold;
+  background-color: #feb113;
+}
+.woocommerce div.product .woocommerce-tabs .panel {
+  display: block;
+  margin: auto;
+  padding: 0 20vh;
+}
+.related h2 {
+  margin-left: 20vh;
 }
 /* For very large monitors (3440px x 2440px) and above */
 @media only screen and (min-width: 3440px) {
