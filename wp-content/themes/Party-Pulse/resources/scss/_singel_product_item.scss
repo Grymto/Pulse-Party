@@ -1,3 +1,7 @@
+$ny-text: ny text här;
+
+ 
+
 #primary {
     margin: auto;
     width: 100%;
@@ -44,7 +48,12 @@
         font-weight: 200;
         font-family: $main-title-font;
       }
-  
+        // Använd variabeln för att ändra texten
+   
+        a{
+          color: $ny-text;
+        }
+      
       .price {
         font-family: $text-font;
         color: black;
@@ -53,18 +62,26 @@
         font-weight: bold;
       }
 
+      .woocommerce-product-details__short-description {
+        font-family: $secondary-title-font;
+        font-weight: bold;
+      }
+
       .variations, .variations_form {
         width: 100%; 
         display: flex;
         flex-direction: column;
         align-items: flex-start;
+        label{
+          font-family: $text-font;
+          margin-right: 1vh;
+        }
+        select{
+          font-family: $text-font;
+          border-radius: $default-border-radius;
+        }  
       }
-
-      .woocommerce-product-details__short-description {
-        font-family: $secondary-title-font;
-        font-weight: bold;
-      }
-  
+    
       .button {
         background-color: $yellow-color;
         color: white;
@@ -82,6 +99,11 @@
         margin-top: 15px;
       }
     }
+  }
+
+  .woocommerce .quantity .qty {
+    font-family: $text-font;
+    border-radius: $default-border-radius;
   }
   
   .woocommerce div.product .woocommerce-tabs {
@@ -166,3 +188,5 @@
     }
   }
 }
+
+
