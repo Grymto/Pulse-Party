@@ -677,7 +677,6 @@ footer .rights {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 50px 0;
 }
 #primary .woocommerce-product-gallery__wrapper {
   width: 40%;
@@ -693,31 +692,25 @@ footer .rights {
   margin-left: 40vh;
   margin-top: 1vh;
 }
-#primary .woocommerce-product-gallery__wrapper .flex-control-thumbs {
-  margin-top: 20px;
-  display: flex;
-  justify-content: center;
-  list-style: none;
-}
-#primary .woocommerce-product-gallery__wrapper .flex-control-thumbs li {
-  margin: 0 15px;
-}
-#primary .woocommerce-product-gallery__wrapper .flex-control-thumbs li img {
-  display: block;
-  width: auto;
-  height: auto;
-}
 #primary .summary {
   width: 40%;
   display: flex;
   flex-direction: column;
-  align-items: left;
+  align-items: flex-start;
   margin-top: 1vh;
+  padding-left: 0;
+}
+#primary .summary .product_title, #primary .summary .price, #primary .summary .woocommerce-product-details__short-description, #primary .summary .button, #primary .summary .product_meta {
+  text-align: left;
+  width: 100%;
 }
 #primary .summary .product_title {
   font-size: 24px;
   font-weight: 200;
   font-family: "Luckiest Guy";
+}
+#primary .summary a:-webkit-any-link {
+  font-family: "Poppins";
 }
 #primary .summary .price {
   font-family: "Poppins";
@@ -730,10 +723,25 @@ footer .rights {
   font-family: "Indie Flower";
   font-weight: bold;
 }
+#primary .summary .variations, #primary .summary .variations_form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+#primary .summary .variations label, #primary .summary .variations_form label {
+  font-family: "Poppins";
+  margin-right: 1vh;
+}
+#primary .summary .variations select, #primary .summary .variations_form select {
+  font-family: "Poppins";
+  border-radius: 10px;
+}
 #primary .summary .button {
   background-color: #feb113;
   color: white;
   border-radius: 10px;
+  margin-top: 1vh;
 }
 #primary .summary .button:hover {
   background-color: #a87610;
@@ -742,9 +750,15 @@ footer .rights {
   font-size: 14px;
   color: black;
   margin-top: 15px;
+  font-family: "Poppins";
+}
+.woocommerce .quantity .qty {
+  font-family: "Poppins";
+  border-radius: 10px;
 }
 .woocommerce div.product .woocommerce-tabs {
   margin-top: 20px;
+  font-family: "Poppins";
 }
 .woocommerce div.product .woocommerce-tabs ul.tabs {
   display: flex;
@@ -752,14 +766,17 @@ footer .rights {
   padding-left: 20vh;
   margin-bottom: 10px;
   list-style: none;
+  font-family: "Poppins";
 }
 .woocommerce div.product .woocommerce-tabs ul.tabs li {
   margin-right: 1vh;
   background-color: #a87610;
+  color: white;
 }
 .woocommerce div.product .woocommerce-tabs ul.tabs li.active {
   font-weight: bold;
   background-color: #feb113;
+  color: white;
 }
 .woocommerce div.product .woocommerce-tabs .panel {
   display: block;
@@ -768,6 +785,51 @@ footer .rights {
 }
 .related h2 {
   margin-left: 20vh;
+  font-family: "Poppins";
+}
+.woocommerce #review_form #respond textarea {
+  font-family: "Poppins";
+}
+.woocommerce #review_form #respond .form-submit input {
+  background-color: #feb113;
+  color: white;
+}
+@media (max-width: 990px) {
+  #primary {
+    flex-direction: column;
+  }
+  #primary .woocommerce-product-gallery__wrapper, #primary .summary {
+    width: 100%;
+    text-align: center;
+  }
+  #primary .summary {
+    align-items: center;
+  }
+  #primary .summary .product_title, #primary .summary .price, #primary .summary .woocommerce-product-details__short-description, #primary .summary .button, #primary .summary .product_meta {
+    text-align: center;
+    width: 100%;
+  }
+  #primary .summary .variations, #primary .summary .variations_form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #primary .summary .variations .label, #primary .summary .variations .value, #primary .summary .variations_form .label, #primary .summary .variations_form .value {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+  }
+  #primary .summary .variations select, #primary .summary .variations_form select {
+    width: auto;
+    max-width: 100%;
+  }
+  #primary .summary .button {
+    width: 80%;
+    margin: 10px auto;
+  }
 }
 /* For very large monitors (3440px x 2440px) and above */
 @media only screen and (min-width: 3440px) {
