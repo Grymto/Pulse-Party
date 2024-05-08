@@ -1,5 +1,4 @@
-@charset "UTF-8";@import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap");@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Luckiest+Guy&display=swap");@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Luckiest+Guy&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap");@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Luckiest+Guy&display=swap");@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Luckiest+Guy&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 
 #primary {
@@ -534,8 +533,8 @@ footer .rights {
   font-weight: 200;
   font-family: "Luckiest Guy";
 }
-#primary .summary a {
-  color: ny text här;
+#primary .summary a:-webkit-any-link {
+  font-family: "Poppins";
 }
 #primary .summary .price {
   font-family: "Poppins";
@@ -575,6 +574,7 @@ footer .rights {
   font-size: 14px;
   color: black;
   margin-top: 15px;
+  font-family: "Poppins";
 }
 .woocommerce .quantity .qty {
   font-family: "Poppins";
@@ -582,6 +582,7 @@ footer .rights {
 }
 .woocommerce div.product .woocommerce-tabs {
   margin-top: 20px;
+  font-family: "Poppins";
 }
 .woocommerce div.product .woocommerce-tabs ul.tabs {
   display: flex;
@@ -589,6 +590,7 @@ footer .rights {
   padding-left: 20vh;
   margin-bottom: 10px;
   list-style: none;
+  font-family: "Poppins";
 }
 .woocommerce div.product .woocommerce-tabs ul.tabs li {
   margin-right: 1vh;
@@ -607,6 +609,10 @@ footer .rights {
 }
 .related h2 {
   margin-left: 20vh;
+  font-family: "Poppins";
+}
+.woocommerce #review_form #respond textarea {
+  font-family: "Poppins";
 }
 .woocommerce #review_form #respond .form-submit input {
   background-color: #feb113;

@@ -95,5 +95,3 @@ function enqueue_menu_icons_script() {
 add_action( 'wp_enqueue_scripts', 'enqueue_menu_icons_script' );
 
 
-
-
