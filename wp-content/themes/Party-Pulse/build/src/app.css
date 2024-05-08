@@ -404,6 +404,37 @@ footer .rights {
   color: #edeec7;
   font-family: "Poppins";
 }
+.wp-block-woocommerce-cart {
+  background-color: #edeec7;
+  margin: 2rem 10rem;
+}
+.wp-block-woocommerce-cart * {
+  font-family: "Poppins";
+  text-decoration: none;
+  color: black;
+}
+.wp-block-woocommerce-cart .wc-block-cart-items__header,
+.wp-block-woocommerce-cart .wp-block-woocommerce-cart-order-summary-heading-block.wc-block-cart__totals-title,
+.wp-block-woocommerce-cart a.wc-block-components-product-name {
+  font-family: "Luckiest Guy";
+}
+.wp-block-woocommerce-cart .wc-block-components-quantity-selector {
+  background-color: #feb113;
+  border-radius: 10px;
+  border: none;
+}
+.wp-block-woocommerce-cart .wc-block-components-quantity-selector::after {
+  border: none;
+}
+.wp-block-woocommerce-cart .components-button.wc-block-components-button.wp-element-button.wc-block-cart__submit-button.contained {
+  background-color: #feb113;
+  font-family: "Luckiest Guy";
+  border-radius: 10px;
+}
+.wp-block-woocommerce-cart .wc-block-components-radio-control .wc-block-components-radio-control__input:checked::before {
+  color: #feb113;
+  background-color: #feb113;
+}
 .main-container {
   margin: auto;
   text-align: center;
@@ -732,4 +763,5 @@ footer .rights {
 }
 body {
   margin: 0;
+  background-color: #edeec7;
 }
