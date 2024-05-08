@@ -208,6 +208,9 @@ body {
   align-items: center;
   background-color: #feb113; /* Assuming $yellow-color is defined elsewhere */
 }
+.page_item.page-item-9 {
+  display: none;
+}
 .main-navigation ul,
 .primary-menu ul {
   display: flex;

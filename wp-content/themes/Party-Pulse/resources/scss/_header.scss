@@ -10,6 +10,11 @@ body{
     background-color: $yellow-color; /* Assuming $yellow-color is defined elsewhere */
 }
 
+//Check-out page
+.page_item.page-item-9{
+    display: none;
+}
+
 .main-navigation ul,
 .primary-menu ul {
     display: flex;
