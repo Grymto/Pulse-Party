@@ -1,127 +1,334 @@
-body{
-    max-width: 100%;
-    margin: auto;
-    padding: 0;
-}
-.site-header {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    background-color: $yellow-color; /* Assuming $yellow-color is defined elsewhere */
-}
-
-//Check-out page
-.page_item.page-item-9{
-    display: none;
-}
-
-.main-navigation ul,
-.primary-menu ul {
-    display: flex;
-    flex-direction: row;
-    list-style: none; /* Optional: Removes default list styles */
-    margin-left: 2vw; /* Adjust the value as needed */
-}
-
-.main-navigation li,
-.primary-menu li {
-    margin-right: 1vw; /* Adjust spacing between list items */
-    position: unset;
-}
-
-.primary-menu li a {
+header.header {
+  * {
+    font-family: $main-title-font;
     color: black;
     text-decoration: none;
-    font-family: $main-title-font;
-    font-size: 1.5vh; /* Adjust font size as needed */
-}
+    list-style: none;
+    font-size: 1rem;
+  }
 
-.main-icon {
-    margin-left: 2vw;
-}
+  background-color: $yellow-color;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 
-.search-bar {
-    margin-right: 2vw; /* Adjust the value as needed */
-}
-
-.search-form {
+  .headerLeft {
+    left: 0;
+    margin-left: $default-margin-side;
     display: flex;
+    justify-content: center;
     align-items: center;
-}
 
-.search-field {
-    padding: 1vh;
-    border: 0.1vh solid $yellow-color; /* Adjust border thickness as needed */
-    border-radius: 1vw; /* Adjust border radius as needed */
-    width: 30vw; /* Adjust width as needed */
-    background-color: $yellow-color;
-}
+    .kategorier {
+      position: relative;
+      margin: 16px;
+      margin-right: 1rem;
+      background-color: transparent;
+      border: none;
+      height: 2rem;
 
-.search-submit {
-    margin-left: 1vw;
-    padding: 1vh 2vw;
-    background-color: #333;
-    color: #fff;
-    border: none;
-    border-radius: 1vw;
+      a {
+        margin-left: 2rem;
+      }
+
+      a::before {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+        width: 2rem;
+        height: 2rem;
+        background-image: url('https://pulse-party.test/wp-content/uploads/2024/05/burger.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+      }
+    }
+
+    .menu {
+      ul {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-self: center;
+        li {
+          a {
+          }
+        }
+
+        li.home {
+          display: inline-block;
+          position: relative;
+          width: 7rem;
+          height: 7rem;
+          margin-right: 3rem;
+        }
+
+        li.home a {
+          display: block;
+          width: 100%;
+          height: 100%;
+          text-indent: -9999px;
+          position: relative;
+          z-index: 1;
+        }
+
+        li.home a::before {
+          content: '';
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background-image: url('https://pulse-party.test/wp-content/uploads/2024/05/Loga.png');
+          background-size: contain;
+          background-repeat: no-repeat;
+          z-index: 0;
+        }
+
+        li.nyheter {
+          position: relative;
+          margin-right: 3rem;
+
+          a {
+            margin-left: 3rem;
+          }
+
+          a::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 0;
+            transform: translateY(-50%);
+            width: 2rem;
+            height: 2rem;
+            background-image: url('https://pulse-party.test/wp-content/uploads/2024/05/party.png');
+            background-size: contain;
+            background-repeat: no-repeat;
+          }
+        }
+
+        li.topplistan {
+          position: relative;
+          margin-right: 3rem;
+
+          a {
+            margin-left: 2rem;
+          }
+
+          a::before {
+            content: '';
+            position: absolute;
+            top: 55%;
+            left: 0;
+            transform: translateY(-50%);
+            width: 1.5rem;
+            height: 1.5rem;
+            background-image: url('https://pulse-party.test/wp-content/uploads/2024/05/Spaceship.png');
+            background-size: contain;
+            background-repeat: no-repeat;
+          }
+        }
+      }
+    }
+  }
+
+  .headerRight {
+    right: 0;
+    margin-right: $default-margin-side;
+    .menu {
+      ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        li {
+          a {
+          }
+        }
+
+        li.medlem {
+          display: inline-block;
+          position: relative;
+          width: 1.5rem;
+          height: 1.5rem;
+          margin: 1rem;
+          vertical-align: middle;
+        }
+
+        li.medlem a {
+          display: block;
+          width: 100%;
+          height: 100%;
+          text-indent: -9999px;
+          position: relative;
+          z-index: 1;
+        }
+
+        li.medlem a::before {
+          content: '';
+          position: absolute;
+          top: 50%;
+          left: 0;
+          transform: translateY(-50%);
+          width: 1.5rem;
+          height: 1.5rem;
+          background-image: url('https://pulse-party.test/wp-content/uploads/2024/05/customer.png');
+          background-size: contain;
+          background-repeat: no-repeat;
+        }
+
+        li.favoriter {
+          display: inline-block;
+          position: relative;
+          width: 1.5rem;
+          height: 1.5rem;
+          margin: 1rem;
+          vertical-align: middle;
+        }
+
+        li.favoriter a {
+          display: block;
+          width: 100%;
+          height: 100%;
+          text-indent: -9999px;
+          position: relative;
+          z-index: 1;
+        }
+
+        li.favoriter a::before {
+          content: '';
+          position: absolute;
+          top: 50%;
+          left: 0;
+          transform: translateY(-50%);
+          width: 1.5rem;
+          height: 1.5rem;
+          background-image: url('https://pulse-party.test/wp-content/uploads/2024/05/heart.png');
+          background-size: contain;
+          background-repeat: no-repeat;
+        }
+
+        li.cart {
+          display: inline-block;
+          position: relative;
+          width: 1.5rem;
+          height: 1.5rem;
+          margin: 1rem;
+          vertical-align: middle;
+        }
+
+        li.cart a {
+          display: block;
+          width: 100%;
+          height: 100%;
+          text-indent: -9999px;
+          position: relative;
+          z-index: 1;
+        }
+
+        li.cart a::before {
+          content: '';
+          position: absolute;
+          top: 50%;
+          left: 0;
+          transform: translateY(-50%);
+          width: 1.5rem;
+          height: 1.5rem;
+          background-image: url('https://pulse-party.test/wp-content/uploads/2024/05/Shopping-basket.png');
+          background-size: contain;
+          background-repeat: no-repeat;
+        }
+      }
+    }
+  }
+
+  .modal {
+    position: fixed;
+    z-index: 1;
+    left: -100%;
+    top: 0;
+    width: 33.33%;
+    height: 100%;
+    overflow: auto;
+    background-color: $backgroundColor;
+    transition: left 0.5s ease-in-out;
+
+    .modal-content {
+      margin: 3rem 2rem;
+
+      .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .woocommerce.columns-4 {
+        ul.products.columns-4 {
+          display: flex;
+          justify-content: center;
+          flex-direction: column;
+          margin: 0;
+
+          li {
+            margin: 0.5rem;
+
+            a {
+              display: flex;
+              align-items: center;
+
+              img {
+                margin: 0;
+                margin-right: 1rem;
+                height: 4rem;
+                width: 4rem;
+                object-fit: cover;
+                border-radius: $default-border-radius;
+              }
+
+              h2 {
+                display: block ruby;
+                padding: 0;
+              }
+              .count {
+                display: none;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .close {
+    color: $yellow-color;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
     cursor: pointer;
-}
+  }
 
-.search-submit:hover {
-    background-color: #555;
-}
+  .skämt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    flex-direction: column;
+    text-transform: uppercase;
+    p {
+      font-family: $secondary-title-font;
+    }
+  }
 
-.site-header .main-navigation .primary-menu li {
-    list-style-type: none; 
-    padding-left: 2vw; 
-    line-height: 4vh; 
-}
-
-.site-header .main-navigation .primary-menu li .menu-icon {
-    position: relative; 
-    top: 50%; 
-    transform: translateY(-50%);
-}
-
-.menu-icon.icon-1 {
-    left: -6vw; /* Adjust as needed for icon-1 */
-}
-
-.menu-icon.icon-2 {
-    left: -5vw; /* Adjust as needed for icon-2 */
-}
-
-.menu-icon.icon-3 {
-    left: -6vw; /* Adjust as needed for icon-3 */
-}
-
-.menu-icon.icon-1,
-.menu-icon.icon-2,
-.menu-icon.icon-3 {
-    height: 4vh;
-    width: 4vh;
-}
-
-.Icon-div {
-    position: relative;
-
-}
-.cost-icon{
-    height: 4vh;
-    width: 4vh;
-}
-.heart-icon{
-    height: 4vh;
-    width: 4vh;
-}
-.cart-icon{
-    height: 4vh;
-    width: 4vh;
-}
-
-.icon-4 {
-    position: relative;
-    height: 2vh;
-    width: 2vh;
-
+  footer {
+    .content,
+    .payment-icons {
+      display: none;
+    }
+  }
 }

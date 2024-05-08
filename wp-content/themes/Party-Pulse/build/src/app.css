@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap");@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Luckiest+Guy&display=swap");@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Luckiest+Guy&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@charset "UTF-8";@import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap");@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Luckiest+Guy&display=swap");@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Luckiest+Guy&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
 
 
 #primary {
@@ -197,111 +198,286 @@
   border-radius: 10px;
   padding: 20px 40px;
 }
-body {
-  max-width: 100%;
-  margin: auto;
-  padding: 0;
-}
-.site-header {
+header.header {
+  background-color: #feb113;
   display: flex;
-  flex-direction: row;
+  justify-content: space-between;
   align-items: center;
-  background-color: #feb113; /* Assuming $yellow-color is defined elsewhere */
 }
-.page_item.page-item-9 {
-  display: none;
-}
-.main-navigation ul,
-.primary-menu ul {
-  display: flex;
-  flex-direction: row;
-  list-style: none; /* Optional: Removes default list styles */
-  margin-left: 2vw; /* Adjust the value as needed */
-}
-.main-navigation li,
-.primary-menu li {
-  margin-right: 1vw; /* Adjust spacing between list items */
-  position: unset;
-}
-.primary-menu li a {
+header.header * {
+  font-family: "Luckiest Guy";
   color: black;
   text-decoration: none;
-  font-family: "Luckiest Guy";
-  font-size: 1.5vh; /* Adjust font size as needed */
+  list-style: none;
+  font-size: 1rem;
 }
-.main-icon {
-  margin-left: 2vw;
+header.header .headerLeft {
+  left: 0;
+  margin-left: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.search-bar {
-  margin-right: 2vw; /* Adjust the value as needed */
+header.header .headerLeft .kategorier {
+  position: relative;
+  margin: 16px;
+  margin-right: 1rem;
+  background-color: transparent;
+  border: none;
+  height: 2rem;
 }
-.search-form {
+header.header .headerLeft .kategorier a {
+  margin-left: 2rem;
+}
+header.header .headerLeft .kategorier a::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 2rem;
+  height: 2rem;
+  background-image: url("https://pulse-party.test/wp-content/uploads/2024/05/burger.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+header.header .headerLeft .menu ul {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+header.header .headerLeft .menu ul li.home {
+  display: inline-block;
+  position: relative;
+  width: 7rem;
+  height: 7rem;
+  margin-right: 3rem;
+}
+header.header .headerLeft .menu ul li.home a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-indent: -9999px;
+  position: relative;
+  z-index: 1;
+}
+header.header .headerLeft .menu ul li.home a::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("https://pulse-party.test/wp-content/uploads/2024/05/Loga.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: 0;
+}
+header.header .headerLeft .menu ul li.nyheter {
+  position: relative;
+  margin-right: 3rem;
+}
+header.header .headerLeft .menu ul li.nyheter a {
+  margin-left: 3rem;
+}
+header.header .headerLeft .menu ul li.nyheter a::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 2rem;
+  height: 2rem;
+  background-image: url("https://pulse-party.test/wp-content/uploads/2024/05/party.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+header.header .headerLeft .menu ul li.topplistan {
+  position: relative;
+  margin-right: 3rem;
+}
+header.header .headerLeft .menu ul li.topplistan a {
+  margin-left: 2rem;
+}
+header.header .headerLeft .menu ul li.topplistan a::before {
+  content: "";
+  position: absolute;
+  top: 55%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 1.5rem;
+  height: 1.5rem;
+  background-image: url("https://pulse-party.test/wp-content/uploads/2024/05/Spaceship.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+header.header .headerRight {
+  right: 0;
+  margin-right: 10rem;
+}
+header.header .headerRight .menu ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header.header .headerRight .menu ul li.medlem {
+  display: inline-block;
+  position: relative;
+  width: 1.5rem;
+  height: 1.5rem;
+  margin: 1rem;
+  vertical-align: middle;
+}
+header.header .headerRight .menu ul li.medlem a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-indent: -9999px;
+  position: relative;
+  z-index: 1;
+}
+header.header .headerRight .menu ul li.medlem a::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 1.5rem;
+  height: 1.5rem;
+  background-image: url("https://pulse-party.test/wp-content/uploads/2024/05/customer.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+header.header .headerRight .menu ul li.favoriter {
+  display: inline-block;
+  position: relative;
+  width: 1.5rem;
+  height: 1.5rem;
+  margin: 1rem;
+  vertical-align: middle;
+}
+header.header .headerRight .menu ul li.favoriter a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-indent: -9999px;
+  position: relative;
+  z-index: 1;
+}
+header.header .headerRight .menu ul li.favoriter a::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 1.5rem;
+  height: 1.5rem;
+  background-image: url("https://pulse-party.test/wp-content/uploads/2024/05/heart.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+header.header .headerRight .menu ul li.cart {
+  display: inline-block;
+  position: relative;
+  width: 1.5rem;
+  height: 1.5rem;
+  margin: 1rem;
+  vertical-align: middle;
+}
+header.header .headerRight .menu ul li.cart a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-indent: -9999px;
+  position: relative;
+  z-index: 1;
+}
+header.header .headerRight .menu ul li.cart a::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 1.5rem;
+  height: 1.5rem;
+  background-image: url("https://pulse-party.test/wp-content/uploads/2024/05/Shopping-basket.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+header.header .modal {
+  position: fixed;
+  z-index: 1;
+  left: -100%;
+  top: 0;
+  width: 33.33%;
+  height: 100%;
+  overflow: auto;
+  background-color: #edeec7;
+  transition: left 0.5s ease-in-out;
+}
+header.header .modal .modal-content {
+  margin: 3rem 2rem;
+}
+header.header .modal .modal-content .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header.header .modal .modal-content .woocommerce.columns-4 ul.products.columns-4 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0;
+}
+header.header .modal .modal-content .woocommerce.columns-4 ul.products.columns-4 li {
+  margin: 0.5rem;
+}
+header.header .modal .modal-content .woocommerce.columns-4 ul.products.columns-4 li a {
   display: flex;
   align-items: center;
 }
-.search-field {
-  padding: 1vh;
-  border: 0.1vh solid #feb113; /* Adjust border thickness as needed */
-  border-radius: 1vw; /* Adjust border radius as needed */
-  width: 30vw; /* Adjust width as needed */
-  background-color: #feb113;
+header.header .modal .modal-content .woocommerce.columns-4 ul.products.columns-4 li a img {
+  margin: 0;
+  margin-right: 1rem;
+  height: 4rem;
+  width: 4rem;
+  object-fit: contain;
+  border-radius: 10px;
 }
-.search-submit {
-  margin-left: 1vw;
-  padding: 1vh 2vw;
-  background-color: #333;
-  color: #fff;
-  border: none;
-  border-radius: 1vw;
+header.header .modal .modal-content .woocommerce.columns-4 ul.products.columns-4 li a h2 {
+  display: block ruby;
+  padding: 0;
+}
+header.header .modal .modal-content .woocommerce.columns-4 ul.products.columns-4 li a .count {
+  display: none;
+}
+header.header .close {
+  color: #feb113;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+header.header .close:hover,
+header.header .close:focus {
+  color: black;
+  text-decoration: none;
   cursor: pointer;
 }
-.search-submit:hover {
-  background-color: #555;
+header.header .skämt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  flex-direction: column;
+  text-transform: uppercase;
 }
-.site-header .main-navigation .primary-menu li {
-  list-style-type: none;
-  padding-left: 2vw;
-  line-height: 4vh;
+header.header .skämt p {
+  font-family: "Indie Flower";
 }
-.site-header .main-navigation .primary-menu li .menu-icon {
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
-}
-.menu-icon.icon-1 {
-  left: -6vw; /* Adjust as needed for icon-1 */
-}
-.menu-icon.icon-2 {
-  left: -5vw; /* Adjust as needed for icon-2 */
-}
-.menu-icon.icon-3 {
-  left: -6vw; /* Adjust as needed for icon-3 */
-}
-.menu-icon.icon-1,
-.menu-icon.icon-2,
-.menu-icon.icon-3 {
-  height: 4vh;
-  width: 4vh;
-}
-.Icon-div {
-  position: relative;
-}
-.cost-icon {
-  height: 4vh;
-  width: 4vh;
-}
-.heart-icon {
-  height: 4vh;
-  width: 4vh;
-}
-.cart-icon {
-  height: 4vh;
-  width: 4vh;
-}
-.icon-4 {
-  position: relative;
-  height: 2vh;
-  width: 2vh;
+header.header footer .content,
+header.header footer .payment-icons {
+  display: none;
 }
 footer {
   background-color: rgb(46, 181, 82);

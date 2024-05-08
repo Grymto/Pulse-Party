@@ -1,18 +1,16 @@
 <?php 
 /* Template Name: Shop-Template */
-
-
  ?>
 
-<button id="filterBtn">Filter</button>
-<div id="filterCover">
-  <div id="filterPanel">
-    <!-- Your filter settings here -->
-    <button id="closeFilterBtn">Close</button>
-  </div>
-</div>
+
+
+<h2>dfdfd</h2>
+<button onclick="filterButton()">Activate Filter</button>
+<h1>eerrrr</h1>
 
 
 <?php the_content(); ?>
 
 <?php get_footer(); ?>
+
+

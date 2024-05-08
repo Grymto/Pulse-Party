@@ -1,50 +1,111 @@
-<!DOCTYPE html>
-<html <?php language_attributes(); ?>>
-<!DOCTYPE html>
-<html <?php language_attributes(); ?>>
+<html>
+
 <head>
-    <meta charset="<?php bloginfo('charset'); ?>">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <?php wp_head(); ?> <!-- Important WordPress hook for including styles, scripts, and other head elements -->
-    <link rel="stylesheet" href="style.css"> <!-- Link to your external CSS file -->
+    <?php wp_head() ?>
 </head>
 
-<body <?php body_class(); ?>>
+<body>
+    <?php wp_body_open(); ?>
 
-<header class="site-header">
-<a href="https://pulse-party.test/home/">
-    <img class="main-icon" src="/wp-content/uploads/2024/04/Loga-100x100.png" alt="Icon">
-</a>
-    <nav class="main-navigation">
-        <?php
-        wp_nav_menu(
-            array(
-                'theme_location' => 'Header',
-                'menu_class'     => 'primary-menu',
-                'container'      => false,
-            )
-        );
-        ?>
-    </nav>
-        <div class="search-bar">
-            <form role="search" method="get" class="search-form" action="<?php echo esc_url( home_url( '/' ) ); ?>">
-            <img src="/wp-content/uploads/loupe.png" alt="Icon" class="icon-4">
-            <input type="search" class="search-field" placeholder="Sök bland 25.000+ produkter..." value="<?php echo get_search_query(); ?>" name="s" />
-            <i class="icon-search"></i>
+    <header class="header">
+        <div class="headerleft">
+        
+        <div class="logo">
+            <?php
+            $menu = array(
+                'theme_location' => 'headermenu-home',
+                'menu_id' => 'headermenu-home',
+                'container' => 'nav',
+                'container_class' => 'menu'
+            );
+            
+            wp_nav_menu($menu);
+            ?>
+            
+          </div>
+        
+          <button class="kategorier" id="openModalBtn">
+          <a href="">kategorier</a>  
+          </button>
+            
+            
+            <?php
+            $menu = array(
+                'theme_location' => 'headermenu-left',
+                'menu_id' => 'headermenu-left',
+                'container' => 'nav',
+                'container_class' => 'menu'
+            );
+            
+            wp_nav_menu($menu);
+            ?>
         </div>
-        </form>
+
+<div class="headerRight">
+<?php
+            $menu = array(
+                'theme_location' => 'headermenu-right',
+                'menu_id' => 'headermenu-right',
+                'container' => 'nav',
+                'container_class' => 'menu'
+            );
+
+            wp_nav_menu($menu);
+            ?>
+
+
+</div>
+
+
+
+
+
+<div id="modal" class="modal">
+    <div class="modal-content">
+      
+    <div class="header"> <h2>Kategorier</h2>
+      <span class="close">X</span></div>
+   
+    <?php echo do_shortcode('[product_categories]'); ?>
+
+   
+
     </div>
+    <div class="skämt"><p id="skämt">Vad sa ölet till champagnen?</p>
+    <p id="skämt">Du är så bubblig idag!</p></div>
+    
+    <?php get_footer();?>
+</div>
 
-    <div class="Icon-div">
-    <img class="cost-icon" src="/wp-content\uploads\customer.png" alt="Icon">
-    <img class="heart-icon" src="/wp-content\uploads\heart.png" alt="Icon">
-    <a href="https://pulse-party.test/cart/">
-    <img class="cart-icon" src="/wp-content/uploads/Shopping basket.png" alt="Icon">
-    </a>
-    </div>
+    </header>
 
-</header>
+    </body>
 
-</body>
+<script>
+
+var modal = document.getElementById("modal");
+var btn = document.getElementById("openModalBtn");
+var span = document.getElementsByClassName("close")[0];
+
+
+btn.onclick = function() {
+  event.preventDefault(); 
+  modal.style.left = "0";
+}
+
+span.onclick = function() {
+  modal.style.left = "-100%";
+}
+
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.left = "-100%";
+  }
+}
+
+
+
+</script>
+
 </html>
 

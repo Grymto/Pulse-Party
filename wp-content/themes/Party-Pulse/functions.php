@@ -73,7 +73,7 @@ function add_custom_image_sizes() {
 }
 add_action('after_setup_theme', 'add_custom_image_sizes');
 
-//Custom Footer Menu
+//Custom Footer & headerMenu
 function register_my_menus() {
     register_nav_menus(
         array(
@@ -81,11 +81,15 @@ function register_my_menus() {
             'footer-information' => __('Footer Information'), 
             'footer-kundservice' => __('Footer Kundservice'),
             'footer-sociala-medier' => __('Footer Sociala Medier'),
-            'footer-här-finns-vi' => __('Footer Här Finns Vi')
+            'footer-här-finns-vi' => __('Footer Här Finns Vi'),
+            'headermenu-left' => __('headermenu-left'),
+            'headermenu-right' => __('headermenu-right'),
+            'headermenu-home' => __('headermenu-home')
         )
     );
 }
 add_action('init', 'register_my_menus');
+
 
 
 //menu icons

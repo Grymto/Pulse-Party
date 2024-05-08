@@ -1,0 +1,127 @@
+body{
+    max-width: 100%;
+    margin: auto;
+    padding: 0;
+}
+.site-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: $yellow-color; /* Assuming $yellow-color is defined elsewhere */
+}
+
+//Check-out page
+.page_item.page-item-9{
+    display: none;
+}
+
+.main-navigation ul,
+.primary-menu ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none; /* Optional: Removes default list styles */
+    margin-left: 2vw; /* Adjust the value as needed */
+}
+
+.main-navigation li,
+.primary-menu li {
+    margin-right: 1vw; /* Adjust spacing between list items */
+    position: unset;
+}
+
+.primary-menu li a {
+    color: black;
+    text-decoration: none;
+    font-family: $main-title-font;
+    font-size: 1.5vh; /* Adjust font size as needed */
+}
+
+.main-icon {
+    margin-left: 2vw;
+}
+
+.search-bar {
+    margin-right: 2vw; /* Adjust the value as needed */
+}
+
+.search-form {
+    display: flex;
+    align-items: center;
+}
+
+.search-field {
+    padding: 1vh;
+    border: 0.1vh solid $yellow-color; /* Adjust border thickness as needed */
+    border-radius: 1vw; /* Adjust border radius as needed */
+    width: 30vw; /* Adjust width as needed */
+    background-color: $yellow-color;
+}
+
+.search-submit {
+    margin-left: 1vw;
+    padding: 1vh 2vw;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 1vw;
+    cursor: pointer;
+}
+
+.search-submit:hover {
+    background-color: #555;
+}
+
+.site-header .main-navigation .primary-menu li {
+    list-style-type: none; 
+    padding-left: 2vw; 
+    line-height: 4vh; 
+}
+
+.site-header .main-navigation .primary-menu li .menu-icon {
+    position: relative; 
+    top: 50%; 
+    transform: translateY(-50%);
+}
+
+.menu-icon.icon-1 {
+    left: -6vw; /* Adjust as needed for icon-1 */
+}
+
+.menu-icon.icon-2 {
+    left: -5vw; /* Adjust as needed for icon-2 */
+}
+
+.menu-icon.icon-3 {
+    left: -6vw; /* Adjust as needed for icon-3 */
+}
+
+.menu-icon.icon-1,
+.menu-icon.icon-2,
+.menu-icon.icon-3 {
+    height: 4vh;
+    width: 4vh;
+}
+
+.Icon-div {
+    position: relative;
+
+}
+.cost-icon{
+    height: 4vh;
+    width: 4vh;
+}
+.heart-icon{
+    height: 4vh;
+    width: 4vh;
+}
+.cart-icon{
+    height: 4vh;
+    width: 4vh;
+}
+
+.icon-4 {
+    position: relative;
+    height: 2vh;
+    width: 2vh;
+
+}
