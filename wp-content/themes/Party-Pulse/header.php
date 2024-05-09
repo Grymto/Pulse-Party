@@ -74,7 +74,7 @@
     <div class="skämt"><p id="skämt">Vad sa ölet till champagnen?</p>
     <p id="skämt">Du är så bubblig idag!</p></div>
     
-    <?php get_footer();?>
+    <?php include('footerModul.php') ?>
 </div>
 
     </header>
@@ -87,8 +87,7 @@ var modal = document.getElementById("modal");
 var btn = document.getElementById("openModalBtn");
 var span = document.getElementsByClassName("close")[0];
 
-
-btn.onclick = function() {
+btn.onclick = function(event) {
   event.preventDefault(); 
   modal.style.left = "0";
 }
@@ -98,11 +97,10 @@ span.onclick = function() {
 }
 
 window.onclick = function(event) {
-  if (event.target == modal) {
+  if (event.target === modal) {
     modal.style.left = "-100%";
   }
 }
-
 
 
 </script>
