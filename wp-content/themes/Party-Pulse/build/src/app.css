@@ -107,16 +107,13 @@
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  margin: 4rem 9.7rem 4rem 9.7rem;
+  margin: 4rem 9.7rem 4rem 12.6rem;
 }
 #primary main .products.columns-4 .product {
   position: relative;
   display: flex;
-  justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: 16rem;
-  padding: 10px;
 }
 #primary main .products.columns-4 .product img {
   border-radius: 10px;
@@ -164,6 +161,14 @@
 }
 #primary main .products.columns-4 .product a.added_to_cart {
   display: none;
+}
+#primary main .woocommerce-pagination {
+  margin-bottom: 5rem;
+}
+#primary main .woocommerce-pagination * {
+  background-color: #feb113;
+  color: black;
+  font-family: "Poppins";
 }
 #sidebar {
   display: none;

@@ -133,17 +133,17 @@
       align-items: center;
       flex-wrap: wrap;
       margin: 4rem calc($default-margin-side - 0.3rem) 4rem
-        calc($default-margin-side - 0.3rem);
+        calc($default-margin-side + 2.6rem);
 
       //each product
       .product {
         position: relative;
         display: flex;
-        justify-content: center;
+        //justify-content: center;
         align-items: center;
         flex-direction: column;
-        width: 16rem;
-        padding: 10px;
+        //width: 16rem;
+        //padding: 10px;
 
         img {
           border-radius: $default-border-radius;
@@ -198,6 +198,16 @@
           display: none;
         }
       }
+    }
+
+    .woocommerce-pagination {
+      * {
+        background-color: $yellow-color;
+        color: black;
+        font-family: $text-font;
+      }
+
+      margin-bottom: 5rem;
     }
   }
 }
