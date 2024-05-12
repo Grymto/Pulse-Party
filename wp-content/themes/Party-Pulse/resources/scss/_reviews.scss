@@ -1,0 +1,97 @@
+
+.description{
+    p{
+        font-family: $main-title-font;
+    }
+}
+
+.woocommerce #reviews #comments ol.commentlist li .comment-text{
+    border: 2px solid $yellow-color;
+    box-shadow: 0 0 10px rgba(0, 0.3, 0.3, 0.5);
+}
+
+
+.woocommerce .star-rating::before{
+    content: "sssss";
+    color: black;
+    float: left;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+
+.woocommerce .star-rating span::before{
+    content: "SSSSS";
+    top: 0;
+    position: absolute;
+    left: 0;
+    color: red;
+}
+
+
+.comment-respond{
+    span{
+        font-size: 18px;
+        font-family: $secondary-title-font;
+    }
+    p{
+        font-size: 18px;
+        font-family: $secondary-title-font;
+    }
+    form{
+        div{
+            label{
+                font-size: 18px;
+                font-family: $secondary-title-font;
+            }
+        }
+    }
+}
+.woocommerce p.stars a{
+    position: relative;
+    height: 1em;
+    width: 1em;
+    text-indent: -999em;
+    display: inline-block;
+    text-decoration: none;
+    color: red;
+}
+
+.woocommerce #review_form #respond textarea{
+    font-family: $main-title-font;
+    border: 2px solid $yellow-color;
+    box-shadow: 0 0 10px rgba(0, 0.3, 0.3, 0.5);
+}
+
+#author{
+    font-family: $main-title-font;
+    border: 2px solid $yellow-color;
+    box-shadow: 0 0 10px rgba(0, 0.3, 0.3, 0.5);
+    margin-left: 0.3%;
+}
+
+#email{
+    font-family: $main-title-font;
+    border: 2px solid $yellow-color;
+    box-shadow: 0 0 10px rgba(0, 0.3, 0.3, 0.5);
+    margin-left: 0.5%;
+}
+
+.woocommerce #review_form #respond .form-submit input:hover {
+    background-color: $yellow-color; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    color: lightgreen;
+}
+
+
+#primary .summary a:-webkit-any-link {
+    font-family: $secondary-title-font;
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+}
+
+#wc-stripe-payment-request-wrapper{
+    display: none !important;
+}

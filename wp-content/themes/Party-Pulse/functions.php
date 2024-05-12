@@ -92,9 +92,4 @@ add_action('init', 'register_my_menus');
 
 
 
-//menu icons
-function enqueue_menu_icons_script() {
-    wp_enqueue_script( 'menu-icons-script', get_template_directory_uri() . '/menu-icons.js', array(), '1.0', true );
-}
 
-add_action( 'wp_enqueue_scripts', 'enqueue_menu_icons_script' );

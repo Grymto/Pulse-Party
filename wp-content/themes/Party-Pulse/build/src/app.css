@@ -1155,6 +1155,80 @@ footer .rights {
     width: 2vh;
   }
 }
+.description p {
+  font-family: "Luckiest Guy";
+}
+.woocommerce #reviews #comments ol.commentlist li .comment-text {
+  border: 2px solid #feb113;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.woocommerce .star-rating::before {
+  content: "sssss";
+  color: black;
+  float: left;
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+.woocommerce .star-rating span::before {
+  content: "SSSSS";
+  top: 0;
+  position: absolute;
+  left: 0;
+  color: red;
+}
+.comment-respond span {
+  font-size: 18px;
+  font-family: "Indie Flower";
+}
+.comment-respond p {
+  font-size: 18px;
+  font-family: "Indie Flower";
+}
+.comment-respond form div label {
+  font-size: 18px;
+  font-family: "Indie Flower";
+}
+.woocommerce p.stars a {
+  position: relative;
+  height: 1em;
+  width: 1em;
+  text-indent: -999em;
+  display: inline-block;
+  text-decoration: none;
+  color: red;
+}
+.woocommerce #review_form #respond textarea {
+  font-family: "Luckiest Guy";
+  border: 2px solid #feb113;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+#author {
+  font-family: "Luckiest Guy";
+  border: 2px solid #feb113;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  margin-left: 0.3%;
+}
+#email {
+  font-family: "Luckiest Guy";
+  border: 2px solid #feb113;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  margin-left: 0.5%;
+}
+.woocommerce #review_form #respond .form-submit input:hover {
+  background-color: #feb113;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  color: lightgreen;
+}
+#primary .summary a:-webkit-any-link {
+  font-family: "Indie Flower";
+  text-decoration: none;
+  color: black;
+  font-size: 1rem;
+}
+#wc-stripe-payment-request-wrapper {
+  display: none !important;
+}
 body {
   margin: 0;
   background-color: #edeec7;
