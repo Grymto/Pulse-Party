@@ -16,7 +16,7 @@
  * @see         woocommerce_breadcrumb()
  */
 
-if ( ! defined( 'ABSPATH' ) ) {
+ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
@@ -24,20 +24,19 @@ if ( ! empty( $breadcrumb ) ) {
 
 	echo $wrap_before;
 
-	foreach ( $breadcrumb as $key => $crumb ) {
+	$shop_page_id = wc_get_page_id( 'shop' );
 
-		echo $before;
+	if ( is_shop() ) {
+		echo $before . '<a href="' . esc_url( get_permalink( $shop_page_id ) ) . '">' . esc_html( "Shop" ) . '</a>' . $after; 
+	} else {
+		echo $before . '<a href="' . esc_url( get_permalink( $shop_page_id ) ) . '">' . esc_html( "Shop" ) . '</a>' . $after;
 
-		if ( ! empty( $crumb[1] ) && sizeof( $breadcrumb ) !== $key + 1 ) {
-			echo '<a href="' . esc_url( $crumb[1] ) . '">' . esc_html( $crumb[0] ) . '</a>';
-		} else {
-			echo '<a href="' . esc_url( $crumb[1] ) . '">' . esc_html( $crumb[0] ) . '</a>';
-		}
-
-		echo $after;
-
-		if ( sizeof( $breadcrumb ) !== $key + 1 ) {
-			echo $delimiter;
+		foreach ( $breadcrumb as $key => $crumb ) {
+			if ( $key !== 0 ) {
+				echo $before;
+				echo '<a href="' . esc_url( $crumb[1] ) . '">' . esc_html( $crumb[0] ) . '</a>';
+				echo $after;
+			}
 		}
 	}
 
