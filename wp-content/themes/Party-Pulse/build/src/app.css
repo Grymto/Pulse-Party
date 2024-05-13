@@ -1238,6 +1238,26 @@ footer .rights {
 #wc-stripe-payment-request-wrapper {
   display: none !important;
 }
+.about-us {
+  width: 80%;
+  text-align: center;
+  font-family: "Poppins";
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.about-us .big-text {
+  font-family: "Luckiest Guy";
+  font-weight: 200;
+}
+.about-us .small-text {
+  font-family: "Indie Flower";
+}
+.about-us .introduction, .about-us .mission, .about-us .values, .about-us .vision, .about-us .engagement {
+  border-top: 2px dashed #ff9066;
+  padding-top: 20px;
+  margin-bottom: 40px;
+}
 body {
   margin: 0;
   background-color: #edeec7;

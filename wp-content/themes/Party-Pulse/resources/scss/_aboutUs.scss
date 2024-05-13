@@ -1,0 +1,21 @@
+.about-us{
+    width: 80%;
+    text-align: center; 
+    font-family: $text-font;
+    padding: 20px; 
+    margin-bottom: 20px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+.big-text{
+    font-family: $main-title-font;
+    font-weight: 200;
+}
+.small-text{
+    font-family: $secondary-title-font;
+}
+.introduction, .mission, .values, .vision, .engagement {
+    border-top: 2px dashed #ff9066; 
+    padding-top: 20px;
+    margin-bottom: 40px; 
+}
+}
