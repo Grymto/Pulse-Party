@@ -1,7 +1,7 @@
 
 .description{
     p{
-        font-family: $main-title-font;
+        font-family: $text-font;
     }
 }
 
@@ -59,31 +59,35 @@
 }
 
 .woocommerce #review_form #respond textarea{
-    font-family: $main-title-font;
+    font-family: $text-font;
     border: 2px solid $yellow-color;
     box-shadow: 0 0 10px rgba(0, 0.3, 0.3, 0.5);
 }
 
 #author{
-    font-family: $main-title-font;
+    font-family: $text-font;
     border: 2px solid $yellow-color;
     box-shadow: 0 0 10px rgba(0, 0.3, 0.3, 0.5);
     margin-left: 0.3%;
 }
 
 #email{
-    font-family: $main-title-font;
+    font-family: $text-font;
     border: 2px solid $yellow-color;
     box-shadow: 0 0 10px rgba(0, 0.3, 0.3, 0.5);
     margin-left: 0.5%;
 }
 
-.woocommerce #review_form #respond .form-submit input:hover {
+.woocommerce #review_form #respond .form-submit input{
     background-color: $yellow-color; 
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
-    color: lightgreen;
+    color: black;
+    border-radius: $default-border-radius;
 }
 
+.woocommerce #review_form #respond .form-submit input:hover {
+    background-color: $selected-yellow-color; 
+    color:white;
+}
 
 #primary .summary a:-webkit-any-link {
     font-family: $secondary-title-font;
