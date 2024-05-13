@@ -1156,7 +1156,7 @@ footer .rights {
   }
 }
 .description p {
-  font-family: "Luckiest Guy";
+  font-family: "Poppins";
 }
 .woocommerce #reviews #comments ol.commentlist li .comment-text {
   border: 2px solid #feb113;
@@ -1199,18 +1199,18 @@ footer .rights {
   color: red;
 }
 .woocommerce #review_form #respond textarea {
-  font-family: "Luckiest Guy";
+  font-family: "Poppins";
   border: 2px solid #feb113;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 #author {
-  font-family: "Luckiest Guy";
+  font-family: "Poppins";
   border: 2px solid #feb113;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   margin-left: 0.3%;
 }
 #email {
-  font-family: "Luckiest Guy";
+  font-family: "Poppins";
   border: 2px solid #feb113;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   margin-left: 0.5%;

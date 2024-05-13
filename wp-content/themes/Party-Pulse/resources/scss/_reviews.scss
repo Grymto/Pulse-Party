@@ -1,7 +1,7 @@
 
 .description{
     p{
-        font-family: $main-title-font;
+        font-family: $text-font;
     }
 }
 
@@ -59,20 +59,20 @@
 }
 
 .woocommerce #review_form #respond textarea{
-    font-family: $main-title-font;
+    font-family: $text-font;
     border: 2px solid $yellow-color;
     box-shadow: 0 0 10px rgba(0, 0.3, 0.3, 0.5);
 }
 
 #author{
-    font-family: $main-title-font;
+    font-family: $text-font;
     border: 2px solid $yellow-color;
     box-shadow: 0 0 10px rgba(0, 0.3, 0.3, 0.5);
     margin-left: 0.3%;
 }
 
 #email{
-    font-family: $main-title-font;
+    font-family: $text-font;
     border: 2px solid $yellow-color;
     box-shadow: 0 0 10px rgba(0, 0.3, 0.3, 0.5);
     margin-left: 0.5%;
