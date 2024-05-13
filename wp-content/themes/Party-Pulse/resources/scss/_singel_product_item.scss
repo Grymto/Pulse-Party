@@ -77,12 +77,13 @@
     
       .button {
         background-color: $yellow-color;
-        color: white;
+        color:black;
         border-radius: $default-border-radius;
         margin-top: 1vh;
   
         &:hover {
           background-color: $selected-yellow-color;
+          color: white;
         }
       }
   

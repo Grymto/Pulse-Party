@@ -104,7 +104,7 @@
 #primary main .products.columns-4 {
   position: relative;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
   flex-wrap: wrap;
   margin: 4rem 9.7rem 4rem 12.6rem;
@@ -149,15 +149,19 @@
   text-decoration: none;
 }
 #primary main .products.columns-4 .product .add_to_cart_button {
-  color: rgb(0, 0, 0);
+  color: black;
   background-color: #feb113;
   border-radius: 5px;
   width: 70%;
   margin: 1rem 0px;
   text-align: center;
-  font-size: 12px;
+  font-size: 16.45px;
   font-weight: lighter;
   padding: 15px 10px;
+}
+#primary main .products.columns-4 .product .add_to_cart_button:hover {
+  background-color: #a87610;
+  color: white;
 }
 #primary main .products.columns-4 .product a.added_to_cart {
   display: none;
@@ -664,7 +668,7 @@ footer .rights {
 }
 .main-container .wpcp-carousel-section.wpcp-product-carousel .wpcp-cart-button a.button {
   background-color: #feb113;
-  color: white;
+  color: black;
   border-radius: 10px;
 }
 .main-container .wpcp-carousel-section.wpcp-product-carousel .wpcp-cart-button a.button:hover {
@@ -672,7 +676,7 @@ footer .rights {
 }
 .main-container .wpcp-carousel-section.wpcp-product-carousel .wpcp-all-captions .wpcp-cart-button .added_to_cart {
   background-color: #feb113;
-  color: white;
+  color: black;
   border-radius: 10px;
 }
 .main-container .wpcp-carousel-section.wpcp-product-carousel .wpcp-all-captions .wpcp-cart-button .added_to_cart:hover {
@@ -754,12 +758,13 @@ footer .rights {
 }
 #primary .summary .button {
   background-color: #feb113;
-  color: white;
+  color: black;
   border-radius: 10px;
   margin-top: 1vh;
 }
 #primary .summary .button:hover {
   background-color: #a87610;
+  color: white;
 }
 #primary .summary .product_meta {
   font-size: 14px;
@@ -1215,10 +1220,14 @@ footer .rights {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   margin-left: 0.5%;
 }
-.woocommerce #review_form #respond .form-submit input:hover {
+.woocommerce #review_form #respond .form-submit input {
   background-color: #feb113;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  color: lightgreen;
+  color: black;
+  border-radius: 10px;
+}
+.woocommerce #review_form #respond .form-submit input:hover {
+  background-color: #a87610;
+  color: white;
 }
 #primary .summary a:-webkit-any-link {
   font-family: "Indie Flower";
