@@ -1,0 +1,26 @@
+
+.add-to-wishlist-before_image .yith-wcwl-add-to-wishlist {
+    position: relative;
+    top: 70px;           
+    margin-left: 200px;        
+    z-index: 100;        
+    i {
+        color: red;        
+    }
+}
+.wishlist-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px; 
+}
+
+.yith-wcwl-form {
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    padding: 4rem;
+    margin: auto;
+    font-family: $text-font;
+}
