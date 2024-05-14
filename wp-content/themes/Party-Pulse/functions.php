@@ -93,7 +93,7 @@ add_action('init', 'register_my_menus');
 
 //fireworks
 function enqueue_fireworks_script() {
-    if ( is_page('om-oss') ) { //för specifik sida 
+    if ( is_page('home') ) { //för specifik sida 
         wp_enqueue_script('canvas-confetti', 'https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js', array(), null, true);
         wp_enqueue_script('custom-fireworks', get_template_directory_uri() . '/resources/js/fireworks.js', array('canvas-confetti'), null, true);
     }
