@@ -689,6 +689,9 @@ footer .rights {
   font-weight: bold;
   text-align: center;
 }
+.swiper-wrapper {
+  height: 600px;
+}
 #primary {
   margin: auto;
   width: 100%;
