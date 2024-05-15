@@ -716,6 +716,9 @@ footer .rights {
   margin: auto;
   font-family: "Poppins";
 }
+table.shop_table.wishlist_table tbody {
+  background-color: #ffff00 !important;
+}
 #primary {
   margin: auto;
   width: 100%;
