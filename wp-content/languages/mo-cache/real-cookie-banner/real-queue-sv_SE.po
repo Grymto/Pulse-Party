@@ -1,0 +1,41 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: n/a\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: n/a\n"
+"PO-Revision-Date: 2023-11-06 10:18+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"Language-Team: Swedish <https://translate.devowl.io/projects/devowl-wp-real-"
+"queue-backend-php/develop/sv/>\n"
+"Language: sv_SE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.1.1\n"
+
+#: queue/Executor.php:59
+msgid "Process failed due to an unexpected error."
+msgstr "Processen misslyckades på grund av ett oväntat fel."
+
+#. translators:
+#: queue/Executor.php:141
+msgid ""
+"%1$d / %2$d (thereof %3$d remaining) tasks could not be executed properly."
+msgstr ""
+"%1$d / %2$d (varav %3$d återstående) uppgifter kunde inte utföras ordentligt."
+
+#: queue/Job.php:312
+msgid ""
+"The passed callable persisted to the job cannot be called (`is_callable`)"
+msgstr ""
+"Den klarade anropsbara som bestod till jobbet kan inte kallas för "
+"(`is_callable`)"
+
+#: queue/Job.php:343
+msgid "This job is already running in another thread on your server."
+msgstr "Jobbet körs redan i en annan tråd på din server."
+
+#: queue/Job.php:359
+msgid "Unexpected exception."
+msgstr "Oväntat undantag."

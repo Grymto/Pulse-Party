@@ -1,0 +1,33 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: n/a\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: n/a\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.10.0\n"
+
+#: queue/Executor.php:59
+msgid "Process failed due to an unexpected error."
+msgstr ""
+
+#. translators:
+#: queue/Executor.php:141
+msgid "%1$d / %2$d (thereof %3$d remaining) tasks could not be executed properly."
+msgstr ""
+
+#: queue/Job.php:312
+msgid "The passed callable persisted to the job cannot be called (`is_callable`)"
+msgstr ""
+
+#: queue/Job.php:343
+msgid "This job is already running in another thread on your server."
+msgstr ""
+
+#: queue/Job.php:359
+msgid "Unexpected exception."
+msgstr ""

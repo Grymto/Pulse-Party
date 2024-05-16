@@ -1,0 +1,45 @@
+<?php
+
+/**
+ * ItemisCreate.php
+ *
+ * @package Embera
+ * @author Michael Pratt <yo@michael-pratt.com>
+ * @link   http://www.michael-pratt.com/
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
+namespace DevOwl\RealCookieBanner\Vendor\Embera\Provider;
+
+use DevOwl\RealCookieBanner\Vendor\Embera\Url;
+/**
+ * ItemisCreate Provider
+ *
+ * @link https://play.itemis.io
+ * @internal
+ */
+class ItemisCreate extends ProviderAdapter implements ProviderInterface
+{
+    /** inline {@inheritdoc} */
+    protected $endpoint = 'https://create.storage.api.itemis.io/api/embed';
+    /** inline {@inheritdoc} */
+    protected static $hosts = ['play.itemis.io'];
+    /** inline {@inheritdoc} */
+    protected $allowedParams = ['maxwidth', 'maxheight'];
+    /** inline {@inheritdoc} */
+    protected $httpsSupport = \true;
+    /** inline {@inheritdoc} */
+    protected $responsiveSupport = \true;
+    /** inline {@inheritdoc} */
+    public function validateUrl(Url $url)
+    {
+        return (bool) \preg_match('~itemis\\.io/\\?~i', (string) $url);
+    }
+    /** inline {@inheritdoc} */
+    public function normalizeUrl(Url $url)
+    {
+        $url->convertToHttps();
+        return $url;
+    }
+}

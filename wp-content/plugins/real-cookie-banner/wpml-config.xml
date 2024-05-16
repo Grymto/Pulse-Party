@@ -1,0 +1,24 @@
+<!-- https://wpml.org/documentation/support/language-configuration-files/ -->
+<wpml-config>
+    <taxonomies>
+        <taxonomy translate="1">rcb-cookie-group</taxonomy>
+    </taxonomies>
+    <custom-types>
+        <custom-type translate="1">rcb-cookie</custom-type>
+        <custom-type translate="1">rcb-blocker</custom-type>
+        <custom-type translate="1">rcb-tcf-vendor-conf</custom-type>
+        <custom-type translate="1">rcb-banner-link</custom-type>
+    </custom-types>
+    <!-- Implemented through custom sync <admin-texts></admin-texts> --> 
+    <!-- Implemented through custom sync <custom-term-fields></custom-term-fields> --> 
+    <!-- Implemented through custom sync <custom-fields></custom-fields> --> 
+    <shortcodes>
+        <shortcode>
+            <tag>rcb-consent-type</tag>
+            <attributes>
+                <attribute>text</attribute>
+                <attribute>successmessage</attribute>
+            </attributes>
+        </shortcode>
+    </shortcodes>
+</wpml-config>

@@ -51,20 +51,30 @@ footer {
 
                     ul {
                         padding: 0;
-                    }
+                        li.Adress a{
+                            text-decoration: none;
+                            cursor:default;
+                            &:hover {
+                                text-decoration: none;
+                               
+                            }
+                        }
 
                     li {
                         list-style-type: none;
                         padding: 5px 10px;
                         font-family: $text-font;
-
+                       
                         a {
                             color: #edeec7;
                             text-decoration: none;
+                           
 
                             &:hover {
                                 text-decoration: underline;
+                               
                             }
+                           
                         }
                     }
                 }
@@ -116,4 +126,6 @@ footer {
         color: #edeec7;
         font-family: $text-font;
     }
+}
+
 }

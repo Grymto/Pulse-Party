@@ -1,0 +1,241 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: n/a\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: n/a\n"
+"PO-Revision-Date: 2024-04-25 12:39+0000\n"
+"Last-Translator: Matthias Günter <matthias.guenter@devowl.io>\n"
+"Language-Team: Swedish <https://translate.devowl.io/projects/devowl-wp-real-"
+"utils-backend-php/develop/sv/>\n"
+"Language: sv_SE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.4.3\n"
+
+#: cross/CrossRealCategoryLibrary.php:50
+msgid "Do you manage many categories?"
+msgstr "Hanterar du många kategorier?"
+
+#: cross/CrossRealCategoryLibrary.php:52
+msgid ""
+"Do you still create your categories this way? Get an explorer-like tree view "
+"directly in your posts/page tables!"
+msgstr ""
+"Skapar du fortfarande dina kategorier på detta sätt? Skaffa en utforskar-lik "
+"trädvy direkt i dina listor över inlägg/sidor!"
+
+#: cross/CrossRealCategoryLibrary.php:59
+msgid "Manage product categories/attributes?"
+msgstr "Hantera produktkategorier/attribut?"
+
+#: cross/CrossRealCategoryLibrary.php:61
+msgid ""
+"Do you still create your product categories and attributes this way? Get an "
+"explorer-like tree view directly into your WooCommerce products table!"
+msgstr ""
+"Skapar du fortfarande dina produktkategorier och attribut på detta sätt? "
+"Skaffa en utforskar-lik trädvy direkt i din produktlista i WooCommerce!"
+
+#: cross/CrossRealCategoryLibrary.php:68
+msgid "Paginate without reload?"
+msgstr "Paginera utan att ladda om?"
+
+#: cross/CrossRealCategoryLibrary.php:70
+msgid ""
+"Do you want to paginate through your posts and pages without having to "
+"reload the complete page?"
+msgstr ""
+"Vill du paginera genom dina inlägg och sidor utan att behöva ladda om hela "
+"sidan?"
+
+#: cross/CrossRealCategoryLibrary.php:77
+msgid "Assigning much faster?"
+msgstr "Tilldela mycket snabbare?"
+
+#: cross/CrossRealCategoryLibrary.php:79
+msgid ""
+"You can move or insert a post or page directly into a category without "
+"having to deal with checkboxes."
+msgstr ""
+"Du kan flytta och infoga ett inlägg eller en sida direkt i en kategori utan "
+"at behöva strula med kryssrutor."
+
+#: cross/CrossRealCookieBanner.php:88
+msgid "Is your website GDPR compliant?"
+msgstr "Lever din sida upp till kraven i GDPR?"
+
+#: cross/CrossRealCookieBanner.php:89
+msgid "cookie-banner-frontend.png"
+msgstr "cookie-banner-frontend.png"
+
+#: cross/CrossRealCookieBanner.php:90
+msgid ""
+"Websites targeting EU users and setting non-essential cookies need an opt-in "
+"cookie banner. We recommend Real Cookie Banner as an ePrivacy Policy and "
+"GDPR compliant solution for WordPress."
+msgstr ""
+"Hemsidor som riktar sig till EU-användare och som placerar icke-nödvändiga "
+"cookies behöver en opt-in-cookiebanner. Vi rekommenderar Real Cookie Banner "
+"som en lösning i WordPress som lever upp till kraven i ePrivacy-direktivet "
+"och Dataskyddsförordningen GDPR."
+
+#: cross/CrossRealCookieBanner.php:94
+msgid "https://devowl.io/go/real-cookie-banner?source=cross-rcb"
+msgstr "https://devowl.io/go/real-cookie-banner?source=cross-rcb"
+
+#: cross/CrossRealMediaLibrary.php:49
+msgid "File finally found?"
+msgstr "Hittade du äntligen filen?"
+
+#: cross/CrossRealMediaLibrary.php:51
+msgid ""
+"Your WordPress site will certainly continue to grow. Organize your media "
+"library with folders!"
+msgstr ""
+"Din WordPress-hemsida kommer utan tvekan fortsätta att växa. Organisera ditt "
+"mediebibliotek med mappar!"
+
+#: cross/CrossRealMediaLibrary.php:58
+msgid "Does it take long to find a file?"
+msgstr "Tar det lång tid att hitta en fil?"
+
+#: cross/CrossRealMediaLibrary.php:60
+msgid ""
+"Inserting media into a post or page can be stressful. Use folders to "
+"organize your media library!"
+msgstr ""
+"Att infoga medier i ett inlägg eller en sida kan upplevas stressigt. Använd "
+"mappar för att organisera ditt mediebibliotek!"
+
+#: cross/CrossRealPhysicalMedia.php:47 cross/CrossRealPhysicalMedia.php:56
+msgid "Did you know that?"
+msgstr "Visste du det?"
+
+#: cross/CrossRealPhysicalMedia.php:49 cross/CrossRealPhysicalMedia.php:58
+msgid ""
+"Your uploads can say more than a thousand words. Unfortunately, search "
+"engines do not understand the content of images, for example. Organize your "
+"uploads directly in meaningful folder names and achieve a better ranking in "
+"search engines!"
+msgstr ""
+"Dina uppladdningar kan säga mer än tusen ord. Tyvärr, förstår inte "
+"sökmotorer innehållet av bilder, till exempel. Organisera dina uppladdningar "
+"direkt i mappar med meningsfulla namn och få en bättre ranking hos "
+"sökmotorerna!"
+
+#: Service.php:162 Service.php:281
+msgid "No such plugin slug available."
+msgstr "Ingen sådan slugg för tillägg finns tillgänglig."
+
+#: Service.php:217
+msgid "The abstract implementation for your slug could not be found."
+msgstr "Den abstrakta implementeringen för din slugg kunde inte hittas."
+
+#: Service.php:274
+msgid "You must agree to our privacy policy to continue."
+msgstr "Du måste acceptera vår personuppgiftspolicy för att fortsätta."
+
+#. translators:
+#: view/Options.php:50
+msgid "Products of %s"
+msgstr "Produkter av %s"
+
+#. translators:
+#: view/Options.php:72
+msgid ""
+"Show advertising for not yet installed %s products in the WordPress backend"
+msgstr ""
+"Visa marknadsföring för ännu inte installerade %s-produkter i WordPress-"
+"backend"
+
+#: WelcomePage.php:59
+msgid "Learn more about this plugin"
+msgstr "Lär dig mer om detta tillägg"
+
+#: WelcomePage.php:66 WelcomePage.php:164
+msgid "Support"
+msgstr "Support"
+
+#: WelcomePage.php:71 WelcomePage.php:167
+msgid "Rate plugin"
+msgstr "Betygsätt tillägg"
+
+#: WelcomePage.php:156
+msgid "Version"
+msgstr "Version"
+
+#: WelcomePage.php:161
+msgid "Info"
+msgstr "Information"
+
+#: WelcomePage.php:175
+msgid "Key feature"
+msgid_plural "Key features"
+msgstr[0] "Huvudfunktion"
+msgstr[1] "Huvudfunktioner"
+
+#: WelcomePage.php:183
+msgid "Newsletter"
+msgstr "Nyhetsbrev"
+
+#: WelcomePage.php:186
+msgid ""
+"Receive the latest news about devowl.io WordPress plugins directly in your "
+"inbox"
+msgstr ""
+"Få de senaste nyheterna om WordPress-tillägg från devowl.io direkt i din "
+"inkorg"
+
+#: WelcomePage.php:190
+msgid "Enter your email..."
+msgstr "Ange din e-postadress..."
+
+#. translators:
+#: WelcomePage.php:198
+msgctxt "legal-text"
+msgid ""
+"I hereby consent to the processing of my data by devowl.io GmbH for the "
+"purpose of sending the newsletter. The consent can be revoked at any time "
+"with effect for the future by clicking on the \"Unsubscribe\" button or by e-"
+"mail."
+msgstr ""
+"Jag samtycker härmed till att devowl.io GmbH behandlar mina uppgifter för "
+"att skicka nyhetsbrevet. Samtycket kan när som helst återkallas med verkan "
+"för framtiden genom att klicka på knappen \"Avsluta prenumeration\" eller "
+"via e-post."
+
+#. translators:
+#: WelcomePage.php:210
+msgctxt "legal-text"
+msgid ""
+"Information on the processing of your personal data can be found in our <a "
+"%s>privacy policy</a>."
+msgstr ""
+"Information om behandlingen av dina personuppgifter finns i vår <a "
+"%s>privacy policy</a>."
+
+#: WelcomePage.php:215
+msgid "https://devowl.io/privacy-policy/"
+msgstr "https://devowl.io/privacy-policy/"
+
+#: WelcomePage.php:220
+msgid "Subscribe"
+msgstr "Prenumerera"
+
+#: WelcomePage.php:294
+msgid "Additional plugins by devowl.io"
+msgstr "Ytterligare tillägg av devowl.io"
+
+#: WelcomePage.php:367
+msgid "Available in"
+msgstr "Tillgängliga i"
+
+#~ msgctxt "legal-text"
+#~ msgid ""
+#~ "I want to receive WordPress news from devowl.io via email and agree to "
+#~ "the <a %s>privacy policy</a>."
+#~ msgstr ""
+#~ "Jag vill få WordPress-nyheter från devowl.io vie e-post och samtycker "
+#~ "till <a %s>personuppgiftspolicyn</a>."

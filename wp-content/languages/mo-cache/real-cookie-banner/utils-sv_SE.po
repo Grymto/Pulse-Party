@@ -1,0 +1,102 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: n/a\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: n/a\n"
+"PO-Revision-Date: 2024-02-05 06:21+0000\n"
+"Last-Translator: Matthias Günter <matthias.guenter@devowl.io>\n"
+"Language-Team: Swedish <https://translate.devowl.io/projects/devowl-wp-utils-"
+"backend-php/develop/sv/>\n"
+"Language: sv_SE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.3.1\n"
+
+#. translators:
+#: Localization.php:455
+msgid ""
+"Some language packs could not be downloaded for the textdomain %1$s (Error: "
+"%2$s, Endpoint: %3$s)."
+msgstr ""
+"Vissa språkpaket kunde inte laddas ned för textdomänen %1$s (Fel: %2$s, "
+"Slutpunkt: %3$s)."
+
+#: Localization.php:506
+msgid "Retry"
+msgstr "Försök igen"
+
+#: RateLimitNotice.php:61
+msgid " and "
+msgstr " och "
+
+#. translators:
+#: RateLimitNotice.php:68
+msgid ""
+"Your WordPress unexpectedly requests the license server and cloud services "
+"of <strong>%1$s</strong> exceptionally often (URL: <code>%3$s</code>). This "
+"indicates a misconfiguration of your WordPress system, which can also affect "
+"the loading speed of your website or cause malfunctions. Please check with "
+"your technical contact what is configured incorrectly! Alternatively, you "
+"can <a href=\"%2$s\" target=\"_blank\">open a support ticket</a> at the "
+"plugin manufacturer support."
+msgstr ""
+"Din WordPress begär oväntat licensservern och molntjänsterna för "
+"<strong>%1$s</strong> ovanligt ofta (URL: <code>%3$s</code> ). Detta tyder "
+"på en felaktig konfiguration av ditt WordPress-system, vilket också kan "
+"påverka laddningshastigheten på din webbplats eller orsaka "
+"funktionsstörningar. Kontrollera med din tekniska kontakt vad som är "
+"felaktigt konfigurerat! Alternativt kan du <a href=\"%2$s\" "
+"target=\"_blank\">öppna ett supportärende</a> på plugin-tillverkarens "
+"support."
+
+#: RateLimitNotice.php:73
+msgid "https://devowl.io/support/"
+msgstr "https://devowl.io/support/"
+
+#: RateLimitNotice.php:82
+msgid ""
+"I have solved the problem (hide the message until the next occurrence of the "
+"error)"
+msgstr ""
+"Jag har löst problemet (dölj meddelandet tills nästa gång felet inträffar)"
+
+#. translators:
+#: Service.php:118
+msgid ""
+"<strong>An unexpected network error has occurred!</strong> One or more "
+"WordPress plugins tried to call the WordPress REST API, which failed. Most "
+"likely a <strong>security plugin%s</strong>, a web <strong>server "
+"configuration</strong> or active <strong>ad-blocker extension</strong> "
+"installed on your browser disabled the REST API. Please make sure that the "
+"following REST API namespaces are reachable to use your plugin without "
+"problems:"
+msgstr ""
+"<strong>Ett oväntat nätverksfel har inträffat!</strong> Ett eller fler "
+"WordPress-tillägg försökte anropa WordPress REST API, vilket misslyckades. "
+"Sannolikt har REST API inaktiverats av et t<strong>säkerhetstillägg%s</"
+"strong>, en <strong>webbserverkonfiguration</strong> eller en aktiv "
+"<strong>annonsblockerare</strong> som är installerad i din webbläsare. Se "
+"till att följande REST API-namnrymder kan nås för att du ska kunna använda "
+"ditt tillägg utan problem:"
+
+#. translators:
+#: Service.php:126
+msgid ""
+"What is the WordPress REST API and how to enable it? %1$sLearn more%2$s."
+msgstr ""
+"Vad är WordPress REST API och hur kan man gör det möjligt att använda det? "
+"%1$sLäs mer%2$s."
+
+#: Service.php:129
+msgid "https://devowl.io/knowledge-base/wordpress-rest-api-does-not-respond/"
+msgstr "https://devowl.io/knowledge-base/wordpress-rest-api-does-not-respond/"
+
+#: Service.php:137
+msgid ""
+"In the text box below you will find a technical listing of the last 10 "
+"failed network requests:"
+msgstr ""
+"I textrutan nedan kommer du att hitta en teknisk lista över the senaste 10 "
+"misslyckade nätverksbegäran:"

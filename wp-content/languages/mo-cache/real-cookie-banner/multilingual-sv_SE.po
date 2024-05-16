@@ -1,0 +1,999 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: n/a\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: n/a\n"
+"PO-Revision-Date: 2023-11-08 12:59+0000\n"
+"Last-Translator: Matthias Günter <matthias.guenter@devowl.io>\n"
+"Language-Team: Swedish <https://translate.devowl.io/projects/devowl-wp-"
+"multilingual-backend-php/develop/sv/>\n"
+"Language: sv_SE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.1.1\n"
+
+#: Iso3166OneAlpha2.php:30
+msgid "Afghanistan"
+msgstr "Afghanistan"
+
+#: Iso3166OneAlpha2.php:31
+msgid "Aland Islands"
+msgstr "Åland"
+
+#: Iso3166OneAlpha2.php:32
+msgid "Albania"
+msgstr "Albanien"
+
+#: Iso3166OneAlpha2.php:33
+msgid "Algeria"
+msgstr "Algeriet"
+
+#: Iso3166OneAlpha2.php:34
+msgid "American Samoa"
+msgstr "Amerikanska Samoa"
+
+#: Iso3166OneAlpha2.php:35
+msgid "Andorra"
+msgstr "Andorra"
+
+#: Iso3166OneAlpha2.php:36
+msgid "Angola"
+msgstr "Angola"
+
+#: Iso3166OneAlpha2.php:37
+msgid "Anguilla"
+msgstr "Anguilla"
+
+#: Iso3166OneAlpha2.php:38
+msgid "Antarctica"
+msgstr "Antarktis"
+
+#: Iso3166OneAlpha2.php:39
+msgid "Antigua And Barbuda"
+msgstr "Antigua och Barbuda"
+
+#: Iso3166OneAlpha2.php:40
+msgid "Argentina"
+msgstr "Argentina"
+
+#: Iso3166OneAlpha2.php:41
+msgid "Armenia"
+msgstr "Armenien"
+
+#: Iso3166OneAlpha2.php:42
+msgid "Aruba"
+msgstr "Aruba"
+
+#: Iso3166OneAlpha2.php:43
+msgid "Australia"
+msgstr "Australien"
+
+#: Iso3166OneAlpha2.php:44
+msgid "Austria"
+msgstr "Österrike"
+
+#: Iso3166OneAlpha2.php:45
+msgid "Azerbaijan"
+msgstr "Azerbajdzjan"
+
+#: Iso3166OneAlpha2.php:46
+msgid "Bahamas"
+msgstr "Bahamas"
+
+#: Iso3166OneAlpha2.php:47
+msgid "Bahrain"
+msgstr "Bahrain"
+
+#: Iso3166OneAlpha2.php:48
+msgid "Bangladesh"
+msgstr "Banladesh"
+
+#: Iso3166OneAlpha2.php:49
+msgid "Barbados"
+msgstr "Barbados"
+
+#: Iso3166OneAlpha2.php:50
+msgid "Belarus"
+msgstr "Vitryssland"
+
+#: Iso3166OneAlpha2.php:51
+msgid "Belgium"
+msgstr "Belgien"
+
+#: Iso3166OneAlpha2.php:52
+msgid "Belize"
+msgstr "Belize"
+
+#: Iso3166OneAlpha2.php:53
+msgid "Benin"
+msgstr "Benin"
+
+#: Iso3166OneAlpha2.php:54
+msgid "Bermuda"
+msgstr "Bermuda"
+
+#: Iso3166OneAlpha2.php:55
+msgid "Bhutan"
+msgstr "Bhutan"
+
+#: Iso3166OneAlpha2.php:56
+msgid "Bolivia"
+msgstr "Bolivia"
+
+#: Iso3166OneAlpha2.php:57
+msgid "Bosnia And Herzegovina"
+msgstr "Bosnien och Hercegovina"
+
+#: Iso3166OneAlpha2.php:58
+msgid "Botswana"
+msgstr "Botswana"
+
+#: Iso3166OneAlpha2.php:59
+msgid "Bouvet Island"
+msgstr "Bouvetön"
+
+#: Iso3166OneAlpha2.php:60
+msgid "Brazil"
+msgstr "Brasilien"
+
+#: Iso3166OneAlpha2.php:61
+msgid "British Indian Ocean Territory"
+msgstr "Brittiska territoriet i Indiska oceanen"
+
+#: Iso3166OneAlpha2.php:62
+msgid "Brunei Darussalam"
+msgstr "Brunei"
+
+#: Iso3166OneAlpha2.php:63
+msgid "Bulgaria"
+msgstr "Bulgarien"
+
+#: Iso3166OneAlpha2.php:64
+msgid "Burkina Faso"
+msgstr "Burkina Faso"
+
+#: Iso3166OneAlpha2.php:65
+msgid "Burundi"
+msgstr "Burundi"
+
+#: Iso3166OneAlpha2.php:66
+msgid "Cambodia"
+msgstr "Kambodja"
+
+#: Iso3166OneAlpha2.php:67
+msgid "Cameroon"
+msgstr "Kamerun"
+
+#: Iso3166OneAlpha2.php:68
+msgid "Canada"
+msgstr "Kanada"
+
+#: Iso3166OneAlpha2.php:69
+msgid "Cape Verde"
+msgstr "Kap Verde"
+
+#: Iso3166OneAlpha2.php:70
+msgid "Cayman Islands"
+msgstr "Caymanöarna"
+
+#: Iso3166OneAlpha2.php:71
+msgid "Central African Republic"
+msgstr "Centralafrikanska republiken"
+
+#: Iso3166OneAlpha2.php:72
+msgid "Chad"
+msgstr "Tchad"
+
+#: Iso3166OneAlpha2.php:73
+msgid "Chile"
+msgstr "Chile"
+
+#: Iso3166OneAlpha2.php:74
+msgid "China"
+msgstr "Kina"
+
+#: Iso3166OneAlpha2.php:75
+msgid "Christmas Island"
+msgstr "Julön"
+
+#: Iso3166OneAlpha2.php:76
+msgid "Cocos (Keeling) Islands"
+msgstr "Kokosöarna"
+
+#: Iso3166OneAlpha2.php:77
+msgid "Colombia"
+msgstr "Colombia"
+
+#: Iso3166OneAlpha2.php:78
+msgid "Comoros"
+msgstr "Komorerna"
+
+#: Iso3166OneAlpha2.php:79
+msgid "Congo"
+msgstr "Kongo"
+
+#: Iso3166OneAlpha2.php:80
+msgid "Congo, Democratic Republic"
+msgstr "Demokratiska republiken Kongo"
+
+#: Iso3166OneAlpha2.php:81
+msgid "Cook Islands"
+msgstr "Cooköarna"
+
+#: Iso3166OneAlpha2.php:82
+msgid "Costa Rica"
+msgstr "Costa Rica"
+
+#: Iso3166OneAlpha2.php:83
+msgid "Cote D'Ivoire"
+msgstr "Elfenbenskusten"
+
+#: Iso3166OneAlpha2.php:84
+msgid "Croatia"
+msgstr "Kroatien"
+
+#: Iso3166OneAlpha2.php:85
+msgid "Cuba"
+msgstr "Kuba"
+
+#: Iso3166OneAlpha2.php:86
+msgid "Cyprus"
+msgstr "Cypern"
+
+#: Iso3166OneAlpha2.php:87
+msgid "Czech Republic"
+msgstr "Tjeckien"
+
+#: Iso3166OneAlpha2.php:88
+msgid "Denmark"
+msgstr "Danmark"
+
+#: Iso3166OneAlpha2.php:89
+msgid "Djibouti"
+msgstr "Djibouti"
+
+#: Iso3166OneAlpha2.php:90
+msgid "Dominica"
+msgstr "Dominica"
+
+#: Iso3166OneAlpha2.php:91
+msgid "Dominican Republic"
+msgstr "Dominikanska republiken"
+
+#: Iso3166OneAlpha2.php:92
+msgid "Ecuador"
+msgstr "Ecuador"
+
+#: Iso3166OneAlpha2.php:93
+msgid "Egypt"
+msgstr "Egypten"
+
+#: Iso3166OneAlpha2.php:94
+msgid "El Salvador"
+msgstr "El Salvador"
+
+#: Iso3166OneAlpha2.php:95
+msgid "Equatorial Guinea"
+msgstr "Ekvatorialguinea"
+
+#: Iso3166OneAlpha2.php:96
+msgid "Eritrea"
+msgstr "Eritrea"
+
+#: Iso3166OneAlpha2.php:97
+msgid "Estonia"
+msgstr "Estland"
+
+#: Iso3166OneAlpha2.php:98
+msgid "Ethiopia"
+msgstr "Etiopien"
+
+#: Iso3166OneAlpha2.php:99
+msgid "Falkland Islands (Malvinas)"
+msgstr "Falklandsöarna"
+
+#: Iso3166OneAlpha2.php:100
+msgid "Faroe Islands"
+msgstr "Färöarna"
+
+#: Iso3166OneAlpha2.php:101
+msgid "Fiji"
+msgstr "Fiji"
+
+#: Iso3166OneAlpha2.php:102
+msgid "Finland"
+msgstr "Finland"
+
+#: Iso3166OneAlpha2.php:103
+msgid "France"
+msgstr "Frankrike"
+
+#: Iso3166OneAlpha2.php:104
+msgid "French Guiana"
+msgstr "Franska Guyana"
+
+#: Iso3166OneAlpha2.php:105
+msgid "French Polynesia"
+msgstr "Franska Polynesien"
+
+#: Iso3166OneAlpha2.php:106
+msgid "French Southern and Antarctic Lands"
+msgstr "Franska sydterritorierna"
+
+#: Iso3166OneAlpha2.php:107
+msgid "Gabon"
+msgstr "Gabon"
+
+#: Iso3166OneAlpha2.php:108
+msgid "Gambia"
+msgstr "Gambia"
+
+#: Iso3166OneAlpha2.php:109
+msgid "Georgia"
+msgstr "Georgien"
+
+#: Iso3166OneAlpha2.php:110
+msgid "Germany"
+msgstr "Tyskland"
+
+#: Iso3166OneAlpha2.php:111
+msgid "Ghana"
+msgstr "Ghana"
+
+#: Iso3166OneAlpha2.php:112
+msgid "Gibraltar"
+msgstr "Gibraltar"
+
+#: Iso3166OneAlpha2.php:113
+msgid "Greece"
+msgstr "Grekland"
+
+#: Iso3166OneAlpha2.php:114
+msgid "Greenland"
+msgstr "Grönland"
+
+#: Iso3166OneAlpha2.php:115
+msgid "Grenada"
+msgstr "Grenada"
+
+#: Iso3166OneAlpha2.php:116
+msgid "Guadeloupe"
+msgstr "Guadeloupe"
+
+#: Iso3166OneAlpha2.php:117
+msgid "Guam"
+msgstr "Guam"
+
+#: Iso3166OneAlpha2.php:118
+msgid "Guatemala"
+msgstr "Guatemala"
+
+#: Iso3166OneAlpha2.php:119
+msgid "Guernsey"
+msgstr "Guernsey"
+
+#: Iso3166OneAlpha2.php:120
+msgid "Guinea"
+msgstr "Guinea"
+
+#: Iso3166OneAlpha2.php:121
+msgid "Guinea-Bissau"
+msgstr "Guinea-Bissau"
+
+#: Iso3166OneAlpha2.php:122
+msgid "Guyana"
+msgstr "Guyana"
+
+#: Iso3166OneAlpha2.php:123
+msgid "Haiti"
+msgstr "Haiti"
+
+#: Iso3166OneAlpha2.php:124
+msgid "Heard Island & Mcdonald Islands"
+msgstr "Heard- och McDonaldöarna"
+
+#: Iso3166OneAlpha2.php:125
+msgid "Holy See (Vatican City State)"
+msgstr "Vatikanstaten"
+
+#: Iso3166OneAlpha2.php:126
+msgid "Honduras"
+msgstr "Honduras"
+
+#: Iso3166OneAlpha2.php:127
+msgid "Hong Kong"
+msgstr "Hong Kong"
+
+#: Iso3166OneAlpha2.php:128
+msgid "Hungary"
+msgstr "Ungern"
+
+#: Iso3166OneAlpha2.php:129
+msgid "Iceland"
+msgstr "Island"
+
+#: Iso3166OneAlpha2.php:130
+msgid "India"
+msgstr "Indien"
+
+#: Iso3166OneAlpha2.php:131
+msgid "Indonesia"
+msgstr "Indonesien"
+
+#: Iso3166OneAlpha2.php:132
+msgid "Iran, Islamic Republic Of"
+msgstr "Iran, islamiska republiken"
+
+#: Iso3166OneAlpha2.php:133
+msgid "Iraq"
+msgstr "Irak"
+
+#: Iso3166OneAlpha2.php:134
+msgid "Ireland"
+msgstr "Irland"
+
+#: Iso3166OneAlpha2.php:135
+msgid "Isle Of Man"
+msgstr "Isle of Man"
+
+#: Iso3166OneAlpha2.php:136
+msgid "Israel"
+msgstr "Israel"
+
+#: Iso3166OneAlpha2.php:137
+msgid "Italy"
+msgstr "Italien"
+
+#: Iso3166OneAlpha2.php:138
+msgid "Jamaica"
+msgstr "Jamaica"
+
+#: Iso3166OneAlpha2.php:139
+msgid "Japan"
+msgstr "Japan"
+
+#: Iso3166OneAlpha2.php:140
+msgid "Jersey"
+msgstr "Jersey"
+
+#: Iso3166OneAlpha2.php:141
+msgid "Jordan"
+msgstr "Jordanien"
+
+#: Iso3166OneAlpha2.php:142
+msgid "Kazakhstan"
+msgstr "Kazakstan"
+
+#: Iso3166OneAlpha2.php:143
+msgid "Kenya"
+msgstr "Kenya"
+
+#: Iso3166OneAlpha2.php:144
+msgid "Kiribati"
+msgstr "Kiribati"
+
+#: Iso3166OneAlpha2.php:145
+msgid "Korea"
+msgstr "Korea"
+
+#: Iso3166OneAlpha2.php:146
+msgid "North Korea"
+msgstr "Nordkorea"
+
+#: Iso3166OneAlpha2.php:147
+msgid "Kuwait"
+msgstr "Kuwait"
+
+#: Iso3166OneAlpha2.php:148
+msgid "Kyrgyzstan"
+msgstr "Kirgizistan"
+
+#: Iso3166OneAlpha2.php:149
+msgid "Lao People's Democratic Republic"
+msgstr "Laos"
+
+#: Iso3166OneAlpha2.php:150
+msgid "Latvia"
+msgstr "Lettland"
+
+#: Iso3166OneAlpha2.php:151
+msgid "Lebanon"
+msgstr "Libanon"
+
+#: Iso3166OneAlpha2.php:152
+msgid "Lesotho"
+msgstr "Lesotho"
+
+#: Iso3166OneAlpha2.php:153
+msgid "Liberia"
+msgstr "Liberia"
+
+#: Iso3166OneAlpha2.php:154
+msgid "Libyan Arab Jamahiriya"
+msgstr "Libyen"
+
+#: Iso3166OneAlpha2.php:155
+msgid "Liechtenstein"
+msgstr "Liechtenstein"
+
+#: Iso3166OneAlpha2.php:156
+msgid "Lithuania"
+msgstr "Litauen"
+
+#: Iso3166OneAlpha2.php:157
+msgid "Luxembourg"
+msgstr "Luxembourg"
+
+#: Iso3166OneAlpha2.php:158
+msgid "Macao"
+msgstr "Macao"
+
+#: Iso3166OneAlpha2.php:159
+msgid "Macedonia"
+msgstr "Nordmakedonien"
+
+#: Iso3166OneAlpha2.php:160
+msgid "Madagascar"
+msgstr "Madagaskar"
+
+#: Iso3166OneAlpha2.php:161
+msgid "Malawi"
+msgstr "Malawi"
+
+#: Iso3166OneAlpha2.php:162
+msgid "Malaysia"
+msgstr "Malaysia"
+
+#: Iso3166OneAlpha2.php:163
+msgid "Maldives"
+msgstr "Maldiverna"
+
+#: Iso3166OneAlpha2.php:164
+msgid "Mali"
+msgstr "Mali"
+
+#: Iso3166OneAlpha2.php:165
+msgid "Malta"
+msgstr "Malta"
+
+#: Iso3166OneAlpha2.php:166
+msgid "Marshall Islands"
+msgstr "Marshallöarna"
+
+#: Iso3166OneAlpha2.php:167
+msgid "Martinique"
+msgstr "Martinique"
+
+#: Iso3166OneAlpha2.php:168
+msgid "Mauritania"
+msgstr "Mauretanien"
+
+#: Iso3166OneAlpha2.php:169
+msgid "Mauritius"
+msgstr "Mauritius"
+
+#: Iso3166OneAlpha2.php:170
+msgid "Mayotte"
+msgstr "Mayotte"
+
+#: Iso3166OneAlpha2.php:171
+msgid "Mexico"
+msgstr "Mexiko"
+
+#: Iso3166OneAlpha2.php:172
+msgid "Federated States Of Micronesia"
+msgstr "Mikronesien"
+
+#: Iso3166OneAlpha2.php:173
+msgid "Moldova"
+msgstr "Moldavien"
+
+#: Iso3166OneAlpha2.php:174
+msgid "Monaco"
+msgstr "Monaco"
+
+#: Iso3166OneAlpha2.php:175
+msgid "Mongolia"
+msgstr "Mongoliet"
+
+#: Iso3166OneAlpha2.php:176
+msgid "Montenegro"
+msgstr "Montenegro"
+
+#: Iso3166OneAlpha2.php:177
+msgid "Montserrat"
+msgstr "Montserrat"
+
+#: Iso3166OneAlpha2.php:178
+msgid "Morocco"
+msgstr "Marocko"
+
+#: Iso3166OneAlpha2.php:179
+msgid "Mozambique"
+msgstr "Mozambique"
+
+#: Iso3166OneAlpha2.php:180
+msgid "Myanmar"
+msgstr "Myanmar"
+
+#: Iso3166OneAlpha2.php:181
+msgid "Namibia"
+msgstr "Namibia"
+
+#: Iso3166OneAlpha2.php:182
+msgid "Nauru"
+msgstr "Nauru"
+
+#: Iso3166OneAlpha2.php:183
+msgid "Nepal"
+msgstr "Nepal"
+
+#: Iso3166OneAlpha2.php:184
+msgid "Netherlands"
+msgstr "Nederländerna"
+
+#: Iso3166OneAlpha2.php:185
+msgid "Netherlands Antilles"
+msgstr "Nederländska Antillerna"
+
+#: Iso3166OneAlpha2.php:186
+msgid "New Caledonia"
+msgstr "Nya Kaledonien"
+
+#: Iso3166OneAlpha2.php:187
+msgid "New Zealand"
+msgstr "Nya Zeeland"
+
+#: Iso3166OneAlpha2.php:188
+msgid "Nicaragua"
+msgstr "Nicaragua"
+
+#: Iso3166OneAlpha2.php:189
+msgid "Niger"
+msgstr "Niger"
+
+#: Iso3166OneAlpha2.php:190
+msgid "Nigeria"
+msgstr "Nigeria"
+
+#: Iso3166OneAlpha2.php:191
+msgid "Niue"
+msgstr "Niue"
+
+#: Iso3166OneAlpha2.php:192
+msgid "Norfolk Island"
+msgstr "Norfolkön"
+
+#: Iso3166OneAlpha2.php:193
+msgid "Northern Mariana Islands"
+msgstr "Nordmarianerna"
+
+#: Iso3166OneAlpha2.php:194
+msgid "Norway"
+msgstr "Norge"
+
+#: Iso3166OneAlpha2.php:195
+msgid "Oman"
+msgstr "Oman"
+
+#: Iso3166OneAlpha2.php:196
+msgid "Pakistan"
+msgstr "Pakistan"
+
+#: Iso3166OneAlpha2.php:197
+msgid "Palau"
+msgstr "Palau"
+
+#: Iso3166OneAlpha2.php:198
+msgid "Palestinian Territory, Occupied"
+msgstr "Palestinskt territorium, ockuperat"
+
+#: Iso3166OneAlpha2.php:199
+msgid "Panama"
+msgstr "Panama"
+
+#: Iso3166OneAlpha2.php:200
+msgid "Papua New Guinea"
+msgstr "Papua Nya Guinea"
+
+#: Iso3166OneAlpha2.php:201
+msgid "Paraguay"
+msgstr "Paraguay"
+
+#: Iso3166OneAlpha2.php:202
+msgid "Peru"
+msgstr "Peru"
+
+#: Iso3166OneAlpha2.php:203
+msgid "Philippines"
+msgstr "Filippinerna"
+
+#: Iso3166OneAlpha2.php:204
+msgid "Pitcairn"
+msgstr "Pitcairnöarna"
+
+#: Iso3166OneAlpha2.php:205
+msgid "Poland"
+msgstr "Polen"
+
+#: Iso3166OneAlpha2.php:206
+msgid "Portugal"
+msgstr "Portugal"
+
+#: Iso3166OneAlpha2.php:207
+msgid "Puerto Rico"
+msgstr "Puerto Rico"
+
+#: Iso3166OneAlpha2.php:208
+msgid "Qatar"
+msgstr "Qatar"
+
+#: Iso3166OneAlpha2.php:209
+msgid "Reunion"
+msgstr "Réunion"
+
+#: Iso3166OneAlpha2.php:210
+msgid "Romania"
+msgstr "Rumänien"
+
+#: Iso3166OneAlpha2.php:211
+msgid "Russian Federation"
+msgstr "Ryssland"
+
+#: Iso3166OneAlpha2.php:212
+msgid "Rwanda"
+msgstr "Rwanda"
+
+#: Iso3166OneAlpha2.php:213
+msgid "Saint Barthelemy"
+msgstr "Sankt Barthélemy"
+
+#: Iso3166OneAlpha2.php:214
+msgid "Saint Helena"
+msgstr "Sankt Helena"
+
+#: Iso3166OneAlpha2.php:215
+msgid "Saint Kitts And Nevis"
+msgstr "Saint Kitts och Nevis"
+
+#: Iso3166OneAlpha2.php:216
+msgid "Saint Lucia"
+msgstr "Saint Lucia"
+
+#: Iso3166OneAlpha2.php:217
+msgid "Saint Martin"
+msgstr "Saint Martin"
+
+#: Iso3166OneAlpha2.php:218
+msgid "Saint Pierre And Miquelon"
+msgstr "Saint Pierre och Miquelon"
+
+#: Iso3166OneAlpha2.php:219
+msgid "Saint Vincent And Grenadines"
+msgstr "Saint Vincent och Grenadinerna"
+
+#: Iso3166OneAlpha2.php:220
+msgid "Samoa"
+msgstr "Samoa"
+
+#: Iso3166OneAlpha2.php:221
+msgid "San Marino"
+msgstr "San Marino"
+
+#: Iso3166OneAlpha2.php:222
+msgid "Sao Tome And Principe"
+msgstr "Sao Tome och Principe"
+
+#: Iso3166OneAlpha2.php:223
+msgid "Saudi Arabia"
+msgstr "Saudiarabien"
+
+#: Iso3166OneAlpha2.php:224
+msgid "Senegal"
+msgstr "Senegal"
+
+#: Iso3166OneAlpha2.php:225
+msgid "Serbia"
+msgstr "Serbien"
+
+#: Iso3166OneAlpha2.php:226
+msgid "Seychelles"
+msgstr "Seychellerna"
+
+#: Iso3166OneAlpha2.php:227
+msgid "Sierra Leone"
+msgstr "Sierra Leone"
+
+#: Iso3166OneAlpha2.php:228
+msgid "Singapore"
+msgstr "Singapore"
+
+#: Iso3166OneAlpha2.php:229
+msgid "Slovakia"
+msgstr "Slovakien"
+
+#: Iso3166OneAlpha2.php:230
+msgid "Slovenia"
+msgstr "Slovenien"
+
+#: Iso3166OneAlpha2.php:231
+msgid "Solomon Islands"
+msgstr "Solomonöarna"
+
+#: Iso3166OneAlpha2.php:232
+msgid "Somalia"
+msgstr "Somalien"
+
+#: Iso3166OneAlpha2.php:233
+msgid "South Africa"
+msgstr "Sydafrika"
+
+#: Iso3166OneAlpha2.php:234
+msgid "South Georgia And Sandwich Isl."
+msgstr "Sydgeorgien och Sydsandwichöarna"
+
+#: Iso3166OneAlpha2.php:235
+msgid "Spain"
+msgstr "Spanien"
+
+#: Iso3166OneAlpha2.php:236
+msgid "Sri Lanka"
+msgstr "Sri Lanka"
+
+#: Iso3166OneAlpha2.php:237
+msgid "Sudan"
+msgstr "Sudan"
+
+#: Iso3166OneAlpha2.php:238
+msgid "Suriname"
+msgstr "Surinam"
+
+#: Iso3166OneAlpha2.php:239
+msgid "Svalbard And Jan Mayen"
+msgstr "Svalbard och Jan Mayen"
+
+#: Iso3166OneAlpha2.php:240
+msgid "Swaziland"
+msgstr "Swaziland"
+
+#: Iso3166OneAlpha2.php:241
+msgid "Sweden"
+msgstr "Sverige"
+
+#: Iso3166OneAlpha2.php:242
+msgid "Switzerland"
+msgstr "Schweiz"
+
+#: Iso3166OneAlpha2.php:243
+msgid "Syrian Arab Republic"
+msgstr "Syrien"
+
+#: Iso3166OneAlpha2.php:244
+msgid "Taiwan"
+msgstr "Taiwan"
+
+#: Iso3166OneAlpha2.php:245
+msgid "Tajikistan"
+msgstr "Tadzjikistan"
+
+#: Iso3166OneAlpha2.php:246
+msgid "Tanzania"
+msgstr "Tanzania"
+
+#: Iso3166OneAlpha2.php:247
+msgid "Thailand"
+msgstr "Thailand"
+
+#: Iso3166OneAlpha2.php:248
+msgid "Timor-Leste"
+msgstr "Östtimor"
+
+#: Iso3166OneAlpha2.php:249
+msgid "Togo"
+msgstr "Togo"
+
+#: Iso3166OneAlpha2.php:250
+msgid "Tokelau"
+msgstr "Tokelau"
+
+#: Iso3166OneAlpha2.php:251
+msgid "Tonga"
+msgstr "Tonga"
+
+#: Iso3166OneAlpha2.php:252
+msgid "Trinidad And Tobago"
+msgstr "Trinidad och Tobago"
+
+#: Iso3166OneAlpha2.php:253
+msgid "Tunisia"
+msgstr "Tunisien"
+
+#: Iso3166OneAlpha2.php:254
+msgid "Turkey"
+msgstr "Turkiet"
+
+#: Iso3166OneAlpha2.php:255
+msgid "Turkmenistan"
+msgstr "Turkmenistan"
+
+#: Iso3166OneAlpha2.php:256
+msgid "Turks And Caicos Islands"
+msgstr "Turks- och Caicosöarna"
+
+#: Iso3166OneAlpha2.php:257
+msgid "Tuvalu"
+msgstr "Tuvalu"
+
+#: Iso3166OneAlpha2.php:258
+msgid "Uganda"
+msgstr "Uganda"
+
+#: Iso3166OneAlpha2.php:259
+msgid "Ukraine"
+msgstr "Ukraina"
+
+#: Iso3166OneAlpha2.php:260
+msgid "United Arab Emirates"
+msgstr "Förenta Arabemiraterna"
+
+#: Iso3166OneAlpha2.php:261
+msgid "United Kingdom"
+msgstr "Storbritannien"
+
+#: Iso3166OneAlpha2.php:262
+msgid "United States"
+msgstr "Förenta Staterna"
+
+#: Iso3166OneAlpha2.php:263
+msgid "United States Outlying Islands"
+msgstr "Förenta staternas mindre öar i Oceanien och Västindien"
+
+#: Iso3166OneAlpha2.php:264
+msgid "Uruguay"
+msgstr "Uruguay"
+
+#: Iso3166OneAlpha2.php:265
+msgid "Uzbekistan"
+msgstr "Uzbekistan"
+
+#: Iso3166OneAlpha2.php:266
+msgid "Vanuatu"
+msgstr "Vanuatu"
+
+#: Iso3166OneAlpha2.php:267
+msgid "Venezuela"
+msgstr "Venezuela"
+
+#: Iso3166OneAlpha2.php:268
+msgid "Vietnam"
+msgstr "Vietnam"
+
+#: Iso3166OneAlpha2.php:269
+msgid "Virgin Islands, British"
+msgstr "Brittiska Jungfruöarna"
+
+#: Iso3166OneAlpha2.php:270
+msgid "Virgin Islands, U.S."
+msgstr "Amerikanska Jungfruöarna"
+
+#: Iso3166OneAlpha2.php:271
+msgid "Wallis And Futuna"
+msgstr "Wallis- och Futunaöarna"
+
+#: Iso3166OneAlpha2.php:272
+msgid "Western Sahara"
+msgstr "Västsahara"
+
+#: Iso3166OneAlpha2.php:273
+msgid "Yemen"
+msgstr "Yemen"
+
+#: Iso3166OneAlpha2.php:274
+msgid "Zambia"
+msgstr "Zambia"
+
+#: Iso3166OneAlpha2.php:275
+msgid "Zimbabwe"
+msgstr "Zimbabwe"

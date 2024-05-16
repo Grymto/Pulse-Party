@@ -1,0 +1,204 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: n/a\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: n/a\n"
+"PO-Revision-Date: 2023-11-06 10:19+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"Language-Team: Swedish <https://translate.devowl.io/projects/devowl-wp-real-"
+"product-manager-wp-client-backend-php/develop/sv/>\n"
+"Language: sv_SE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.1.1\n"
+
+#: AbstractInitiator.php:205
+msgid "https://devowl.io/account"
+msgstr "https://devowl.io/account"
+
+#: AbstractInitiator.php:210
+msgid ""
+"https://devowl.io/knowledge-base/devowl-where-can-i-find-my-license-key/"
+msgstr ""
+"https://devowl.io/knowledge-base/devowl-where-can-i-find-my-license-key/"
+
+#: client/ClientUtils.php:64
+msgid ""
+"Something went wrong while parsing an error message from the remote server."
+msgstr ""
+"Någonting gick fel när ett felmeddelande från fjärrservern analyserades."
+
+#. translators:
+#: license/License.php:197
+msgid ""
+"The plugin has a new update server. Therefore, you need to reactivate your "
+"license (%s) to continue receiving updates."
+msgstr ""
+"Detta tillägg har en ny uppdaterad server. Du behöver därför återaktivera "
+"din licens (%s) för att fortsätta få uppdateringar."
+
+#: license/License.php:205
+msgid ""
+"You are using a WordPress multisite. According to the plugin's licence "
+"agreement, you need one license per website. If you have only used one "
+"licence for all websites in your WordPress multisite, this was only possible "
+"because it was not technically prevented. We ask for your understanding if "
+"this causes you any inconvenience!"
+msgstr ""
+"Du använder en multisite-WordPress. Enligt tilläggets licensavtal, behöver "
+"du en licens per hemsida. Om du bara har använt en licens för alla hemsidor "
+"i din multisite-WordPress, var detta bara möjligt på grund av att det inte "
+"var tekniskt förhindrat. Vi ber om din förståelse om detta orsakar någon "
+"olägenhet för dig!"
+
+#: license/License.php:223 license/License.php:258
+msgid "You have not yet activated a license for this plugin on your website."
+msgstr "Du har ännu inte aktiverat en licens för detta tillägg på din hemsida."
+
+#: license/License.php:320
+msgid ""
+"The license has been automatically deactivated because your website is "
+"running on a new domain. Please activate the license again!"
+msgstr ""
+"Licensen har automatiskt inaktiverats på grund av att hemsidan körs på en ny "
+"domän. Aktivera licensen igen!"
+
+#: license/License.php:326
+msgid "License key"
+msgstr "Licensnyckel"
+
+#: license/License.php:391
+msgid "No programmatic activation found for this plugin."
+msgstr "Ingen programmatisk aktivering hittades för detta tillägg."
+
+#: license/LicenseActivation.php:85
+msgid ""
+"You have already activated a license for this plugin. Please deactivate it "
+"first!"
+msgstr ""
+"Du har redan aktiverat en licens för detta tillägg. Inaktivera den först!"
+
+#: license/PluginUpdateLicensePool.php:69
+msgid "You need to provide at least one license!"
+msgstr "Du måste ange minst en licens!"
+
+#: license/PluginUpdateLicensePool.php:92
+msgid ""
+"You must provide an email address and a name if you want to subscribe to the "
+"newsletter!"
+msgstr ""
+"Du måste ange en e-postadress och ett namn om du vill prenumerera på "
+"nyhetsbrevet!"
+
+#: license/PluginUpdateLicensePool.php:134
+msgid ""
+"You must have at least one license of a site in use within your multisite."
+msgstr ""
+"Du måste ha minst en licens för en sida som används inom din multisite."
+
+#. translators:
+#: license/PluginUpdateLicensePool.php:170
+msgid ""
+"The license server for checking the license cannot be reached. Please check "
+"if you are blocking access to %s e.g. by a firewall."
+msgstr ""
+"Licensservern kunde inte nås för att kontrollera licensen. Kontrollera om "
+"blockerar åtkomsten till %s t.ex. med en brandvägg."
+
+#: rest/PluginUpdate.php:169
+msgid "Something went wrong. Please try again later!"
+msgstr "Något gick fel. Försök igen senare!"
+
+#: view/AnnouncementView.php:67
+msgid "Dismiss"
+msgstr "Avfärda"
+
+#: view/PluginUpdateView.php:126
+msgid "You have not yet entered the license key."
+msgstr "Du har ännu inte angivit licensnyckeln."
+
+#: view/PluginUpdateView.php:127
+msgid "Activate the license to receive automatic updates."
+msgstr "Aktivera licensen för att motta automatiska uppdateringar."
+
+#: view/PluginUpdateView.php:155
+msgid "License"
+msgstr "Licens"
+
+#. translators:
+#: view/PluginUpdateView.php:189
+msgid ""
+"You have not yet activated a license for the %s plugin. Activate the licence "
+"to receive automatic updates."
+msgstr ""
+"Du har ännu inte aktiverat licensen för tillägget %s. Aktivera licensen för "
+"att motta automatiska uppdateringar."
+
+#. translators:
+#: view/PluginUpdateView.php:210
+msgid ""
+"Updates of %s are waiting for you when you activate your license. Activate "
+"your license in the settings now!"
+msgstr ""
+"Uppdateringar av %s väntar på dig när du aktiverar licensen. Aktivera din "
+"licens i inställningarna nu!"
+
+#. translators:
+#: view/PluginUpdateView.php:217
+msgid "Activate your %s to use all features with great support. Activate now!"
+msgstr ""
+"Aktivera din %s för att få tillgång till alla funktioner med framstående "
+"stöd. Aktivera nu!"
+
+#. translators:
+#: view/PluginUpdateView.php:221
+msgid ""
+"You have not yet activated your %s license. Activate your license now in the "
+"settings!"
+msgstr ""
+"Du har ännu inte aktiverat din %s-licens. Aktivera din licens nu i "
+"inställningarna!"
+
+#. translators:
+#: view/PluginUpdateView.php:228
+msgid ""
+"You are not allowed to use %s according to our license terms unless you have "
+"purchased a license. Activate it in the settings or buy one now!"
+msgstr ""
+"Du tillåts inte använda %s enligt våra licensvillkor såvida du inte har köpt "
+"en licens. Aktivera den i inställningarna eller köp en licens nu!"
+
+#. translators:
+#: view/PluginUpdateView.php:236
+msgid ""
+"Attention! Pirates distribute %s for free without a license. Activate your "
+"license in the settings to show that you are not a pirate!"
+msgstr ""
+"Obs! Pirater tillhandahåller %s gratis utan en licens. Aktivera din licens i "
+"inställningarna för att bevisa att du inte är en pirat!"
+
+#. translators:
+#: view/PluginUpdateView.php:244
+msgid ""
+"You are probably using an illegally purchased copy of %s without a license. "
+"Check your license now!"
+msgstr ""
+"Du använder sannolikt en illegalt köpt kopia av %s utan en licens. "
+"Kontrollera din licens nu!"
+
+#. translators:
+#: view/PluginUpdateView.php:252
+msgid ""
+"You are probably using an illegal copy of %s. Purchase a license now or "
+"activate your license in the settings and continue using this software with "
+"a clear conscience!"
+msgstr ""
+"Du använder sannolikt en illegal kopia av %s. Köp en licens nu eller "
+"aktivera din licens i inställningarna och fortsätt att använda denna "
+"mjukvara med ett gott samvete!"
+
+#: view/PluginUpdateView.php:288
+msgid "Activate now"
+msgstr "Aktivera nu"
