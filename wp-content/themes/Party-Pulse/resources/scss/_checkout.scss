@@ -28,16 +28,15 @@
 
 #email{
     font-family: $text-font !important;
-    border: 2px solid $selected-yellow-color !important;
-    box-shadow: 0 0 10px $yellow-color !important;
+    box-shadow: 0 0 5px $selected-yellow-color !important;
     margin-left:0% !important;
 }
 
 .wc-block-components-checkout-step__container{
     input{
         font-family: $text-font !important;
-        border: 2px solid $yellow-color !important;
-        box-shadow: 0 0 10px $selected-yellow-color !important;
+        border: 1px solid $yellow-color !important;
+        box-shadow: 0 0 5px $selected-yellow-color !important;
     }
 
 }
@@ -94,6 +93,10 @@
     border: 1px solid black;
     margin-left: 2%;
 }
+.wc-block-components-checkout-return-to-cart-button:hover{
+    color: white;
+    background-color: $selected-yellow-color;
+}
 .components-button.wc-block-components-button.wp-element-button.wc-block-components-checkout-place-order-button.contained{
     color: black;
     background-color: $yellow-color;
@@ -103,6 +106,11 @@
     font-size: 16.45px;
     font-weight: lighter;
     padding: 15px 10px;
+}
+
+.components-button.wc-block-components-button.wp-element-button.wc-block-components-checkout-place-order-button.contained:hover{
+    color: white;
+    background-color: $selected-yellow-color;
 }
 
 .wp-block-woocommerce-checkout-order-summary-cart-items-block.wc-block-components-totals-wrapper{

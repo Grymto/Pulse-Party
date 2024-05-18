@@ -787,14 +787,13 @@ footer .container .rights {
 }
 #email {
   font-family: "Poppins" !important;
-  border: 2px solid #a87610 !important;
-  box-shadow: 0 0 10px #feb113 !important;
+  box-shadow: 0 0 5px #a87610 !important;
   margin-left: 0% !important;
 }
 .wc-block-components-checkout-step__container input {
   font-family: "Poppins" !important;
-  border: 2px solid #feb113 !important;
-  box-shadow: 0 0 10px #a87610 !important;
+  border: 1px solid #feb113 !important;
+  box-shadow: 0 0 5px #a87610 !important;
 }
 .wc-block-components-radio-control__option.wc-block-components-radio-control__option-checked,
 .wc-block-checkout__payment-method .wc-block-components-radio-control {
@@ -840,6 +839,10 @@ footer .container .rights {
   border: 1px solid black;
   margin-left: 2%;
 }
+.wc-block-components-checkout-return-to-cart-button:hover {
+  color: white;
+  background-color: #a87610;
+}
 .components-button.wc-block-components-button.wp-element-button.wc-block-components-checkout-place-order-button.contained {
   color: black;
   background-color: #feb113;
@@ -849,6 +852,10 @@ footer .container .rights {
   font-size: 16.45px;
   font-weight: lighter;
   padding: 15px 10px;
+}
+.components-button.wc-block-components-button.wp-element-button.wc-block-components-checkout-place-order-button.contained:hover {
+  color: white;
+  background-color: #a87610;
 }
 .wp-block-woocommerce-checkout-order-summary-cart-items-block.wc-block-components-totals-wrapper {
   border: 2px solid #feb113;
@@ -1519,6 +1526,9 @@ footer .container .rights {
   border-top: 2px dashed #ff9066;
   padding-top: 20px;
   margin-bottom: 40px;
+}
+.aea82-ext-1-298 {
+  background-color: black;
 }
 body {
   margin: 0;
