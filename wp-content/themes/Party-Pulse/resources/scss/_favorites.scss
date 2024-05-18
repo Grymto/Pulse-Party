@@ -28,3 +28,38 @@
 .wishlist_table tr td.product-thumbnail a img{
     border-radius: 5px;
 }    
+
+.yith-wcwl-share {
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+
+    .yith-wcwl-after-share-section {
+        display: flex;
+        align-items: center;
+        margin-left: 1vh;
+
+        input {
+            width: 350px;
+        }
+
+        .copy-trigger {
+            cursor: pointer; 
+            background-color: $yellow-color; 
+            border: 1px solid white; 
+            padding: 5px 10px; 
+            border-radius: 5px; 
+            display: inline-block; 
+            visibility: visible; 
+            &:hover {
+                background-color: $selected-yellow-color; 
+                color: white; 
+            }
+        }
+
+        small {
+            visibility: hidden; 
+            margin-left: -25px;
+        }
+    }
+}
