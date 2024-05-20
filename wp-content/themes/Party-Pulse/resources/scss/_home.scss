@@ -3,6 +3,7 @@
   text-align: center;
   font-family: $main-title-font; 
   font-weight: 200;
+  
 
   .homepage-banner img {
     width: 100%;
@@ -68,4 +69,9 @@
 .swiper-wrapper{
   height: 600px;
 }
-
+.wpcp-carousel-wrapper #sp-wp-carousel-free-id-213.wpcp-post-carousel .wpcp-single-item{
+  background-color: $backgroundColor;
+}
+.wpcpro-row {
+  margin-bottom: 10vh;
+}
