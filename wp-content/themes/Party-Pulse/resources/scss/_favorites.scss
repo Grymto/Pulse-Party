@@ -39,13 +39,9 @@
 .yith-wcwl-share h4.yith-wcwl-share-title{
     margin-left: 15vh;
 }
-// allt som är importennt går att andra i wordpress
-.wishlist_table thead tr th{
-    background-color: $backgroundColor !important;
-    background: $backgroundColor;
-}
+
 .woocommerce table.shop_table.wishlist_table tr td{
-    border-color: $backgroundColor !important;
+   
     a{
         color:black;
     }

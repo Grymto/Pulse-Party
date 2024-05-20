@@ -942,13 +942,6 @@ footer .container .rights {
 .yith-wcwl-share h4.yith-wcwl-share-title {
   margin-left: 15vh;
 }
-.wishlist_table thead tr th {
-  background-color: #edeec7 !important;
-  background: #edeec7;
-}
-.woocommerce table.shop_table.wishlist_table tr td {
-  border-color: #edeec7 !important;
-}
 .woocommerce table.shop_table.wishlist_table tr td a {
   color: black;
 }
@@ -1001,6 +994,7 @@ footer .container .rights {
   color: black;
   background-color: #feb113;
   margin-left: 1vh;
+  font-weight: bolder;
 }
 .woocommerce:where(body:not(.woocommerce-block-theme-has-button-styles)) a.button:hover {
   color: white;
