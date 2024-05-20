@@ -27,8 +27,8 @@
       }  
     }
 
-    .woocommerce-product-gallery__wrapper .woocommerce-product-gallery__image:last-child img {
-      margin-left: 1vh; 
+    .woocommerce-product-gallery__wrapper .woocommerce-product-gallery__image:not(:first-child):last-child a img {
+      margin-left: 1vh;
   }
   
     .summary {

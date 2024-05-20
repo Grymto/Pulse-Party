@@ -994,7 +994,6 @@ footer .container .rights {
   color: black;
   background-color: #feb113;
   margin-left: 1vh;
-  font-weight: bolder;
 }
 .woocommerce:where(body:not(.woocommerce-block-theme-has-button-styles)) a.button:hover {
   color: white;
@@ -1023,8 +1022,8 @@ footer .container .rights {
   margin-left: 40vh;
   margin-top: 2vh;
 }
-#primary .woocommerce-product-gallery__wrapper .woocommerce-product-gallery__image:last-child img {
-  margin-left: 1vh;
+#primary .woocommerce-product-gallery__wrapper .woocommerce-product-gallery__image:not(:first-child):last-child a img {
+  margin-left: 1vh; /* Reduced margin for the last image only if there is more than one image */
 }
 #primary .summary {
   width: 40%;
