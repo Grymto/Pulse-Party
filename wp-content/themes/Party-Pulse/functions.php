@@ -75,3 +75,13 @@ function add_preload_links() {
     echo '<link rel="preload" href="' . esc_url($additional_css) . '" as="style">';
 }
 add_action('wp_head', 'add_preload_links');
+
+// Create a shortcode for WooCommerce breadcrumbs
+function woocommerce_breadcrumb_shortcode() {
+    if ( function_exists( 'woocommerce_breadcrumb' ) ) {
+        ob_start();
+        woocommerce_breadcrumb();
+        return ob_get_clean();
+    }
+}
+add_shortcode( 'woocommerce_breadcrumb', 'woocommerce_breadcrumb_shortcode' );

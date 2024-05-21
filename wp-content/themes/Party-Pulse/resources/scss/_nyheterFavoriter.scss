@@ -1,0 +1,111 @@
+.nyheterFavoritSida {
+  margin: 3rem $default-margin-side;
+
+  //Product holder
+  .products.columns-4 {
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+
+    //each product
+    .product {
+      position: relative;
+      display: flex;
+      //justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      //width: 16rem;
+      //padding: 10px;
+
+      img {
+        border-radius: $default-border-radius;
+        margin-bottom: 0.5rem;
+        margin-top: 2.5rem;
+        max-width: 16rem;
+        height: auto;
+      }
+
+      .woocommerce-loop-product__title {
+        margin: auto;
+        font-family: $main-title-font;
+        font-size: 1rem;
+        font-weight: lighter;
+        color: #000000;
+        margin-bottom: 10px;
+        width: 90%;
+        min-height: 45px;
+        text-align: center;
+      }
+
+      .star-rating {
+        display: none;
+      }
+      .price {
+        display: flex;
+        justify-content: center;
+        font-size: 16px;
+        font-family: $text-font;
+        color: black;
+        font-weight: bold;
+        text-align: center;
+      }
+
+      a {
+        text-decoration: none;
+      }
+
+      .add_to_cart_button {
+        color: black;
+        background-color: $yellow-color;
+        border-radius: 5px;
+        width: 70%;
+        margin: 1rem 0px;
+        text-align: center;
+        font-size: 16.45px;
+        font-weight: lighter;
+        padding: 15px 10px;
+      }
+      .add_to_cart_button:hover {
+        background-color: $selected-yellow-color;
+        color: white;
+      }
+
+      a.added_to_cart {
+        display: none;
+      }
+    }
+  }
+}
+
+nav.woocommerce-breadcrumb {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  padding: 20px;
+  margin-bottom: 1rem;
+
+  a {
+    text-decoration: none;
+    padding: 1.5rem 2.5rem;
+
+    margin: 0.5rem;
+    font-family: $main-title-font;
+    //Text
+    color: $yellow-color;
+    text-shadow: 0 0 7px #000000, 0 0 10px #000000, 0 0 21px #000000,
+      0 0 32px $yellow-color, 0 0 72px $yellow-color, 0 0 82px $yellow-color,
+      0 0 92px $yellow-color, 0 0 141px $yellow-color;
+    //Border
+    border: 0.1rem solid #f1f190;
+    border-radius: 1rem;
+    box-shadow: 0 0 0.1rem #f0f084, 0 0 0.1rem #f1f153, 0 0 1rem $yellow-color,
+      0 0 0.4rem $yellow-color, 0 0 1.4rem $yellow-color,
+      inset 0 0 0.7rem $yellow-color;
+  }
+
+  .delimiter {
+    margin: 2rem 1rem 2rem 1rem;
+  }
+}
