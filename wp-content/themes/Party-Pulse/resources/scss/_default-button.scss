@@ -1,0 +1,16 @@
+button {
+  color: black;
+  background-color: $yellow-color;
+  border-radius: 5px;
+  width: 70%;
+  margin: 1rem 0px;
+  text-align: center;
+  font-size: 16.45px;
+  font-weight: lighter;
+  padding: 15px 10px;
+}
+
+button:hover {
+  background-color: $selected-yellow-color;
+  color: white;
+}

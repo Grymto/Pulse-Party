@@ -356,6 +356,18 @@ footer .container .rights {
   color: #feb113;
   background-color: #feb113;
 }
+.wc-block-grid.wp-block-product-new.wc-block-product-new.has-4-columns,
+.wp-block-heading.has-text-align-center,
+.wp-block-separator.has-alpha-channel-opacity.is-style-dots {
+  display: none;
+}
+.wp-block-heading.has-text-align-center.with-empty-cart-icon.wc-block-cart__empty-cart__title {
+  display: block;
+  padding: 10rem;
+}
+img {
+  border-radius: 5px;
+}
 .main-container {
   margin: auto;
   text-align: center;

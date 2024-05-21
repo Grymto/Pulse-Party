@@ -109,7 +109,5 @@ function custom_enqueue_woocommerce_ajax_script() {
     </script>
     <?php
 }
+
 add_action('wp_footer', 'custom_enqueue_woocommerce_ajax_script');
-
-
-
