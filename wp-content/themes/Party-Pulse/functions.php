@@ -99,7 +99,7 @@ function custom_enqueue_woocommerce_ajax_script() {
         }
 
         $(document).ajaxComplete(function(event, xhr, settings) {
-            if (settings.url.includes('wc-ajax=add_to_cart')) {
+            if ($('.woocommerce-message').length) {
                 removeWooCommerceMessage();
             }
         });
@@ -110,4 +110,6 @@ function custom_enqueue_woocommerce_ajax_script() {
     <?php
 }
 add_action('wp_footer', 'custom_enqueue_woocommerce_ajax_script');
+
+
 
