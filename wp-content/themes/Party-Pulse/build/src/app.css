@@ -727,7 +727,11 @@ img {
   margin-top: 5vh;
   padding-left: 0;
 }
-#primary .summary .product_title, #primary .summary .price, #primary .summary .woocommerce-product-details__short-description, #primary .summary .button, #primary .summary .product_meta {
+#primary .summary .product_title,
+#primary .summary .price,
+#primary .summary .woocommerce-product-details__short-description,
+#primary .summary .button,
+#primary .summary .product_meta {
   text-align: left;
   width: 100%;
 }
@@ -750,17 +754,20 @@ img {
   font-family: "Indie Flower";
   font-weight: bold;
 }
-#primary .summary .variations, #primary .summary .variations_form {
+#primary .summary .variations,
+#primary .summary .variations_form {
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
 }
-#primary .summary .variations label, #primary .summary .variations_form label {
+#primary .summary .variations label,
+#primary .summary .variations_form label {
   font-family: "Poppins";
   margin-right: 1vh;
 }
-#primary .summary .variations select, #primary .summary .variations_form select {
+#primary .summary .variations select,
+#primary .summary .variations_form select {
   font-family: "Poppins";
   border-radius: 10px;
 }
@@ -822,39 +829,63 @@ img {
   background-color: #feb113;
   color: white;
 }
-.relDiv .products.columns-4 {
+#product-90 .relDiv.related.products {
+  margin: 0 10rem;
+}
+#product-90 .relDiv.related.products h2 {
+  margin: 0;
+}
+#product-90 .relDiv.related.products .products.columns-4 {
   padding: 0;
   margin: 0;
+  margin-left: -0.6rem;
+}
+#product-90 .relDiv.related.products .products.columns-4 li .yith-wcwl-add-to-wishlist {
+  top: 34px;
+  margin-left: 190px;
+}
+#product-90 .relDiv.related.products .products.columns-4 li a img {
+  margin-top: 0;
 }
 @media (max-width: 990px) {
   #primary {
     flex-direction: column;
   }
-  #primary .woocommerce-product-gallery__wrapper, #primary .summary {
+  #primary .woocommerce-product-gallery__wrapper,
+  #primary .summary {
     width: 100%;
     text-align: center;
   }
   #primary .summary {
     align-items: center;
   }
-  #primary .summary .product_title, #primary .summary .price, #primary .summary .woocommerce-product-details__short-description, #primary .summary .button, #primary .summary .product_meta {
+  #primary .summary .product_title,
+  #primary .summary .price,
+  #primary .summary .woocommerce-product-details__short-description,
+  #primary .summary .button,
+  #primary .summary .product_meta {
     text-align: center;
     width: 100%;
   }
-  #primary .summary .variations, #primary .summary .variations_form {
+  #primary .summary .variations,
+  #primary .summary .variations_form {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  #primary .summary .variations .label, #primary .summary .variations .value, #primary .summary .variations_form .label, #primary .summary .variations_form .value {
+  #primary .summary .variations .label,
+  #primary .summary .variations .value,
+  #primary .summary .variations_form .label,
+  #primary .summary .variations_form .value {
     width: 100%;
     text-align: center;
     display: flex;
     justify-content: center;
     margin: 10px 0;
   }
-  #primary .summary .variations select, #primary .summary .variations_form select {
+  #primary .summary .variations select,
+  #primary .summary .variations_form select {
     width: auto;
     max-width: 100%;
   }
