@@ -87,3 +87,27 @@ function woocommerce_breadcrumb_shortcode() {
 }
 add_shortcode( 'woocommerce_breadcrumb', 'woocommerce_breadcrumb_shortcode' );
 
+
+function custom_enqueue_woocommerce_ajax_script() {
+    ?>
+    <script>
+    jQuery(document).ready(function($) {
+        function removeWooCommerceMessage() {
+            setTimeout(function() {
+                $('.woocommerce-message').fadeOut();
+            }, 3000);
+        }
+
+        $(document).ajaxComplete(function(event, xhr, settings) {
+            if (settings.url.includes('wc-ajax=add_to_cart')) {
+                removeWooCommerceMessage();
+            }
+        });
+
+        removeWooCommerceMessage();
+    });
+    </script>
+    <?php
+}
+add_action('wp_footer', 'custom_enqueue_woocommerce_ajax_script');
+
