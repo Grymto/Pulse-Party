@@ -440,6 +440,9 @@ img {
 .wpcp-post-carousel .wpcp-single-item .wpcp-all-captions h2 {
   font-size: 18px;
 }
+.main-container .woocommerce-product-rating .star-rating {
+  display: none;
+}
 .wc-block-components-title.wc-block-components-express-payment__title {
   display: none;
 }
