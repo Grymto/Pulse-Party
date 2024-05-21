@@ -19,9 +19,8 @@
 
 .yith-wcwl-form {
     justify-content: center;
-    align-items: center;
-    width: 60%;
-    padding: 4rem;
+    align-items: center; 
+    padding: 5rem;
     margin: auto;
     font-family: $text-font;
    
@@ -30,17 +29,16 @@
     border-radius: 5px;
 }    
 
+.yith-wcwl-share h4.yith-wcwl-share-title{
+    margin-left: 30vh;
+}
 
 .woocommerce table.shop_table{
-    width: auto;
-    margin-right: 10%;
-    margin-left: 10%;
-}
-.yith-wcwl-share h4.yith-wcwl-share-title{
-    margin-left: 15vh;
-}
-
-.woocommerce table.shop_table.wishlist_table tr td{
+    width: 70%;
+    margin-right: 15%;
+    margin-left: 15%;
+    border: 0px;
+.wishlist_table tr td{
    
     a{
         color:black;
@@ -48,6 +46,7 @@
    .amount{
         font-weight: bold;
     }
+}
 }
 
 .yith-wcwl-share {

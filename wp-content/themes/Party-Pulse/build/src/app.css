@@ -598,26 +598,26 @@ footer .container .rights {
 .yith-wcwl-form {
   justify-content: center;
   align-items: center;
-  width: 60%;
-  padding: 4rem;
+  padding: 5rem;
   margin: auto;
   font-family: "Poppins";
 }
 .wishlist_table tr td.product-thumbnail a img {
   border-radius: 5px;
 }
-.woocommerce table.shop_table {
-  width: auto;
-  margin-right: 10%;
-  margin-left: 10%;
-}
 .yith-wcwl-share h4.yith-wcwl-share-title {
-  margin-left: 15vh;
+  margin-left: 30vh;
 }
-.woocommerce table.shop_table.wishlist_table tr td a {
+.woocommerce table.shop_table {
+  width: 70%;
+  margin-right: 15%;
+  margin-left: 15%;
+  border: 0px;
+}
+.woocommerce table.shop_table .wishlist_table tr td a {
   color: black;
 }
-.woocommerce table.shop_table.wishlist_table tr td .amount {
+.woocommerce table.shop_table .wishlist_table tr td .amount {
   font-weight: bold;
 }
 .yith-wcwl-share {
@@ -1247,7 +1247,6 @@ footer .container .rights {
   padding-top: 20px;
   margin-bottom: 40px;
 }
-
 header.header {
   background-color: #feb113;
   display: flex;
@@ -1639,7 +1638,6 @@ nav.woocommerce-breadcrumb a {
 nav.woocommerce-breadcrumb .delimiter {
   margin: 2rem 1rem 2rem 1rem;
 }
-
 body {
   margin: 0;
   background-color: #edeec7;
