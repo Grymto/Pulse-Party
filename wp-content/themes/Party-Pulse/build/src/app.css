@@ -690,6 +690,9 @@ img {
   color: white;
   background-color: #a87610;
 }
+.woocommerce:where(body:not(.woocommerce-uses-block-theme)) .woocommerce-breadcrumb a {
+  color: #feb113;
+}
 #primary {
   margin: auto;
   width: 100%;
@@ -818,6 +821,10 @@ img {
 .woocommerce #review_form #respond .form-submit input {
   background-color: #feb113;
   color: white;
+}
+.relDiv .products.columns-4 {
+  padding: 0;
+  margin: 0;
 }
 @media (max-width: 990px) {
   #primary {
@@ -1653,6 +1660,21 @@ nav.woocommerce-breadcrumb a {
 }
 nav.woocommerce-breadcrumb .delimiter {
   margin: 2rem 1rem 2rem 1rem;
+}
+button {
+  color: black;
+  background-color: #feb113;
+  border-radius: 5px;
+  width: 70%;
+  margin: 1rem 0px;
+  text-align: center;
+  font-size: 16.45px;
+  font-weight: lighter;
+  padding: 15px 10px;
+}
+button:hover {
+  background-color: #a87610;
+  color: white;
 }
 body {
   margin: 0;

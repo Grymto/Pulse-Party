@@ -106,3 +106,7 @@
     background-color: $selected-yellow-color;
     }
 }
+
+.woocommerce:where(body:not(.woocommerce-uses-block-theme)) .woocommerce-breadcrumb a {
+    color: $yellow-color;
+}
