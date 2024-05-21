@@ -1,0 +1,30 @@
+.woocommerce-error{
+    padding: 1em 2em 1em 3.5em;
+    margin: 0 0 2em;
+    position: relative;
+    background-color: #feb113;
+    color: #515151;
+    list-style: none outside;
+    width: auto;
+    word-wrap: break-word;
+    border-radius:10px;
+    border: 1px solid red  ;
+    box-shadow: 0 0 10px $selected-yellow-color ;
+    font-family: $main-title-font;
+}
+
+.woocommerce-message{
+    padding: 1em 2em 1em 2.5em;
+    margin: 0 0 2em;
+    position: relative;
+    background-color: #feb113;
+    color: #515151;
+    list-style: none outside;
+    width: auto;
+    word-wrap: break-word;
+    border-radius:10px;
+    border: 2px solid green ;
+    box-shadow: 0 0 10px green ;
+    font-family: $main-title-font;
+
+}
