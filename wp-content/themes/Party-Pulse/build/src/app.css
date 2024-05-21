@@ -421,6 +421,13 @@ footer .container .rights {
 .wpcpro-row {
   margin-bottom: 10vh;
 }
+.main-container .wpcp-all-captions {
+  font-family: "Poppins";
+  font-weight: 400;
+}
+.wpcp-post-carousel .wpcp-single-item .wpcp-all-captions h2 {
+  font-size: 18px;
+}
 .wc-block-components-title.wc-block-components-express-payment__title {
   display: none;
 }
@@ -799,9 +806,6 @@ footer .container .rights {
 .woocommerce #review_form #respond .form-submit input {
   background-color: #feb113;
   color: white;
-}
-.woocommerce-error {
-  display: none;
 }
 @media (max-width: 990px) {
   #primary {
