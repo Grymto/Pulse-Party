@@ -1,0 +1,82 @@
+
+.woocommerce-notice.woocommerce-notice--success.woocommerce-thankyou-order-received {
+    border: 2px solid $yellow-color;
+    box-shadow: 0 0 10px $selected-yellow-color;
+    background-color: white;
+    font-size: 18px;
+    font-family: $text-font;
+    width: 40%;
+    margin-top: 3% !important;
+    margin-left: 30% !important;
+    margin: 0%;
+    padding: 15px;
+    text-align: center;
+}
+
+.woocommerce-order-overview.woocommerce-thankyou-order-details.order_details {
+    border: 2px solid $yellow-color;
+    box-shadow: 0 0 10px $selected-yellow-color;
+    background-color: white;
+    width: 41.8%;
+    margin-left: 30% !important;
+    margin: 0%;
+    padding: 15px;
+    font-family: $text-font;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    li {
+        text-align: center;
+        padding: 0 10px;
+    }
+}
+
+.woocommerce-order-details__title {
+    border: 2px solid $yellow-color;
+    box-shadow: 0 0 10px $selected-yellow-color;
+    background-color: white;
+    font-family: $text-font;
+    width: 40%;
+    margin-left: 30% !important;
+    margin: 0%;
+    padding: 15px;
+    text-align: center;
+}
+
+.woocommerce-table.woocommerce-table--order-details.shop_table.order_details {
+    border: 2px solid $yellow-color;
+    box-shadow: 0 0 10px $selected-yellow-color;
+    background-color: white;
+    font-family: $text-font;
+    width: 41.8%;
+    margin-left: 30% !important;
+    margin: 0%;
+    text-align: center;
+    padding: 15px;
+    th {
+        box-shadow: 0 0 5px $selected-yellow-color;
+        font-family: $text-font;
+    }
+    td {
+        box-shadow: 0 0 5px $selected-yellow-color;
+        font-family: $text-font;
+        bdi {
+            font-weight: 700;
+        }
+    }
+}
+
+// fields
+
+.woocommerce-table__product-name.product-name {
+    box-shadow: 0 0 5px $selected-yellow-color;
+    font-family: $text-font;
+    padding: 15px;
+    a {
+        text-decoration: none;
+        font-family: $text-font !important;
+        font-weight: 600;
+        color: black;
+    }
+}

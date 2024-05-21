@@ -1738,6 +1738,81 @@ button:hover {
   box-shadow: 0 0 10px green;
   font-family: "Luckiest Guy";
 }
+.woocommerce-notice.woocommerce-notice--success.woocommerce-thankyou-order-received {
+  border: 2px solid #feb113;
+  box-shadow: 0 0 10px #a87610;
+  background-color: white;
+  font-size: 18px;
+  font-family: "Poppins";
+  width: 40%;
+  margin-top: 3% !important;
+  margin-left: 30% !important;
+  margin: 0%;
+  padding: 15px;
+  text-align: center;
+}
+.woocommerce-order-overview.woocommerce-thankyou-order-details.order_details {
+  border: 2px solid #feb113;
+  box-shadow: 0 0 10px #a87610;
+  background-color: white;
+  width: 41.8%;
+  margin-left: 30% !important;
+  margin: 0%;
+  padding: 15px;
+  font-family: "Poppins";
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.woocommerce-order-overview.woocommerce-thankyou-order-details.order_details li {
+  text-align: center;
+  padding: 0 10px;
+}
+.woocommerce-order-details__title {
+  border: 2px solid #feb113;
+  box-shadow: 0 0 10px #a87610;
+  background-color: white;
+  font-family: "Poppins";
+  width: 40%;
+  margin-left: 30% !important;
+  margin: 0%;
+  padding: 15px;
+  text-align: center;
+}
+.woocommerce-table.woocommerce-table--order-details.shop_table.order_details {
+  border: 2px solid #feb113;
+  box-shadow: 0 0 10px #a87610;
+  background-color: white;
+  font-family: "Poppins";
+  width: 41.8%;
+  margin-left: 30% !important;
+  margin: 0%;
+  text-align: center;
+  padding: 15px;
+}
+.woocommerce-table.woocommerce-table--order-details.shop_table.order_details th {
+  box-shadow: 0 0 5px #a87610;
+  font-family: "Poppins";
+}
+.woocommerce-table.woocommerce-table--order-details.shop_table.order_details td {
+  box-shadow: 0 0 5px #a87610;
+  font-family: "Poppins";
+}
+.woocommerce-table.woocommerce-table--order-details.shop_table.order_details td bdi {
+  font-weight: 700;
+}
+.woocommerce-table__product-name.product-name {
+  box-shadow: 0 0 5px #a87610;
+  font-family: "Poppins";
+  padding: 15px;
+}
+.woocommerce-table__product-name.product-name a {
+  text-decoration: none;
+  font-family: "Poppins" !important;
+  font-weight: 600;
+  color: black;
+}
 body {
   margin: 0;
   background-color: #edeec7;
