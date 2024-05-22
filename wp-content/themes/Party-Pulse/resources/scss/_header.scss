@@ -286,7 +286,7 @@ header.header {
 
             a {
               display: flex;
-              align-items: start;
+              align-items: center;
               justify-content: start;
 
               img {
@@ -355,7 +355,7 @@ header.header {
 }
 
 .modulfooter {
-  color: white !important;
+  margin-top: 20px;
 }
 
 .btn.btn-primary.viwcpf-apply-filters {
