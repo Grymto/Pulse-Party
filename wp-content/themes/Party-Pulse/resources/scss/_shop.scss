@@ -44,8 +44,11 @@
       left: 0;
       margin: 0px calc($default-margin-side + 2rem);
       button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         background-color: $yellow-color;
-        padding: 20px 30px;
+        padding: 20px 130px;
         border: 1px solid $yellow-color;
         border-radius: $default-border-radius;
         span {

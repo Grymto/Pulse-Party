@@ -6,9 +6,9 @@
 
     
 </div>
-<p class="contact-info">Kundservice har öppet helgfria vardagar kl 08.30-18.00 <br>via telefon 072-210 20 40 <br> e-post kundservice@partypulsen.se och chatt.</p>
+<p class="contact-info modulfooter">Kundservice har öppet helgfria vardagar kl 08.30-18.00 <br>via telefon 072-210 20 40 <br> e-post kundservice@partypulsen.se och chatt.</p>
 
-        <div class="rights">
+        <div class="rights modulfooter">
             <p>&copy; <?php echo date('Y'); ?> Party Pulse AB. All rights reserved.</p>
         </div>
     </div>

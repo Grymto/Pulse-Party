@@ -43,8 +43,11 @@
   margin: 0px 12rem;
 }
 #primary main .viwcpf-filter-trigger-box button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #feb113;
-  padding: 20px 30px;
+  padding: 20px 130px;
   border: 1px solid #feb113;
   border-radius: 10px;
 }
@@ -1615,6 +1618,15 @@ header.header .contact-info {
 header.header .rights {
   text-align: center;
   padding: 3rem;
+}
+.modulfooter {
+  color: white !important;
+}
+.btn.btn-primary.viwcpf-apply-filters {
+  font-weight: bold;
+}
+.btn.btn-primary.viwcpf-apply-filters:hover {
+  color: white;
 }
 .nyheterFavoritSida {
   margin: 3rem 10rem;
