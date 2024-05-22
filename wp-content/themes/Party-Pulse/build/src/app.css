@@ -576,10 +576,6 @@ img {
   margin: 0px 36px;
   padding: 0px;
 }
-.wc-block-components-title.wc-block-components-checkout-step__title {
-  box-shadow: 0 0 10px #a87610;
-  padding: 10px !important;
-}
 .stripe-gateway-stripelink-modal-trigger {
   display: none !important;
 }
@@ -1811,6 +1807,9 @@ button:hover {
 }
 .woocommerce-table.woocommerce-table--order-details.shop_table.order_details td bdi {
   font-weight: 700;
+}
+.woocommerce-columns.woocommerce-columns--2.woocommerce-columns--addresses.col2-set.addresses {
+  display: none;
 }
 .woocommerce-table__product-name.product-name {
   box-shadow: 0 0 5px #a87610;
