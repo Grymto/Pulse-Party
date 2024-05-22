@@ -87,29 +87,26 @@ function woocommerce_breadcrumb_shortcode() {
 }
 add_shortcode( 'woocommerce_breadcrumb', 'woocommerce_breadcrumb_shortcode' );
 
-
+//Remove Woo messages.
 function custom_enqueue_woocommerce_ajax_script() {
     ?>
     <script>
     jQuery(document).ready(function($) {
-        function removeWooCommerceMessage() {
+        function removeWooCommerceNotices() {
             setTimeout(function() {
-                $('.woocommerce-message').fadeOut();
+                $('.woocommerce-message, .woocommerce-error').fadeOut();
             }, 3000);
         }
 
         $(document).ajaxComplete(function(event, xhr, settings) {
-            if ($('.woocommerce-message').length) {
-                removeWooCommerceMessage();
+            if ($('.woocommerce-message').length || $('.woocommerce-error').length) {
+                removeWooCommerceNotices();
             }
         });
 
-        removeWooCommerceMessage();
+        removeWooCommerceNotices();
     });
     </script>
     <?php
 }
 add_action('wp_footer', 'custom_enqueue_woocommerce_ajax_script');
-
-
-

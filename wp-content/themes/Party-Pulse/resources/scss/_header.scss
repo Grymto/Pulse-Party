@@ -20,9 +20,12 @@ header.header {
     align-items: center;
 
     .kategorier {
+      display: flex;
+      justify-content: center;
+      align-items: center;
       position: relative;
       margin: 16px;
-      margin-right: 1rem;
+      margin-right: -1rem;
       background-color: transparent;
       border: none;
       height: 2rem;

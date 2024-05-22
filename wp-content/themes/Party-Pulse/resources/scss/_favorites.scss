@@ -1,112 +1,111 @@
-
 .add-to-wishlist-before_image .yith-wcwl-add-to-wishlist {
-    position: relative;
-    top: 70px;           
-    margin-left: 200px;        
-    z-index: 100;        
-    i {
-        color: red;        
-    }
+  position: relative;
+  top: 70px;
+  margin-left: 200px;
+  z-index: 100;
+  i {
+    color: red;
+  }
 }
 .wishlist-title {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    margin-bottom: 20px; 
-    
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 20px;
 }
 
 .yith-wcwl-form {
-    justify-content: center;
-    align-items: center; 
-    padding: 5rem;
-    margin: auto;
-    font-family: $text-font;
-   
+  justify-content: center;
+  align-items: center;
+  padding: 5rem;
+  margin: auto;
+  font-family: $text-font;
 }
-.wishlist_table tr td.product-thumbnail a img{
-    border-radius: 5px;
-}    
-
-.yith-wcwl-share h4.yith-wcwl-share-title{
-    margin-left: 65vh;
+.wishlist_table tr td.product-thumbnail a img {
+  border-radius: 5px;
 }
 
-.woocommerce table.shop_table{
-    width: 100%;
-    margin-right: 5%;
-    margin-left: 5%;
-    border: 0px;
-.wishlist_table tr td{
-   
-    a{
-        color:black;
-    }
-   .amount{
-        font-weight: bold;
-    }
+.yith-wcwl-share h4.yith-wcwl-share-title {
+  margin-left: 65vh;
 }
+
+.woocommerce table.shop_table {
+  width: 100%;
+  margin-right: 5%;
+  margin-left: 5%;
+  border: 0px;
+  .wishlist_table tr td {
+    a {
+      color: black;
+    }
+    .amount {
+      font-weight: bold;
+    }
+  }
 }
 
 .yith-wcwl-share {
+  display: flex;
+  justify-content: center;
+  border-radius: 5px;
+
+  .yith-wcwl-after-share-section {
     display: flex;
-    justify-content: center;
-    border-radius: 5px;
+    align-items: center;
+    margin-left: 1vh;
 
-    .yith-wcwl-after-share-section {
-        display: flex;
-        align-items: center;
-        margin-left: 1vh;
-
-        input {
-            width: 350px;
-        }
-
-        .copy-trigger {
-            cursor: pointer; 
-            background-color: $yellow-color; 
-            border: 1px solid white; 
-            padding: 5px 10px; 
-            border-radius: 5px; 
-            display: inline-block; 
-            visibility: visible; 
-            &:hover {
-                background-color: $selected-yellow-color; 
-                color: white; 
-            }
-        }
-
-        small {
-            visibility: hidden; 
-            margin-left: -25px;
-        }
+    input {
+      width: 350px;
     }
+
+    .copy-trigger {
+      cursor: pointer;
+      background-color: $yellow-color;
+      border: 1px solid white;
+      padding: 5px 10px;
+      border-radius: 5px;
+      display: inline-block;
+      visibility: visible;
+      &:hover {
+        background-color: $selected-yellow-color;
+        color: white;
+      }
+    }
+
+    small {
+      visibility: hidden;
+      margin-left: -25px;
+    }
+  }
 }
 
-.woocommerce-message{
-    border-top-color: $yellow-color;
-    width:auto;
+.woocommerce-message {
+  border-top-color: $yellow-color;
+  width: auto;
 }
 .woocommerce-message::before {
-    content: "\e015";
-    color: $yellow-color;
-  
+  content: '\e015';
+  color: $yellow-color;
 }
-.woocommerce-notices-wrapper{
-    display: flex;
-    justify-content: center;
+.woocommerce-notices-wrapper {
+  display: flex;
+  justify-content: center;
 }
-.woocommerce:where(body:not(.woocommerce-block-theme-has-button-styles)) a.button{
-    color: black;
-    background-color: $yellow-color;
-    margin-left: 1vh;
-    &:hover{
-        color: white;
+.woocommerce:where(body:not(.woocommerce-block-theme-has-button-styles))
+  a.button {
+  color: black;
+  background-color: $yellow-color;
+  margin-left: 1vh;
+  &:hover {
+    color: white;
     background-color: $selected-yellow-color;
-    }
+  }
 }
 
-.woocommerce:where(body:not(.woocommerce-uses-block-theme)) .woocommerce-breadcrumb a {
-    color: $yellow-color;
+.woocommerce:where(body:not(.woocommerce-uses-block-theme))
+  .woocommerce-breadcrumb
+  a {
+  color: $yellow-color;
+  margin: 20px 0.5rem;
 }
