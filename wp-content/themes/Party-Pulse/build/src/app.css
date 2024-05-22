@@ -383,6 +383,12 @@ img {
   display: block;
   margin-bottom: 2rem;
 }
+.main-container #sp-wp-carousel-free-id-214.sp-wpcp-214 .wpcp-swiper-dots .swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background-color: #feb113;
+}
+.main-container #sp-wp-carousel-free-id-213.sp-wpcp-213 .wpcp-swiper-dots .swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background-color: #feb113;
+}
 .main-container .wpcp-product-title {
   margin: auto;
   font-family: "Luckiest Guy";
@@ -390,7 +396,7 @@ img {
   font-weight: lighter;
   color: #000000;
   margin-bottom: 10px;
-  width: 90%;
+  width: 100%;
   min-height: 45px;
   text-align: center;
 }
@@ -405,20 +411,32 @@ img {
   font-weight: 200;
 }
 .main-container .wpcp-carousel-section.wpcp-product-carousel .wpcp-cart-button a.button {
-  background-color: #feb113;
   color: black;
-  border-radius: 10px;
+  background-color: #feb113;
+  border-radius: 5px;
+  width: 70%;
+  margin: 1rem 0px;
+  text-align: center;
+  font-size: 16.45px;
+  padding: 15px 10px;
 }
 .main-container .wpcp-carousel-section.wpcp-product-carousel .wpcp-cart-button a.button:hover {
   background-color: #a87610;
+  color: white;
 }
 .main-container .wpcp-carousel-section.wpcp-product-carousel .wpcp-all-captions .wpcp-cart-button .added_to_cart {
-  background-color: #feb113;
   color: black;
-  border-radius: 10px;
+  background-color: #feb113;
+  border-radius: 5px;
+  width: 70%;
+  margin: 1rem 0px;
+  text-align: center;
+  font-size: 16.45px;
+  padding: 15px 10px;
 }
 .main-container .wpcp-carousel-section.wpcp-product-carousel .wpcp-all-captions .wpcp-cart-button .added_to_cart:hover {
   background-color: #a87610;
+  color: white;
 }
 .main-container .wpcp-product-price {
   font-size: 16px;
@@ -445,6 +463,9 @@ img {
 }
 .main-container .woocommerce-product-rating .star-rating {
   display: none;
+}
+.wpcp-single-item h2 a {
+  color: black;
 }
 .wc-block-components-title.wc-block-components-express-payment__title {
   display: none;
@@ -579,9 +600,11 @@ img {
   margin: 0px 36px;
   padding: 0px;
 }
-.wc-block-components-title.wc-block-components-checkout-step__title {
-  box-shadow: 0 0 10px #a87610;
-  padding: 10px !important;
+.wc-block-checkout__terms.wp-block-woocommerce-checkout-terms-block a {
+  color: #feb113;
+}
+.wc-block-checkout__terms.wp-block-woocommerce-checkout-terms-block a:hover {
+  color: #a87610;
 }
 .stripe-gateway-stripelink-modal-trigger {
   display: none !important;
@@ -1823,6 +1846,9 @@ button:hover {
 }
 .woocommerce-table.woocommerce-table--order-details.shop_table.order_details td bdi {
   font-weight: 700;
+}
+.woocommerce-columns.woocommerce-columns--2.woocommerce-columns--addresses.col2-set.addresses {
+  display: none;
 }
 .woocommerce-table__product-name.product-name {
   box-shadow: 0 0 5px #a87610;

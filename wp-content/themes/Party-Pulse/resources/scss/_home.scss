@@ -12,6 +12,13 @@
     margin-bottom: 2rem;
   }
 
+  #sp-wp-carousel-free-id-214.sp-wpcp-214 .wpcp-swiper-dots .swiper-pagination-bullet.swiper-pagination-bullet-active {
+    background-color: $yellow-color;
+   }
+  #sp-wp-carousel-free-id-213.sp-wpcp-213 .wpcp-swiper-dots .swiper-pagination-bullet.swiper-pagination-bullet-active{
+    background-color: $yellow-color;
+  }
+
   .wpcp-product-title {
     margin: auto;
     font-family: "Luckiest Guy";
@@ -19,7 +26,7 @@
     font-weight: lighter;
     color: #000000;
     margin-bottom: 10px;
-    width: 90%;
+    width: 100%;
     min-height: 45px;
     text-align: center;
   }
@@ -39,23 +46,35 @@
 
   // Stilar för knappar
   .wpcp-carousel-section.wpcp-product-carousel .wpcp-cart-button a.button { 
-    background-color: $yellow-color;  
-    color: black;           
-    border-radius: $default-border-radius;
+    color: black;
+    background-color: $yellow-color;
+    border-radius: 5px;
+    width: 70%;
+    margin: 1rem 0px;
+    text-align: center;
+    font-size: 16.45px;
+    padding: 15px 10px;
 
     &:hover { 
-        background-color: $selected-yellow-color;
+      background-color: $selected-yellow-color;
+      color: white;
     }
   }
 
   // Stilar för "lagt till kundvagn"-knappar
   .wpcp-carousel-section.wpcp-product-carousel .wpcp-all-captions .wpcp-cart-button .added_to_cart {
-    background-color: $yellow-color;  
-    color: black;           
-    border-radius: $default-border-radius;
+    color: black;
+    background-color: $yellow-color;
+    border-radius: 5px;
+    width: 70%;
+    margin: 1rem 0px;
+    text-align: center;
+    font-size: 16.45px;
+    padding: 15px 10px;
 
     &:hover { 
-        background-color: $selected-yellow-color;
+      background-color: $selected-yellow-color;
+      color: white;
     }
   }
   .wpcp-product-price{
@@ -86,4 +105,8 @@
 
 .main-container .woocommerce-product-rating .star-rating {
   display: none;
+}
+
+.wpcp-single-item h2 a{
+  color: black;
 }
