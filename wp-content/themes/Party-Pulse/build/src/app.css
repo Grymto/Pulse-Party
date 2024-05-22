@@ -1593,7 +1593,7 @@ header.header .modal .modal-content .woocommerce.columns-4 .products.columns-4 l
 }
 header.header .modal .modal-content .woocommerce.columns-4 .products.columns-4 li a {
   display: flex;
-  align-items: start;
+  align-items: center;
   justify-content: start;
 }
 header.header .modal .modal-content .woocommerce.columns-4 .products.columns-4 li a img {
@@ -1649,7 +1649,7 @@ header.header .rights {
   padding: 3rem;
 }
 .modulfooter {
-  color: white !important;
+  margin-top: 20px;
 }
 .btn.btn-primary.viwcpf-apply-filters {
   font-weight: bold;
