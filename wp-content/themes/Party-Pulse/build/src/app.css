@@ -564,22 +564,24 @@ img {
   border: 2px solid #feb113;
   box-shadow: 0 0 10px #a87610;
   background-color: white;
-  width: 50%;
-  margin-left: 25%;
-  padding: 0px;
+  width: calc(100% - 70px);
+  margin: 0px 36px;
   margin-top: 5%;
 }
 .wc-block-checkout__payment-method.wp-block-woocommerce-checkout-payment-block.wc-block-components-checkout-step.wc-block-components-checkout-step--with-step-number {
   border: 2px solid #feb113;
   box-shadow: 0 0 10px #a87610;
   background-color: white;
-  width: 50%;
-  margin-left: 25%;
+  width: calc(100% - 34px);
+  margin: 0px 36px;
   padding: 0px;
 }
 .wc-block-components-title.wc-block-components-checkout-step__title {
   box-shadow: 0 0 10px #a87610;
   padding: 10px !important;
+}
+.stripe-gateway-stripelink-modal-trigger {
+  display: none !important;
 }
 .wc-block-components-title.wc-block-components-checkout-step__title {
   font-family: "Poppins";
