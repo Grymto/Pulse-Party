@@ -576,6 +576,12 @@ img {
   margin: 0px 36px;
   padding: 0px;
 }
+.wc-block-checkout__terms.wp-block-woocommerce-checkout-terms-block a {
+  color: #feb113;
+}
+.wc-block-checkout__terms.wp-block-woocommerce-checkout-terms-block a:hover {
+  color: #a87610;
+}
 .stripe-gateway-stripelink-modal-trigger {
   display: none !important;
 }
