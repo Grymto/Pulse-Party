@@ -83,16 +83,7 @@
         }
     }
 }
-
-.woocommerce-message{
-    border-top-color: $yellow-color;
-    width:auto;
-}
-.woocommerce-message::before {
-    content: "\e015";
-    color: $yellow-color;
-  
-}
+ 
 .woocommerce-notices-wrapper{
     display: flex;
     justify-content: center;
