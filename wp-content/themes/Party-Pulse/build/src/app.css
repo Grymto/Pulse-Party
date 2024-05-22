@@ -699,6 +699,9 @@ img {
   color: #feb113;
   margin: 20px 0.5rem;
 }
+.wishlist_table tr td {
+  text-align: left;
+}
 #primary {
   margin: auto;
   width: 100%;
