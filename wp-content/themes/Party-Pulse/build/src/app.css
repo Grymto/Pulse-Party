@@ -672,14 +672,6 @@ img {
   visibility: hidden;
   margin-left: -25px;
 }
-.woocommerce-message {
-  border-top-color: #feb113;
-  width: auto;
-}
-.woocommerce-message::before {
-  content: "\e015";
-  color: #feb113;
-}
 .woocommerce-notices-wrapper {
   display: flex;
   justify-content: center;
@@ -1742,10 +1734,13 @@ button:hover {
   border: 2px solid black;
   box-shadow: 0 0 10px black;
   font-family: "Luckiest Guy";
+
   z-index: 100;
 }
 .woocommerce-message a.button.wc-forward {
   display: none;
+  max-width: 50%;
+  text-align: center;
 }
 .woocommerce-notice.woocommerce-notice--success.woocommerce-thankyou-order-received {
   border: 2px solid #feb113;
