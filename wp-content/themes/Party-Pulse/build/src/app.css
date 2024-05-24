@@ -260,7 +260,7 @@ footer .container .content .column {
 footer .container .content .column .category-title {
   margin-bottom: 15px;
   font-family: "Luckiest Guy";
-  color: #edeec7;
+  color: #000000;
   margin-top: 25px;
 }
 footer .container .content .column nav.menu {
@@ -282,7 +282,7 @@ footer .container .content .column nav.menu ul li {
   font-family: "Poppins";
 }
 footer .container .content .column nav.menu ul li a {
-  color: #edeec7;
+  color: #000000;
   text-decoration: none;
 }
 footer .container .content .column nav.menu ul li a:hover {
@@ -296,7 +296,7 @@ footer .container .payment-methods {
   text-align: center;
   width: 100%;
   padding: 20px 0;
-  color: #edeec7;
+  color: #000000;
 }
 footer .container .payment-methods .payment-icons {
   display: flex;
@@ -325,7 +325,7 @@ footer .container .rights {
   margin-top: 20px;
   text-align: center;
   width: 100%;
-  color: #edeec7;
+  color: #000000;
   font-family: "Poppins";
 }
 .wp-block-woocommerce-cart {
@@ -370,6 +370,10 @@ footer .container .rights {
 }
 img {
   border-radius: 5px;
+}
+.wc-block-components-main.wc-block-cart__main.wp-block-woocommerce-cart-items-block {
+  margin-left: 2rem;
+  width: 61%;
 }
 .main-container {
   margin: auto;
@@ -466,6 +470,10 @@ img {
 }
 .wpcp-single-item h2 a {
   color: black;
+}
+.wpcp-carousel-wrapper {
+  width: 95%;
+  margin: auto;
 }
 .wc-block-components-title.wc-block-components-express-payment__title {
   display: none;
@@ -612,9 +620,6 @@ img {
 .wc-block-checkout__terms.wp-block-woocommerce-checkout-terms-block a:hover {
   color: #a87610;
 }
-.stripe-gateway-stripelink-modal-trigger {
-  display: none !important;
-}
 .wc-block-components-title.wc-block-components-checkout-step__title {
   font-family: "Poppins";
 }
@@ -634,6 +639,22 @@ img {
 .wc-block-components-totals-item__description.wc-block-components-totals-shipping__via {
   font-size: 16px;
   margin-top: 1%;
+}
+.wc-block-components-checkout-return-to-cart-button {
+  font-size: 14px;
+}
+#payment-method {
+  display: none;
+}
+.wc-block-checkout__add-note {
+  display: none;
+}
+.wp-block-woocommerce-checkout {
+  margin-left: 10rem !important;
+  margin-right: 2.6rem !important;
+}
+.wc-block-components-checkout-step--with-step-number .wc-block-components-checkout-step__container:after {
+  border: none !important;
 }
 .add-to-wishlist-before_image .yith-wcwl-add-to-wishlist {
   position: relative;
@@ -746,6 +767,9 @@ img {
   width: 100%;
   text-align: center;
 }
+#primary .woocommerce-product-gallery__wrapper .woocommerce-product-gallery__image a {
+  margin-left: 10rem;
+}
 #primary .woocommerce-product-gallery__wrapper .woocommerce-product-gallery__image a img {
   border-radius: 10px;
   width: auto;
@@ -754,8 +778,7 @@ img {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   display: block;
   justify-content: center;
-  margin-left: 40vh;
-  margin-top: 2vh;
+  margin: 0 0 0 13rem;
 }
 #primary .woocommerce-product-gallery__wrapper .woocommerce-product-gallery__image:not(:first-child):last-child a img {
   margin-left: 1vh;
@@ -767,6 +790,7 @@ img {
   align-items: flex-start;
   margin-top: 5vh;
   padding-left: 0;
+  margin-right: 80px;
 }
 #primary .summary .product_title,
 #primary .summary .price,
@@ -836,10 +860,13 @@ img {
   margin-top: 20px;
   font-family: "Poppins";
 }
+.woocommerce div.product .woocommerce-tabs .woocommerce-Tabs-panel {
+  width: 73%;
+}
 .woocommerce div.product .woocommerce-tabs ul.tabs {
   display: flex;
   justify-content: flex-start;
-  padding-left: 20vh;
+  padding-left: 27vh;
   margin-bottom: 10px;
   list-style: none;
   font-family: "Poppins";
@@ -860,8 +887,9 @@ img {
   padding: 0 20vh;
 }
 .related h2 {
-  margin-left: 20vh;
+  margin-left: 26.6vh;
   font-family: "Poppins";
+  margin-bottom: -10vh;
 }
 .woocommerce #review_form #respond textarea {
   font-family: "Poppins";
@@ -1868,7 +1896,7 @@ button:hover {
   color: black;
 }
 .woocommerce-order {
-  margin: 0 10rem;
+  margin: 2rem 11rem 2rem 13rem;
 }
 body {
   margin: 0;

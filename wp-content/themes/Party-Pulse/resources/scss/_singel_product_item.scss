@@ -12,6 +12,7 @@
 
     .woocommerce-product-gallery__image {
       a {
+        margin-left: $default-margin-side;
         img {
           border-radius: $default-border-radius;
           width: auto;
@@ -20,8 +21,7 @@
           box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
           display: block;
           justify-content: center;
-          margin-left: 40vh;
-          margin-top: 2vh;
+          margin: 0 0 0 calc($default-margin-side + 3rem);
         }
       }
     }
@@ -41,6 +41,7 @@
     align-items: flex-start;
     margin-top: 5vh;
     padding-left: 0;
+    margin-right: 80px;
 
     .product_title,
     .price,
@@ -118,10 +119,14 @@
   margin-top: 20px;
   font-family: $text-font;
 
+  .woocommerce-Tabs-panel {
+    width: 73%;
+  }
+
   ul.tabs {
     display: flex;
     justify-content: flex-start;
-    padding-left: 20vh;
+    padding-left: 27vh;
     margin-bottom: 10px;
     list-style: none;
     font-family: $text-font;
@@ -146,8 +151,9 @@
   }
 }
 .related h2 {
-  margin-left: 20vh;
+  margin-left: 26.6vh;
   font-family: $text-font;
+  margin-bottom: -10vh;
 }
 .woocommerce #review_form #respond textarea {
   font-family: $text-font;

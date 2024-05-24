@@ -1,9 +1,8 @@
 .main-container {
   margin: auto;
   text-align: center;
-  font-family: $main-title-font; 
+  font-family: $main-title-font;
   font-weight: 200;
-  
 
   .homepage-banner img {
     width: 100%;
@@ -12,16 +11,20 @@
     margin-bottom: 2rem;
   }
 
-  #sp-wp-carousel-free-id-214.sp-wpcp-214 .wpcp-swiper-dots .swiper-pagination-bullet.swiper-pagination-bullet-active {
+  #sp-wp-carousel-free-id-214.sp-wpcp-214
+    .wpcp-swiper-dots
+    .swiper-pagination-bullet.swiper-pagination-bullet-active {
     background-color: $yellow-color;
-   }
-  #sp-wp-carousel-free-id-213.sp-wpcp-213 .wpcp-swiper-dots .swiper-pagination-bullet.swiper-pagination-bullet-active{
+  }
+  #sp-wp-carousel-free-id-213.sp-wpcp-213
+    .wpcp-swiper-dots
+    .swiper-pagination-bullet.swiper-pagination-bullet-active {
     background-color: $yellow-color;
   }
 
   .wpcp-product-title {
     margin: auto;
-    font-family: "Luckiest Guy";
+    font-family: 'Luckiest Guy';
     font-size: 13px;
     font-weight: lighter;
     color: #000000;
@@ -36,16 +39,16 @@
     border-radius: $default-border-radius;
   }
 
-  .wpcp-all-captions{
+  .wpcp-all-captions {
     font-family: $text-font;
   }
-  .wpcp-post-title{
+  .wpcp-post-title {
     font-family: $main-title-font;
     font-weight: 200;
   }
 
   // Stilar för knappar
-  .wpcp-carousel-section.wpcp-product-carousel .wpcp-cart-button a.button { 
+  .wpcp-carousel-section.wpcp-product-carousel .wpcp-cart-button a.button {
     color: black;
     background-color: $yellow-color;
     border-radius: 5px;
@@ -55,14 +58,17 @@
     font-size: 16.45px;
     padding: 15px 10px;
 
-    &:hover { 
+    &:hover {
       background-color: $selected-yellow-color;
       color: white;
     }
   }
 
   // Stilar för "lagt till kundvagn"-knappar
-  .wpcp-carousel-section.wpcp-product-carousel .wpcp-all-captions .wpcp-cart-button .added_to_cart {
+  .wpcp-carousel-section.wpcp-product-carousel
+    .wpcp-all-captions
+    .wpcp-cart-button
+    .added_to_cart {
     color: black;
     background-color: $yellow-color;
     border-radius: 5px;
@@ -72,12 +78,12 @@
     font-size: 16.45px;
     padding: 15px 10px;
 
-    &:hover { 
+    &:hover {
       background-color: $selected-yellow-color;
       color: white;
     }
   }
-  .wpcp-product-price{
+  .wpcp-product-price {
     font-size: 16px;
     font-family: $text-font;
     color: black;
@@ -85,28 +91,35 @@
     text-align: center;
   }
 }
-.swiper-wrapper{
+.swiper-wrapper {
   height: 600px;
 }
-.wpcp-carousel-wrapper #sp-wp-carousel-free-id-213.wpcp-post-carousel .wpcp-single-item{
+.wpcp-carousel-wrapper
+  #sp-wp-carousel-free-id-213.wpcp-post-carousel
+  .wpcp-single-item {
   background-color: $backgroundColor;
 }
 .wpcpro-row {
   margin-bottom: 10vh;
 }
 .main-container .wpcp-all-captions {
-  font-family: "Poppins";
+  font-family: 'Poppins';
   font-weight: 400;
 }
 
-.wpcp-post-carousel .wpcp-single-item .wpcp-all-captions h2{
-  font-size:18px;
+.wpcp-post-carousel .wpcp-single-item .wpcp-all-captions h2 {
+  font-size: 18px;
 }
 
 .main-container .woocommerce-product-rating .star-rating {
   display: none;
 }
 
-.wpcp-single-item h2 a{
+.wpcp-single-item h2 a {
   color: black;
+}
+
+.wpcp-carousel-wrapper {
+  width: 95%;
+  margin: auto;
 }
